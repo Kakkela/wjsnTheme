@@ -4,7 +4,7 @@ WJSN Square - WJSN Theme by Kakkela
 Edited ver. of WitcherCord by Jadeonking (https://github.com/jadeonking/WitcherCord)
 Uses SmartEmbeds from BeardDesign1
 *****************************************************************************/
-@import url(https://cdn.rawgit.com/Kakkela/wjsnTheme/69acc630/css/theme.css);
+@import url(https://rawgit.com/Kakkela/wjsnTheme/master/css/theme.css);
 
 /* Background image, use https */
 [class*="appMount-"] {
