@@ -1,0 +1,34 @@
+//META{"name":"WJSN_Square_Theme","description":"WJSN Square Theme","author":"Kakkela","version":"0.4"}*//{}
+/*****************************************************************************
+WJSN Square - WJSN Theme by Kakkela
+Edited ver. of WitcherCord by Jadeonking (https://github.com/jadeonking/WitcherCord)
+*****************************************************************************/
+@import url(https://raw.githubusercontent.com/Kakkela/wjsnTheme/master/theme.css);
+
+/* Background image, use https */
+[class*="appMount-"] {
+	background: url(https://i.imgur.com/aAMThMn.jpg)!important;
+    background-size: cover!important;
+}
+/* Embed Settings */
+.embed {
+    border: none;
+    text-align: left!important
+}
+/* If you want titles, descriptions, etc. change display:none to display:inherit */
+.embed .embed-provider,
+.embed .embed-author,
+.embed .embed-title,
+.embed .embed-description,
+.embed.embed-link .embed-thumbnail {
+    display: inherit;
+    text-align: left!important
+}
+/* Accent colors */
+:root {
+	--accentcolor1: #ea7aba;
+}
+/* Mention message background color */
+.theme-dark .message-group .mentioned .message-text, .message-group .mentioned .message-text:after {
+    background: rgba(234,122,186,.2)!important;
+}
