@@ -4384,3 +4384,19 @@ div.now-playing-add span.link:hover {
 .contentHoveredText-2HYGIY, .contentHoveredVoice-3qGNKh:active, .contentSelectedVoice-gTtYM9:active {
 	background: rgba(0,0,0,.5);
 }
+/* SmartEmbeds by BeardDesign1 */
+.message-group .accessory{
+	display: flex;
+	flex-flow: row wrap;
+}
+.message-group .accessory>*:not(:last-of-type){
+	margin-right:10px;
+}
+.message-group .accessory>*{
+	margin-top:5px;
+}
+.reactions{
+	width:100%;
+	flex:100%;
+	order:9999999999;
+}
