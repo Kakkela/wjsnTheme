@@ -2,7 +2,6 @@
 /*****************************************************************************
 WJSN Square - WJSN Theme by Kakkela
 Edited ver. of WitcherCord by Jadeonking (https://github.com/jadeonking/WitcherCord)
-Uses SmartEmbeds from BeardDesign1
 *****************************************************************************/
 @import url(https://rawgit.com/Kakkela/wjsnTheme/master/css/theme.css);
 
@@ -12,7 +11,7 @@ Uses SmartEmbeds from BeardDesign1
     background-size: cover!important;
 }
 /* Embed Settings */
-.embed {
+.embed { 
     border: none;
     text-align: left!important
 }
@@ -33,3 +32,22 @@ Uses SmartEmbeds from BeardDesign1
 .theme-dark .message-group .mentioned .message-text, .message-group .mentioned .message-text:after {
     background: rgba(234,122,186,.2)!important;
 }
+
+/* Server list edits, DELETE this row if you want to use 3 server columns
+
+.guilds-wrapper{
+	width: 150px;
+}
+.guilds-wrapper .scroller-wrap {
+	width: 170px;
+}
+.guilds-wrapper .guilds .guild {
+	float:left;
+    margin-right: 10px;
+    margin-top: 8px;
+}
+.guilds-wrapper .guild-separator {
+	width: 180px;
+    height: 35px;
+}
+*/

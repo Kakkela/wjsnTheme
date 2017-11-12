@@ -4204,25 +4204,7 @@ div.now-playing-add span.link:hover {
 .deprecated-settings-modal .settings-inner, .deprecated-settings-modal .settings-actions {
 	background-color: rgba(25, 25, 25, .5)
 }
-/* Server list width */
-.guilds-wrapper{
-	width: 150px;
-}
-/* Server list scroller width, keep larger than above to hide scroller */
-.guilds-wrapper .scroller-wrap {
-	width: 170px;
-}
-/* Positioning guilds and allowing them to go side by side */
-.guilds-wrapper .guilds .guild {
-	float:left;
-    margin-right: 10px;
-    margin-top: 8px;
-}
-/* Reserving empty space for DMs, default theme needs more height */
-.guilds-wrapper .guild-separator {
-	width: 180px;
-    height: 35px;
-}
+
 .theme-dark .message-group .comment .markup .mention {
 	color: white
 }
@@ -4312,8 +4294,7 @@ div.now-playing-add span.link:hover {
 	border-color: #191919;
 }
 .headerNormal-1cioxU, .body-3rkFrF , .footer-2J5zqP{
-	background-color: rgba(50,50,50,.9)!important;
-	background:none;
+	background:rgba(50,50,50,.9)!important;
 }
 .headerNormal-1cioxU, .body-3rkFrF {
     border-bottom: 1px solid #dcddde;
