@@ -4382,3 +4382,8 @@ div.now-playing-add span.link:hover {
 	flex:100%;
 	order:9999999999;
 }
+
+.channels-3g2vYe div:nth-child(2) {
+    border-radius: 5px 5px 0 0;
+    border-bottom: 0;
+}
