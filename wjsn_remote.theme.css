@@ -33,7 +33,7 @@ Edited ver. of WitcherCord by Jadeonking (https://github.com/jadeonking/WitcherC
     background: rgba(234,122,186,.2)!important;
 }
 
-/* Server list edits, DELETE this row if you want to use 3 server columns
+/* SERVER LIST EDITS, DELETE THIS WHOLE LINE FOR THREE SERVER COLUMNS
 
 .guilds-wrapper{
 	width: 150px;
