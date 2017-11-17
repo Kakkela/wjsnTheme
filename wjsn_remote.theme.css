@@ -1,4 +1,4 @@
-//META{"name":"WJSN_Square_Theme","description":"WJSN Square Theme","author":"Kakkela","version":"0.4"}*//{}
+//META{"name":"WJSN_Square_Theme","description":"WJSN Square Theme","author":"Kakkela","version":"0.5"}*//{}
 /*****************************************************************************
 WJSN Square - WJSN Theme by Kakkela
 Edited ver. of WitcherCord by Jadeonking (https://github.com/jadeonking/WitcherCord)
@@ -28,6 +28,13 @@ Edited ver. of WitcherCord by Jadeonking (https://github.com/jadeonking/WitcherC
     display: inherit;
     text-align: left!important
 }
+/* If you want embed video controls change display:none to display:inherit */
+.embed .embed-video-actions .embed-video-actions-inner {
+	display: none;
+}
+
+
+
 /* Accent colors */
 :root {
 	--accentcolor1: #ea7aba;

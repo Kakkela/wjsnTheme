@@ -4035,11 +4035,10 @@ div.now-playing-add span.link:hover {
 .embed .embed-video-actions .embed-video-play {
     background-image: url(https://i.imgur.com/5g2k6mV.png);
     background-size: 25px 25px;
-    margin-top: -5px
 }
 .embed .embed-video-actions .embed-video-popout {
     background-image: url(https://i.imgur.com/Mgd1QEP.png);
-    background-size: 20px 20px
+    background-size: 25px 25px
 }
 .guild-channels .icon-lock {
     background-image: url(https://i.imgur.com/CgPGTlg.png);
@@ -4175,9 +4174,7 @@ div.now-playing-add span.link:hover {
 .theme-dark .layers, .theme-light .layers, .theme-dark .layer, .theme-light .layer {
     background: transparent;
 }
-.embed .embed-video-actions .embed-video-actions-inner {
-	display: none;
-}
+
 .message-group .mentioned .message-text:after {
     position: absolute!important;
     top: 0!important;
