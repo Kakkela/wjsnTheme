@@ -10,6 +10,10 @@ Edited ver. of WitcherCord by Jadeonking (https://github.com/jadeonking/WitcherC
 	background: url(https://i.imgur.com/aAMThMn.jpg)!important;
     background-size: cover!important;
 }
+/* Friends icon, use https */
+.guilds-wrapper .guilds .friends-icon {
+    background-image: url(https://i.imgur.com/KwzaOdl.png)!important;
+}
 /* Embed Settings */
 .embed { 
     border: none;
