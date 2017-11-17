@@ -30,7 +30,7 @@ Edited ver. of WitcherCord by Jadeonking (https://github.com/jadeonking/WitcherC
 }
 /* If you want embed video controls change display:none to display:inherit */
 .embed .embed-video-actions .embed-video-actions-inner {
-	display: none;
+	display: inherit;
 }
 
 
