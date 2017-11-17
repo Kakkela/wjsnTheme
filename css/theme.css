@@ -3435,7 +3435,8 @@ div.now-playing-add span.link:hover {
     border-radius: 5px!important;
 }
 #user-profile-modal .guilds .avatar-large, #user-profile-modal .avatar-wrapper {
-    border-radius: 5px!important
+    border-radius: 5px!important;
+	background-color: none!important;
 }
 #user-profile-modal .guilds .guild .guild-nick {
     color: #b2b2b2
