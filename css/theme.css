@@ -771,8 +771,8 @@ div.guild.active {
 #user-profile-modal .empty .empty-text {
     color: #ccc
 }
-#user-profile-modal .guilds .guild {
-	width:200px;
+.listRow-1wEi-U {
+	width:255px;
 	float:left;
 }
 #user-profile-modal .guilds .guild .guild-name {
@@ -4291,7 +4291,7 @@ div.now-playing-add span.link:hover {
 .private-channels .channel.selected .status {
 	border-color: #191919;
 }
-.headerNormal-1cioxU, .headerPlaying-2eYqm9, .body-3rkFrF , .footer-2J5zqP{
+.headerNormal-1cioxU, .headerPlaying-2eYqm9, .body-3rkFrF, .body-3_tdh6, .footer-2J5zqP, .topSectionPlaying-3jAH9b{
 	background:rgba(50,50,50,.9)!important;
 }
 .headerNormal-1cioxU, .body-3rkFrF, .headerPlaying-2eYqm9 {
@@ -4403,4 +4403,7 @@ div.now-playing-add span.link:hover {
 }
 .theme-dark .autocomplete-1TnWNR {
 	background-color: rgba(0,0,0,.95);
+}
+.guildNick-1oZKE3, .listName-1Xr1Jk {
+	width: 220px
 }
