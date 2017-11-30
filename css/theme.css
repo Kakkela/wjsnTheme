@@ -1602,20 +1602,18 @@ div.guild.active {
 }
 .channel-members .member .member-activity strong {
     visibility: visible;
-    font-size: 11px;
     color: #ccc;
     font-style: italic;
     font-weight: 600
 }
 .private-channels .channel .channel-activity strong {
     visibility: visible;
-    font-size: 11px;
     color: #ccc;
     font-style: italic;
     font-weight: 600
 }
 .private-channels .channel .channel-activity {
-    visibility: collapse;
+    visibility: visible;
     font-size: 0
 }
 .channel-members .member:hover {
