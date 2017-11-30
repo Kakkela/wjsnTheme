@@ -4291,11 +4291,17 @@ div.now-playing-add span.link:hover {
 .private-channels .channel.selected .status {
 	border-color: #191919;
 }
-.headerNormal-1cioxU, .body-3rkFrF , .footer-2J5zqP{
+.headerNormal-1cioxU, .headerPlaying-2eYqm9, .body-3rkFrF , .footer-2J5zqP{
 	background:rgba(50,50,50,.9)!important;
 }
-.headerNormal-1cioxU, .body-3rkFrF {
+.headerNormal-1cioxU, .body-3rkFrF, .headerPlaying-2eYqm9 {
     border-bottom: 1px solid #dcddde;
+}
+.activity-AFBUEw {
+	background:rgba(0,0,0,.2);
+}
+.theme-dark .activityProfile-2pymp0 .content-P9ThHS, .theme-dark .activityProfile-2pymp0 .headerText-2CVBxK, .theme-dark .activityUserPopout-1nmgaw .content-P9ThHS, .theme-dark .activityUserPopout-1nmgaw .headerText-2CVBxK, .theme-light .activityProfile-2pymp0 .content-P9ThHS, .theme-light .activityProfile-2pymp0 .headerText-2CVBxK, .theme-light .activityUserPopout-1nmgaw .content-P9ThHS, .theme-light .activityUserPopout-1nmgaw .headerText-2CVBxK {
+	color: white!important;
 }
 .avatarWrapper-2Gfmp1, .avatar-1BXaQj, .avatarHint-2i5XWK, .image-EVRGPw {
 	border-radius: 5px!important;
