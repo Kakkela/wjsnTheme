@@ -3173,7 +3173,6 @@ div.connection[style*='border-color: rgb(203, 33, 32); background-color: rgb(203
     border: none
 }
 .tab-bar.TOP .tab-bar-item.selected {
-    border: none;
     color: #e5e5e5
 }
 .markdown-modal .markdown-modal-footer {
