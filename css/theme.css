@@ -4404,3 +4404,7 @@ div.now-playing-add span.link:hover {
 .guildNick-1oZKE3, .listName-1Xr1Jk {
 	width: 220px
 }
+.citar-btn {
+	display: inline-block!important;
+	height: 6px!important;
+}
