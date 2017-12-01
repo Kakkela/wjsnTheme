@@ -1614,7 +1614,6 @@ div.guild.active {
 }
 .private-channels .channel .channel-activity {
     visibility: visible;
-    font-size: 0
 }
 .channel-members .member:hover {
     background: none!important;
