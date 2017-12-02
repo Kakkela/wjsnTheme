@@ -4407,3 +4407,6 @@ div.now-playing-add span.link:hover {
 	display: inline-block!important;
 	height: 6px!important;
 }
+.avatar-large, .avatar-profile, .avatar-small, .avatar-xlarge, .avatar-xsmall, .avatar-xxlarge {
+	border-radius: 10%;
+}
