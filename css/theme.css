@@ -4400,6 +4400,9 @@ div.now-playing-add span.link:hover {
 .theme-dark .autocomplete-1TnWNR {
 	background-color: rgba(0,0,0,.95);
 }
+.headerNormal-1cioxU, .headerPlaying-2eYqm9, .body-3rkFrF, .body-3_tdh6, .footer-2J5zqP, .topSectionPlaying-3jAH9b{
+	background:rgba(50,50,50,.9)!important;
+}
 .guildNick-1oZKE3, .listName-1Xr1Jk {
 	width: 220px
 }
@@ -4409,4 +4412,12 @@ div.now-playing-add span.link:hover {
 }
 .avatar-large, .avatar-profile, .avatar-small, .avatar-xlarge, .avatar-xsmall, .avatar-xxlarge {
 	border-radius: 10%;
+}
+.role-3rahR_ {
+	border-radius: 5px;
+	border: 1px solid;
+	font-weight: 100;
+}
+.roleCircle-3-vPZq {
+	border-radius: 4px;
 }
