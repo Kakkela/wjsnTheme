@@ -1596,10 +1596,7 @@ div.guild.active {
 .channel-members .member {
     margin-left: 4px
 }
-.channel-members .member .member-activity {
-    visibility: collapse;
-    font-size: 0
-}
+
 .channel-members .member .member-activity strong {
     visibility: visible;
     color: #ccc;
