@@ -4415,3 +4415,9 @@ div.now-playing-add span.link:hover {
 .roleCircle-3-vPZq {
 	border-radius: 4px;
 }
+.bda-dark .emoji-picker .scroller .emoji-item.selected {
+	background-size: contain;
+}
+.accessory .h5-3KssQU {
+    display:none;
+}
