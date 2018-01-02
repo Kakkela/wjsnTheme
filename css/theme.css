@@ -4142,6 +4142,7 @@ div.now-playing-add span.link:hover {
 .message-group .comment .markup {
     margin-top: 0px;
     margin-left: 5px;
+	line-height: 1.5em!important;
 }
 .avatar-large {
     width: 40px;
@@ -4421,3 +4422,4 @@ div.now-playing-add span.link:hover {
 .accessory .h5-3KssQU {
     display:none;
 }
+
