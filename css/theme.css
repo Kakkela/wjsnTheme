@@ -4134,8 +4134,6 @@ div.now-playing-add span.link:hover {
 .chat .welcome-message .item-container .icon.twitter {
     background-image: url(https://i.imgur.com/iBdW6HC.png)
 }
-
-
 .message-group {
     padding: 5px 0;
 }
@@ -4333,7 +4331,7 @@ div.now-playing-add span.link:hover {
 /* Background shittery */
 
 
-.theme-dark .layer, .theme-dark .layers, .container-RYiLUQ, .theme-dark .chat, .theme-dark .chat>.content, .theme-dark .messages-wrapper, .theme-dark .chat form {
+[class*="layer-"], [class*="layers-"], .container-RYiLUQ, .theme-dark .chat, .theme-dark .chat>.content, .theme-dark .messages-wrapper, .theme-dark .chat form {
 	background: none!important;
 }
 
