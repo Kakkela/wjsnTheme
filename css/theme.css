@@ -4420,4 +4420,6 @@ div.now-playing-add span.link:hover {
 .accessory .h5-3KssQU {
     display:none;
 }
-
+[class*="typing-"] {
+    background:none;
+}
