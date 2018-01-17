@@ -592,7 +592,7 @@ div.guild.active {
 .highlight {
     color: #e5e5e5
 }
-.emoji-picker {
+[class*="emojiPicker-"] {
     background: #191919!important;
     border: none
 }
@@ -625,39 +625,47 @@ div.guild.active {
     color: #fff;
     margin-right: -.8px
 }
-.emoji-picker .search-bar .search-bar-inner {
+[class*="emojiPicker-"] {
+    background: #191919!important;
     border: none!important;
-    background: none
+    height:400px
 }
-.emoji-picker .search-bar input {
-    color: #e5e5e5;
-    background-color: #232323;
-    border: none
+[class*="emojiPicker-"] .header-27dQ-e .search-bar .search-bar-inner {
+    border: none!important;
+    background: none!important
 }
-.emoji-picker .search-bar input::-webkit-input-placeholder {
-    color: #e5e5e5
+[class*="emojiPicker-"] .header-27dQ-e .search-bar input {
+    color: #e5e5e5!important;
+    background-color: #232323!important;
+    border: none!important
 }
-.emoji-picker .search-bar {
-    background: #191919;
-    border: none
+[class*="emojiPicker-"] .header-27dQ-e .search-bar input::-webkit-input-placeholder {
+    color: #e5e5e5!important
 }
-.emoji-picker .search-bar-clear {
-    background: #191919;
-    border: none
+[class*="emojiPicker-"] .header-27dQ-e .search-bar {
+    background: #191919!important;
+    border: none!important
 }
-.emoji-picker .sticky-header {
+[class*="emojiPicker-"] .header-27dQ-e .search-bar-clear {
+    background: #191919!important;
+    border: none!important
+}
+.stickyHeader-3LjM5X {
     background: #191919!important
 }
-.emoji-picker .categories .item.selected {
+[class*="emojiPicker-"] .header-27dQ-e .categories .item.selected {
     border-bottom-color: #e5e5e5;
     background-color: #232323
 }
-.emoji-picker .category {
+.category-3rCtoh {
     background: #191919;
     color: #e5e5e5
 }
-.emoji-picker .header {
-    border-bottom: 6px solid var(--accentcolor1)
+.search-bar-icon .icon {
+    left:8px;
+}
+.emojiPicker-3g68GS .scroller-2dsok0 {
+    height:100%;
 }
 .title-wrap {
     background: rgba(0, 0, 0, 0.55)!important
@@ -4413,9 +4421,6 @@ div.now-playing-add span.link:hover {
 }
 .roleCircle-3-vPZq {
 	border-radius: 4px;
-}
-.bda-dark .emoji-picker .scroller .emoji-item.selected {
-	background-size: contain;
 }
 .accessory .h5-3KssQU {
     display:none;
