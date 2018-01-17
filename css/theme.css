@@ -125,7 +125,7 @@ div.scroller.settings-wrapper.settings-panel {
 .guilds-wrapper {
     background: rgba(0, 0, 0, 0.55)!important;
     width: 2.75%;
-    min-width: 46px!important;
+    min-width: 50px!important;
 }
 /* Channels list area */
 
