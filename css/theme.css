@@ -852,30 +852,33 @@ div.guild.active {
     background-color: rgba(25, 25, 25, .75)!important;
     color: #e5e5e5!important
 }
-.upload-modal {
+[class*="uploadModal-"] {
     background: #191919
 }
-.upload-modal .footer {
+[class*="uploadModal-"] [class*="footer-"] {
     background: #191919
 }
-.upload-modal .footer .button {
+[class*="uploadModal-"] [class*="footer-"] .button {
     background: #232323;
     margin: 5px;
     color: #ccc
 }
-.upload-modal .footer .button:hover {
+[class*="uploadModal-"] [class*="footer-"] .button:hover {
     background: var(--accentcolor1);
     color: #e5e5e5!important
 }
-.upload-modal .inner {
+[class*="uploadModal-"] [class*="inner-"] {
     border: hidden
 }
-.upload-modal .inner .file .icon.image {
+[class*="uploadModal-"] [class*="inner-"] .file .icon.image {
     border: hidden
 }
-.upload-modal .inner .comment .label .optional {
+[class*="uploadModal-"] [class*="inner-"] .comment .label .optional {
     color: #b2b2b2;
     opacity: 1
+}
+[class*="uploadModal-"] [class*="inner-"] [class*="file-"] [class*="icon-"] {
+	border:none;
 }
 .upload-drop-modal {
     background: #191919
