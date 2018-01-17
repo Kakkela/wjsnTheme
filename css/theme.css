@@ -4435,3 +4435,12 @@ div.now-playing-add span.link:hover {
 [class*="embedInner-"] {
     border:none;
 }
+
+.wrapper-1-BJK5 [class*="image-"], .wrapper-1-BJK5 [class*="flexChild-"] {
+	background: rgba(0,0,0,.6);
+	border-radius: 5px;
+	padding: 5px
+}
+[class*="noChannel-"] {
+	background: rgba(0,0,0,.3)
+}
