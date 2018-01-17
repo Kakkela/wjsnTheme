@@ -279,7 +279,7 @@ div.guild.active {
     background-size: 30px 30px;
     position: relative;
     margin-left: 5px;
-    bottom: -10px
+    top:5px;
 }
 .guilds-wrapper .guilds .guild+.guild {
     width: 38px!important;
@@ -339,7 +339,8 @@ div.guild.active {
     color: #e5e5e5;
     font-size: 7.5px;
     margin-left: 0px;
-    margin-bottom: 20px;
+    margin-bottom: 30px;
+    margin-top:0px;
     line-height: 20px;
     width: 40px;
     height: 15px;
