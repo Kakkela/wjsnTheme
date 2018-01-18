@@ -893,20 +893,17 @@ div.guild.active {
     background: rgba(255, 255, 255, 0.2)!important
 }
 .chat .divider>span {
-    background: rgba(35, 35, 35, .3)!important;
+    background: rgba(35, 35, 35, .4)!important;
     font-size: 12px;
     text-transform: uppercase;
     margin: 10px 0;
     border-radius: 5px!important;
     opacity: 1;
-    padding: 5px 15px;
     width: 100%;
     text-align: center
 }
 .chat .divider.divider-red>span {
-    background: rgba(35, 35, 35, .3)!important;
-    color: #ccc!important;
-    border-radius: 0;
+    background: rgba(35, 35, 35, .4)!important;
     opacity: 1!important
 }
 .chat .divider:not(.divider-red)>span {
@@ -917,8 +914,8 @@ div.guild.active {
     display: none
 }
 .chat .divider {
-    margin-bottom: 30px;
-    margin-top: 30px
+	margin-left: 38%;
+	width: 25%
 }
 .chat .divider:before {
     display: none
