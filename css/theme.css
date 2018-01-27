@@ -4450,3 +4450,12 @@ div.now-playing-add span.link:hover {
 [class*="noChannel-"] {
 	background: rgba(0,0,0,.3)
 }
+.theme-dark .friends-table .messages .message-group-blocked.revealed, .theme-dark .messages-wrapper .messages .message-group-blocked.revealed, .theme-dark .friends-table .messages .message-group-blocked, .theme-dark .messages-wrapper .messages .message-group-blocked, .theme-dark .friends-table .messages .message-group-blocked .message-group-blocked-btn, .theme-dark .messages-wrapper .messages .message-group-blocked .message-group-blocked-btn {
+    background: rgba(35, 35, 35,.2);
+    border: none;
+    border-radius: 6px;
+}
+.theme-dark .friends-table .messages .message-group-blocked .message-group-blocked-btn:hover, .theme-dark .messages-wrapper .messages .message-group-blocked .message-group-blocked-btn:hover {
+    background: rgba(35, 35, 35,.4);
+    border: none;
+}
