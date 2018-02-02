@@ -692,30 +692,30 @@ div.guild.active {
 }
 /*----------*/
 
-.form .form-inner .mentioned .highlight {
+.form-deprecated .form-inner .mentioned .highlight {
     background: rgba(35, 35, 35, .75)!important
 }
-.form .form-inner .highlight {
+.form-deprecated .form-inner .highlight {
     background: rgba(35, 35, 35, .75)
 }
-.form .form-header {
+.form-deprecated .form-header {
     color: #e5e5e5!important;
     background: #191919;
     border-bottom: 6px solid var(--accentcolor1);
     border-color: var(--accentcolor1)!important
 }
-.form .form-actions {
+.form-deprecated .form-actions {
     border-top: 6px solid var(--accentcolor1)
 }
 .markdown-modal,
-.form .form header,
-.form .form-inner,
-.form .form-actions,
+.form-deprecated .form-header,
+.form-deprecated .form-inner,
+.form-deprecated .form-actions,
 .need-help-modal .footer,
 .markdown-modal .markdown-modal-footer {
     background: #191919!important
 }
-.form header {
+.form-deprecated .header {
     color: #e5e5e5
 }
 .channel-notification-settings .content label,
@@ -2431,7 +2431,11 @@ div.chat.flex-vertical.flex-spacer.private .channel-members-wrap {
     border-radius: 0!important
 }
 .Select-option {
-    color: #ccc!important
+    color: #ccc!important;
+    background: black;
+}
+.form-deprecated .Select-option.is-focused, .form.deprecated .Select-option.is-focused {
+    background:black;
 }
 .Select-option:hover {
     background: none!important;
@@ -2444,14 +2448,18 @@ div.chat.flex-vertical.flex-spacer.private .channel-members-wrap {
     background-color: #232323;
     padding: 8px 52px 10px 10px
 }
-.form .Select-placeholder {
+.form-deprecated .Select-placeholder {
     color: #e5e5e5!important;
     border-radius: 0;
     border: none;
     background-color: #232323
 }
-.form .Select-control * {
-    color: #e5e5e5
+.form-deprecated .Select-control * {
+    color: #e5e5e5;
+    background: black;
+}
+.wrapper-VSYYTS {
+    background:none!important;
 }
 .Select-control {
     border-radius: 0
