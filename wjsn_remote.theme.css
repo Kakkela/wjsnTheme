@@ -17,7 +17,7 @@ Edited ver. of WitcherCord by Jadeonking (https://github.com/jadeonking/WitcherC
 }
 /* If you want embed video controls change display:none to display:inherit */
 .embed [class*="embedVideoActionsInner-"] {
-	display: none;
+	display: inherit;
 }
 
 
