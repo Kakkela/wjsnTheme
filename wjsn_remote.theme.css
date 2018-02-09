@@ -1,4 +1,4 @@
-//META{"name":"WJSN_Square_Theme","description":"WJSN Square Theme","author":"Kakkela","version":"0.5"}*//{}
+//META{"name":"WJSN_Square_Theme","description":"WJSN Square Theme","author":"Kakkela","version":"0.5.1"}*//{}
 /*****************************************************************************
 WJSN Square - WJSN Theme by Kakkela
 Edited ver. of WitcherCord by Jadeonking (https://github.com/jadeonking/WitcherCord)
@@ -7,44 +7,31 @@ Edited ver. of WitcherCord by Jadeonking (https://github.com/jadeonking/WitcherC
 
 /* Background image, use https */
 [class*="appMount-"] {
-	background: url(https://i.imgur.com/aAMThMn.jpg)!important;
+    /*background: url(https://i.imgur.com/emLJo7j.jpg)!important;*/
+    background: linear-gradient( rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2) ), url('https://i.imgur.com/emLJo7j.jpg');
     background-size: cover!important;
 }
 /* Friends icon, use https */
 .guilds-wrapper .guilds .friends-icon {
     background-image: url(https://i.imgur.com/KwzaOdl.png)!important;
 }
-/* Embed Settings */
-.embed { 
-    border: none;
-    text-align: left!important
-}
-/* If you want titles, descriptions, etc. change display:none to display:inherit */
-.embed .embed-provider,
-.embed .embed-author,
-.embed .embed-title,
-.embed .embed-description,
-.embed.embed-link .embed-thumbnail {
-    display: inherit;
-    text-align: left!important
-}
 /* If you want embed video controls change display:none to display:inherit */
-.embed .embed-video-actions .embed-video-actions-inner {
-	display: inherit;
+.embed [class*="embedVideoActionsInner-"] {
+	display: none;
 }
 
 
 
 /* Accent colors */
 :root {
-	--accentcolor1: #ea7aba;
+	--accentcolor1: #2971e5;
 }
 /* Mention message background color */
 .theme-dark .message-group .mentioned .message-text, .message-group .mentioned .message-text:after {
-    background: rgba(234,122,186,.2)!important;
+    background: rgba(41, 113, 229,.2)!important;
 }
 
-/* SERVER LIST EDITS, DELETE THIS WHOLE LINE FOR THREE SERVER COLUMNS
+/* SERVER LIST EDITS, DELETE THIS WHOLE LINE FOR THREE SERVER COLUMNS */
 
 .guilds-wrapper{
 	width: 150px;
@@ -61,4 +48,3 @@ Edited ver. of WitcherCord by Jadeonking (https://github.com/jadeonking/WitcherC
 	width: 180px;
     height: 35px;
 }
-*/
