@@ -8,7 +8,7 @@ Edited ver. of WitcherCord by Jadeonking (https://github.com/jadeonking/WitcherC
 /* Background image, use https */
 [class*="appMount-"] {
     /*background: url(https://i.imgur.com/emLJo7j.jpg)!important;*/
-    background: linear-gradient( rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2) ), url('https://i.imgur.com/emLJo7j.jpg');
+    background: linear-gradient( rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2) ), url('https://i.imgur.com/v3Hg644.jpg');
     background-size: cover!important;
 }
 /* Friends icon, use https */
@@ -24,11 +24,11 @@ Edited ver. of WitcherCord by Jadeonking (https://github.com/jadeonking/WitcherC
 
 /* Accent colors */
 :root {
-	--accentcolor1: #2971e5;
+	--accentcolor1: #e25195;
 }
 /* Mention message background color */
 .theme-dark .message-group .mentioned .message-text, .message-group .mentioned .message-text:after {
-    background: rgba(41, 113, 229,.2)!important;
+    background: rgba(226, 81, 149,.2)!important;
 }
 
 /* SERVER LIST EDITS, DELETE THIS WHOLE LINE FOR THREE SERVER COLUMNS */
