@@ -4309,10 +4309,10 @@ div.now-playing-add span.link:hover {
 .private-channels .channel.selected .status {
 	border-color: #191919;
 }
-.headerNormal-1cioxU, .headerPlaying-2eYqm9, .body-3rkFrF, .body-3_tdh6, .footer-2J5zqP, .topSectionPlaying-3jAH9b{
+[class*="headerNormal-"], [class*="headerPlaying-"], .body-3ljq11, .body-3_tdh6, .footer-2wFs91, .topSectionPlaying-3jAH9b{
 	background:rgba(50,50,50,.9)!important;
 }
-.headerNormal-1cioxU, .body-3rkFrF, .headerPlaying-2eYqm9 {
+[class*="headerNormal-"], .body-3ljq11, [class*="headerPlaying-"] {
     border-bottom: 1px solid #dcddde;
 }
 .activity-AFBUEw {
@@ -4409,7 +4409,7 @@ div.now-playing-add span.link:hover {
     border-radius: 5px 5px 0 0;
     border-bottom: 0;
 }
-.userPopout-4pfA0d {
+[class*="userPopout-"] {
 	border-radius: 5px;
 	width:300px;
 }
