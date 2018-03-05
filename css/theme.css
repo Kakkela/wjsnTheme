@@ -4258,7 +4258,7 @@ div.now-playing-add span.link:hover {
 .theme-dark .activityProfile-2pymp0 .content-P9ThHS, .theme-dark .activityProfile-2pymp0 .headerText-2CVBxK, .theme-dark .activityUserPopout-1nmgaw .content-P9ThHS, .theme-dark .activityUserPopout-1nmgaw .headerText-2CVBxK, .theme-light .activityProfile-2pymp0 .content-P9ThHS, .theme-light .activityProfile-2pymp0 .headerText-2CVBxK, .theme-light .activityUserPopout-1nmgaw .content-P9ThHS, .theme-light .activityUserPopout-1nmgaw .headerText-2CVBxK {
 	color: white!important;
 }
-.avatarWrapper-2Gfmp1, .avatar-1BXaQj, .avatarHint-2i5XWK, .image-EVRGPw {
+.avatarWrapper-2Gfmp1, .avatar-1BXaQj, [class*="avatarHint-"], .image-EVRGPw {
 	border-radius: 5px!important;
 }
 .avatarNormal-3luwna {
