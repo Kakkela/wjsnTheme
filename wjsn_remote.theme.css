@@ -5,10 +5,9 @@ Edited ver. of WitcherCord by Jadeonking (https://github.com/jadeonking/WitcherC
 *****************************************************************************/
 @import url(https://rawgit.com/Kakkela/wjsnTheme/master/css/theme.css);
 
-/* Background image, use https */
+/* Background image, use https. To adjust background darkness further increse 0.0s below, 1 is full black */
 [class*="appMount-"] {
-    /*background: url(https://i.imgur.com/emLJo7j.jpg)!important;*/
-    background: linear-gradient( rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2) ), url('https://i.imgur.com/v3Hg644.jpg');
+    background: linear-gradient( rgba(0, 0, 0, 0.0), rgba(0, 0, 0, 0.0) ), url('https://i.imgur.com/v3Hg644.jpg');
     background-size: cover!important;
 }
 /* Friends icon, use https */
@@ -31,7 +30,7 @@ Edited ver. of WitcherCord by Jadeonking (https://github.com/jadeonking/WitcherC
     background: rgba(226, 81, 149,.2)!important;
 }
 
-/* SERVER LIST EDITS, DELETE THIS WHOLE LINE FOR THREE SERVER COLUMNS */
+/* SERVER LIST EDITS, DELETE THIS WHOLE LINE FOR THREE SERVER COLUMNS 
 
 .guilds-wrapper{
 	width: 150px;
@@ -48,3 +47,4 @@ Edited ver. of WitcherCord by Jadeonking (https://github.com/jadeonking/WitcherC
 	width: 180px;
     height: 35px;
 }
+*/
