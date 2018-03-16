@@ -21,9 +21,13 @@ Edited ver. of WitcherCord by Jadeonking (https://github.com/jadeonking/WitcherC
 
 
 
-/* Accent colors */
+/* Accent colors 
+First is forchannel names and new message notifications on serverlist, muted channels use this color but darkened variant.
+Second is for category names.
+*/
 :root {
-	--accentcolor1: #e25195;
+    --accentcolor1: #e25195;
+    --accentcolor2: white;
 }
 /* Mention message background color */
 .theme-dark .message-group .mentioned .message-text, .message-group .mentioned .message-text:after {

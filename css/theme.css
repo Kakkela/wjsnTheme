@@ -11,7 +11,10 @@ Uses SmartEmbeds from BeardDesign1
  \___\___/|_|  \___|  \___|_|\___|_| |_| |_|\___|_| |_|\__|___/
 
 */
-
+:root {
+    --accentcolor1: #e25195;
+    --accentcolor2: white;
+}
 span {
     backface-visibility: hidden!important
 }
@@ -4280,7 +4283,7 @@ div.now-playing-add span.link:hover {
 	border-color: black;
 }
 .iconCollapsed-1INdMX, .iconDefault-xzclSQ, .nameCollapsed-3_ChMu, .nameDefault-Lnjrwm {
-	color: #f6f6f7;
+	color: var(--accentcolor2);
 }
 .unread-23Kvxk {
 	margin-top: -2px;
