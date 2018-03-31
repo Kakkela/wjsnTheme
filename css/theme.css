@@ -1719,16 +1719,14 @@ div.guild.active {
 .app {
     overflow-x: hidden!important
 }
-.channel-members .member .member-activity,
-.channel-members .member .member-username-inner {
+.channel-members .member-2FrNV0 .memberInner-3XUq9K {
     opacity: 0!important;
     transition: opacity 300ms ease, margin 100ms ease!important
 }
-.channel-members .member .member-username-inner {
+.channel-members .member-2FrNV0 .memberInner-3XUq9K {
     margin-bottom: 0px!important
 }
-.channel-members:hover .member .member-activity,
-.channel-members:hover .member .member-username-inner {
+.channel-members:hover .member-2FrNV0 .memberInner-3XUq9K {
     opacity: 1!important
 }
 .header-toolbar button.active {
