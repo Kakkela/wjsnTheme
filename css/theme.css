@@ -1,5 +1,5 @@
 /*****************************************************************************
-WJSN Square - WJSN Theme by Kakkela
+WJSN Square - WJSN Theme by Kakkela v0.5.3
 Edited ver. of WitcherCord by Jadeonking (https://github.com/jadeonking/WitcherCord)
 Uses SmartEmbeds from BeardDesign1
 *****************************************************************************/
@@ -1706,12 +1706,12 @@ div.guild.active {
 }
 /*-------------------made by Beard Design-------------------------*/
 
-.channel-members {
+.membersWrap-3wRngy {
     transform: translate(150px)!important;
     z-index: 2!important;
     transition: all 300ms ease!important
 }
-.channel-members:hover {
+.membersWrap-3wRngy:hover {
     animation: member 300ms ease!important;
     transform: translate(0px)!important;
     background: #191919!important
@@ -1719,31 +1719,50 @@ div.guild.active {
 .app {
     overflow-x: hidden!important
 }
-.channel-members .member-2FrNV0 .memberInner-3XUq9K {
+.membersWrap-3wRngy .member-2FrNV0 .memberInner-3XUq9K {
     opacity: 0!important;
-    transition: opacity 300ms ease, margin 100ms ease!important
-}
-.channel-members .member-2FrNV0 .memberInner-3XUq9K {
+    transition: opacity 300ms ease, margin 100ms ease!important;
     margin-bottom: 0px!important
 }
-.channel-members:hover .member-2FrNV0 .memberInner-3XUq9K {
+.membersWrap-3wRngy:hover .member-2FrNV0 .memberInner-3XUq9K {
     opacity: 1!important
+}
+.membersWrap-3wRngy .members-1bid1J {
+    background:rgba(0,0,0,.3);
+    
+}
+.members-1bid1J .member-2FrNV0 {
+    height:55px!important;
+}
+.membersWrap-3wRngy:hover .members-1bid1J .member-2FrNV0 {
+    height:40px!important;
 }
 .header-toolbar button.active {
     display: none!important
 }
-.channel-members h2 {
+.membersWrap-3wRngy .membersGroup-3_dP5E {
     transform-origin: right!important;
     transform: scale(0)!important;
     margin-top: -45px!important;
     transition: all 300ms ease!important
 }
-.channel-members:hover h2 {
+.membersWrap-3wRngy:hover .membersGroup-3_dP5E {
     transform: scale(1)!important;
     margin: inherit!important
 }
-.channel-members .avatar-small {
-    border-radius: 3px
+.avatarWrapper-3E-a5I {
+    padding: 10px!important;
+}
+.members-1bid1J:hover .avatarWrapper-3E-a5I {
+    padding: 1px!important
+}
+.members-1bid1J .avatarWrapper-3E-a5I .small-TEeAkX {
+    height:40px;
+    width:40px;
+}
+.members-1bid1J:hover .avatarWrapper-3E-a5I .small-TEeAkX {
+    height:30px;
+    width:30px;
 }
 .chat.flex-vertical.flex-spacer>.content.flex-spacer.flex-horizontal>.flex-spacer.flex-vertical {
     margin-right: -150px!important;
