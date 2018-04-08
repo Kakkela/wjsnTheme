@@ -1,5 +1,5 @@
 /*****************************************************************************
-WJSN Square - WJSN Theme by Kakkela v0.5.3
+WJSN Square - WJSN Theme by Kakkela v0.5.4
 Edited ver. of WitcherCord by Jadeonking (https://github.com/jadeonking/WitcherCord)
 Uses SmartEmbeds from BeardDesign1
 *****************************************************************************/
@@ -1772,7 +1772,7 @@ div.guild.active {
     margin-right: 0px!important;
     z-index: 1!important;
 }
-div.chat.flex-vertical.flex-spacer.private .channel-members-wrap {
+.chat.flex-vertical.flex-spacer.private .membersWrap-3wRngy {
     margin-left: -150px
 }
 /*-------------------------------------------------------------------*/
