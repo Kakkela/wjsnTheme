@@ -1,13 +1,15 @@
-//META{"name":"WJSN_Square_Theme","description":"WJSN Square Theme","author":"Kakkela","version":"0.5.3"}*//{}
+//META{"name":"WJSN_Square_Theme","description":"WJSN Square Theme","author":"Kakkela","version":"0.6"}*//{}
 /*****************************************************************************
 WJSN Square - WJSN Theme by Kakkela
 Edited ver. of WitcherCord by Jadeonking (https://github.com/jadeonking/WitcherCord)
 *****************************************************************************/
 @import url(https://rawgit.com/Kakkela/wjsnTheme/master/css/theme.css);
 
-/* Background image, use https. To adjust background darkness further increse 0.0s below, 1 is full black */
+/* Background image, use https. 
+To adjust background darkness adjust 0.5s below, 1 is full black and 0 is full bright. You can also create gradient with them, first is left end of the window, second is middle part of the window (can be adjusted by editing the percentage, its portion of the window from left end) and third right end of the window 
+*/
 [class*="appMount-"] {
-    background: linear-gradient( rgba(0, 0, 0, 0.0), rgba(0, 0, 0, 0.0) ), url('https://i.imgur.com/v3Hg644.jpg');
+    background: linear-gradient(90deg, rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5) 50%, rgba(0, 0, 0, 0.5) ), url('https://i.imgur.com/rDXG1fv.jpg');
     background-size: cover!important;
 }
 /* Friends icon, use https */

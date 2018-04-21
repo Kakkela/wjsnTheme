@@ -1,5 +1,5 @@
 /*****************************************************************************
-WJSN Square - WJSN Theme by Kakkela v0.5.4
+WJSN Square - WJSN Theme by Kakkela v0.6
 Edited ver. of WitcherCord by Jadeonking (https://github.com/jadeonking/WitcherCord)
 Uses SmartEmbeds from BeardDesign1
 *****************************************************************************/
@@ -14,6 +14,10 @@ Uses SmartEmbeds from BeardDesign1
 :root {
     --accentcolor1: #e25195;
     --accentcolor2: white;
+}
+[class*="appMount-"] {
+    background: linear-gradient(90deg, rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5) 50%, rgba(0, 0, 0, 0.5) ), url('https://i.imgur.com/rDXG1fv.jpg');
+    background-size: cover!important;
 }
 span {
     backface-visibility: hidden!important
@@ -1728,7 +1732,7 @@ div.guild.active {
     opacity: 1!important
 }
 .membersWrap-3wRngy .members-1bid1J {
-    background:rgba(0,0,0,.3);
+    background:none!important;
     
 }
 .members-1bid1J .member-2FrNV0 {
@@ -4323,13 +4327,13 @@ div.now-playing-add span.link:hover {
 }
 
 [class*="titleBar-"] {
-	background: rgba(0,0,0,.5)!important;
+	background: none!important;
 	margin-top: 0px!important;
 	padding-top: 4px!important;
 }	
 
 .container-2OU7Cz, [class*="channels-"], .theme-dark .title-qAcLxz, .content .flex-spacer, .guilds-wrapper, .channel-members, .headerBar-cxbhPD, .theme-dark .friends-table {
-	background: rgba(0,0,0,.3)!important;
+	background: none!important;
 }
 [class*="base-"] {
 	border-radius: 0px;
