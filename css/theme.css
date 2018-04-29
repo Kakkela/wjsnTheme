@@ -791,7 +791,7 @@ div.guild.active {
 #user-profile-modal .empty .empty-text {
     color: #ccc
 }
-.listRow-1wEi-U {
+[class*="listRow-"] {
 	width:255px;
 	float:left;
 }
@@ -4172,7 +4172,7 @@ div.now-playing-add span.link:hover {
 }
 
 .theme-dark .ui-standard-sidebar-view, .theme-light .ui-standard-sidebar-view, .theme-dark .ui-standard-sidebar-view .sidebar-region, .theme-dark .ui-standard-sidebar-view .content-region {
-    background: rgba(0, 0, 0, .5);
+    background: transparent;
 }
 #rtc-connection, #rtc-connection .btn {
 	background: rgba(25, 25, 25, .3);
@@ -4276,10 +4276,13 @@ div.now-playing-add span.link:hover {
 .private-channels .channel.selected .status {
 	border-color: #191919;
 }
-[class*="headerNormal-"], [class*="headerPlaying-"], .body-3ljq11, .body-3_tdh6, .footer-2wFs91, .topSectionPlaying-3jAH9b{
+[class*="userPopout-"] [class*="headerNormal-"], [class*="userPopout-"] [class*="headerPlaying-"], [class*="userPopout-"] [class*="body-"], [class*="userPopout-"] [class*="footer-"]{
 	background:rgba(50,50,50,.9)!important;
 }
-[class*="headerNormal-"], .body-3ljq11, [class*="headerPlaying-"] {
+[class*="topSectionPlaying-"] {
+    background: #2f3136;
+}
+[class*="userPopout-"] [class*="headerNormal-"], [class*="userPopout-"] [class*="body-"], [class*="userPopout-"] [class*="headerPlaying-"] {
     border-bottom: 1px solid #dcddde;
 }
 .activity-AFBUEw {
@@ -4324,11 +4327,11 @@ div.now-playing-add span.link:hover {
 /* Background shittery */
 
 
-[class*="layer-"], [class*="layers-"], [class*="container-"], .theme-dark .chat, .theme-dark .chat>.content, .theme-dark .messages-wrapper, .theme-dark .chat form {
+[class*="layer-"], [class*="layers-"], [class*="container-"], .theme-dark .chat, .theme-dark .chat>.content, .theme-dark .messages-wrapper, .theme-dark .chat form, [class*="noChannel-"] {
 	background: none!important;
 }
 
-.guilds-wrapper, .unread-mentions-bar, [class*="channels-"], [class*="container-"], [class*="title-"], .chat form, .friends-table, .headerBar-cxbhPD, .headerBar-UHpsPw, .header-2o-2hj {
+.guilds-wrapper, .unread-mentions-bar, [class*="channels-"], [class*="container-"], [class*="title-"], .chat form, .friends-table, [class*="headerBar-"], [class*="headerBar-"] .header-2o-2hj {
 	box-shadow: none!important;
 }
 
@@ -4338,7 +4341,7 @@ div.now-playing-add span.link:hover {
 	padding-top: 4px!important;
 }	
 
-.container-2OU7Cz, [class*="channels-"], [class*="title-"], .content .flex-spacer, .guilds-wrapper, .channel-members, .headerBar-cxbhPD, .headerBar-UHpsPw .theme-dark .friends-table {
+[class*="channels-"], [class*="title-"], .content .flex-spacer, .guilds-wrapper, .channel-members, [class*="headerBar-"], #friends .friends-table {
 	background: none!important;
 }
 [class*="base-"] {
@@ -4399,12 +4402,12 @@ div.now-playing-add span.link:hover {
 .avatar-large, .avatar-profile, .avatar-small, .avatar-xlarge, .avatar-xsmall, .avatar-xxlarge {
 	border-radius: 10%;
 }
-.role-3rahR_ {
+[class*="role-"] {
 	border-radius: 5px;
 	border: 1px solid;
 	font-weight: 100;
 }
-.roleCircle-3-vPZq {
+[class*="roleCircle-"] {
 	border-radius: 4px;
 }
 .accessory .h5-3KssQU {
@@ -4422,9 +4425,7 @@ div.now-playing-add span.link:hover {
 	border-radius: 5px;
 	padding: 5px
 }
-[class*="noChannel-"] {
-	background: rgba(0,0,0,.3)
-}
+
 .theme-dark .friends-table .messages .message-group-blocked.revealed, .theme-dark .messages-wrapper .messages .message-group-blocked.revealed, .theme-dark .friends-table .messages .message-group-blocked, .theme-dark .messages-wrapper .messages .message-group-blocked, .theme-dark .friends-table .messages .message-group-blocked .message-group-blocked-btn, .theme-dark .messages-wrapper .messages .message-group-blocked .message-group-blocked-btn {
     background: rgba(35, 35, 35,.2);
     border: none;
