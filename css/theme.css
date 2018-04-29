@@ -4411,7 +4411,7 @@ div.now-playing-add span.link:hover {
 [class*="roleCircle-"] {
 	border-radius: 4px;
 }
-.accessory .h5-3KssQU {
+.accessory [class*="h5-"] {
     display:none;
 }
 [class*="typing-"] {
