@@ -635,40 +635,40 @@ div.guild.active {
     height:400px;
     border-radius: 5px 5px 5px 5px !important;
 }
-[class*="emojiPicker-"] .header-27dQ-e .search-bar .search-bar-inner {
+[class*="emojiPicker-"] [class*="header-"] .search-bar .search-bar-inner {
     border: none!important;
     background: none!important
 }
-[class*="emojiPicker-"] .header-27dQ-e .search-bar input {
+[class*="emojiPicker-"] [class*="header-"] .search-bar input {
     color: #e5e5e5!important;
     background-color: #232323!important;
     border: none!important
 }
-[class*="emojiPicker-"] .header-27dQ-e .search-bar input::-webkit-input-placeholder {
+[class*="emojiPicker-"] [class*="header-"] .search-bar input::-webkit-input-placeholder {
     color: #e5e5e5!important
 }
-[class*="emojiPicker-"] .header-27dQ-e .search-bar {
+[class*="emojiPicker-"] [class*="header-"] .search-bar {
     background: #191919!important;
     border: none!important
 }
-[class*="emojiPicker-"] .header-27dQ-e .search-bar-clear {
+[class*="emojiPicker-"] [class*="header-"] .search-bar-clear {
     background: #191919!important;
     border: none!important
 }
-.stickyHeader-3LjM5X {
+[class*="emojiPicker-"] [class*="stickyHeader-"] {
     background: #191919!important
 }
-[class*="emojiPicker-"] .header-27dQ-e .categories .item.selected {
+[class*="emojiPicker-"] [class*="header-"] .categories .item.selected {
     border-bottom-color: #e5e5e5;
     background-color: #232323
 }
-[class*="emojiPicker-"] .scroller-2dsok0::-webkit-scrollbar-thumb {
+[class*="emojiPicker-"] [class*="scroller-"]::-webkit-scrollbar-thumb {
     background: rgba(35, 35, 35, .75)!important;
     border: none;
     border-radius: 0px;
     background-clip: content-box!important
 }
-.category-3rCtoh {
+[class*="emojiPicker-"] [class*="scroller-"] [class*="category-"] {
     background: #191919;
     color: #e5e5e5
 }
@@ -676,7 +676,7 @@ div.guild.active {
     left:0px;
     top:8px;
 }
-.emojiPicker-3g68GS .scroller-2dsok0 {
+[class*="emojiPicker-"] [class*="scroller-"] {
     height:100%;
 }
 .title-wrap {
