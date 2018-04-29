@@ -4285,8 +4285,9 @@ div.now-playing-add span.link:hover {
 [class*="userPopout-"] [class*="headerNormal-"], [class*="userPopout-"] [class*="body-"], [class*="userPopout-"] [class*="headerPlaying-"] {
     border-bottom: 1px solid #dcddde;
 }
-.activity-AFBUEw {
-	background:rgba(0,0,0,.2);
+
+[class*="userPopout-"] [class*="bodyNormal-"] {
+	background: transparent;
 }
 .theme-dark .activityProfile-2pymp0 .content-P9ThHS, .theme-dark .activityProfile-2pymp0 .headerText-2CVBxK, .theme-dark .activityUserPopout-1nmgaw .content-P9ThHS, .theme-dark .activityUserPopout-1nmgaw .headerText-2CVBxK, .theme-light .activityProfile-2pymp0 .content-P9ThHS, .theme-light .activityProfile-2pymp0 .headerText-2CVBxK, .theme-light .activityUserPopout-1nmgaw .content-P9ThHS, .theme-light .activityUserPopout-1nmgaw .headerText-2CVBxK {
 	color: white!important;
