@@ -4172,7 +4172,7 @@ div.now-playing-add span.link:hover {
 }
 
 .theme-dark .ui-standard-sidebar-view, .theme-light .ui-standard-sidebar-view, .theme-dark .ui-standard-sidebar-view .sidebar-region, .theme-dark .ui-standard-sidebar-view .content-region {
-    background: transparent;
+    background: rgba(0,0,0,.3);
 }
 #rtc-connection, #rtc-connection .btn {
 	background: rgba(25, 25, 25, .3);
@@ -4247,8 +4247,8 @@ div.now-playing-add span.link:hover {
 .emoji {
 	margin:0px!important;
 }
-.theme-dark .inner-zqa7da, .chat>.title-wrap, .container-RYiLUQ {
-	background-color: rgba(0,0,0,.5);
+.chat>.title-wrap {
+	background-color: rgba(50,50,50,.5);
 	/*border-style: solid;
 	border-color: black;
 	border-width: 1px;*/
@@ -4388,23 +4388,6 @@ div.now-playing-add span.link:hover {
     z-index:999;
     color: #e3ecf9;
 }
-/* SmartEmbeds by BeardDesign1 */
-.message-group .accessory{
-	display: flex;
-	flex-flow: row wrap;
-}
-.message-group .accessory>*:not(:last-of-type){
-	margin-right:10px;
-}
-.message-group .accessory>*{
-	margin-top:5px;
-}
-.reactions{
-	width:100%;
-	flex:100%;
-	order:9999999999;
-}
-
 .channels-3g2vYe div:nth-child(2) {
     border-radius: 5px 5px 0 0;
     border-bottom: 0;
@@ -4432,7 +4415,7 @@ div.now-playing-add span.link:hover {
 .avatar-large, .avatar-profile, .avatar-small, .avatar-xlarge, .avatar-xsmall, .avatar-xxlarge {
 	border-radius: 10%;
 }
-[class*="role-"] {
+[class*="userPopout-"] [class*="role-"] {
 	border-radius: 5px;
 	border: 1px solid;
 	font-weight: 100;
@@ -4464,4 +4447,31 @@ div.now-playing-add span.link:hover {
 .theme-dark .friends-table .messages .message-group-blocked .message-group-blocked-btn:hover, .theme-dark .messages-wrapper .messages .message-group-blocked .message-group-blocked-btn:hover {
     background: rgba(35, 35, 35,.4);
     border: none;
+}
+[class*="modal-"] > [class*="inner-"] > [class*="container-"] {
+    -webkit-box-shadow: 0 0 0 1px rgba(32,34,37,.6), 0 2px 10px 0 rgba(0,0,0,.2)!important;
+    background-color: #36393f!important;
+    box-shadow: 0 0 0 1px rgba(32,34,37,.6), 0 2px 10px 0 rgba(0,0,0,.2)
+}
+.private-channels .channel.selected a {
+    background: var(--accentcolor2)
+}
+.private-channels .channel a:hover {
+    background: var(--accentcolor1)
+}
+/* SmartEmbeds by BeardDesign1 */
+.message-group .accessory{
+	display: flex;
+	flex-flow: row wrap;
+}
+.message-group .accessory>*:not(:last-of-type){
+	margin-right:10px;
+}
+.message-group .accessory>*{
+	margin-top:5px;
+}
+.reactions{
+	width:100%;
+	flex:100%;
+	order:9999999999;
 }
