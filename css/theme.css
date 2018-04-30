@@ -4247,8 +4247,8 @@ div.now-playing-add span.link:hover {
 .emoji {
 	margin:0px!important;
 }
-.chat>.title-wrap {
-	background-color: rgba(50,50,50,.5);
+.chat>.title-wrap, [class*="channelTextArea-"] [class*="inner-"] {
+	background-color: rgba(0,0,0,.5);
 	/*border-style: solid;
 	border-color: black;
 	border-width: 1px;*/
