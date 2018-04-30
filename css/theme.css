@@ -4356,8 +4356,37 @@ div.now-playing-add span.link:hover {
 	-webkit-mask: none!important;
 	mask: none!important;
 }
-.contentHoveredText-2HYGIY, .contentHoveredVoice-3qGNKh:active, .contentSelectedVoice-gTtYM9:active {
-	background: rgba(0,0,0,.5);
+[class*="contentHoveredText-"]::before {
+    background: var(--accentcolor1);
+    opacity: .4;
+    content: "";
+    position: absolute;
+    top: 0; 
+    left: 0;
+    width: 100%; 
+    height: 100%;
+    z-index:1;
+}
+[class*="contentHoveredText-"],[class*="nameHoveredText-"], [class*="contentHoveredVoice-"]:active, [class*="contentSelectedVoice-"]:active {
+    background: none;
+    z-index:999;
+    color: #e3ecf9;
+}
+[class*="contentSelectedText-"]::before {
+    background: var(--accentcolor2);
+    opacity: .4;
+    content: "";
+    position: absolute;
+    top: 0; 
+    left: 0;
+    width: 100%; 
+    height: 100%;
+    z-index:1;
+}
+[class*="contentSelectedText-"], [class*="nameSelectedText-"] {
+    background: none;
+    z-index:999;
+    color: #e3ecf9;
 }
 /* SmartEmbeds by BeardDesign1 */
 .message-group .accessory{
