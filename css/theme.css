@@ -4369,7 +4369,7 @@ div.now-playing-add span.link:hover {
     z-index:1;
     border-radius: 3px;
 }
-[class*="contentHoveredText-"],[class*="nameHoveredText-"], [class*="contentHoveredVoice-"]:active, [class*="contentSelectedVoice-"]:active {
+[class*="contentHoveredText-"], [class*="nameHoveredText-"], [class*="contentHoveredVoice-"]:active, [class*="contentSelectedVoice-"]:active {
     background: none;
     z-index:999;
     color: #e3ecf9;
@@ -4386,7 +4386,7 @@ div.now-playing-add span.link:hover {
     z-index:1;
     border-radius: 3px;
 }
-[class*="contentSelectedText-"], [class*="nameSelectedText-"] {
+[class*="contentSelectedText-"], [class*="nameSelectedText-"], [class*="contentSelectedText-"] [class*="iconSpacing-"], [class*="contentHoveredText-"] [class*="iconSpacing-"] {
     background: none;
     z-index:999;
     color: #e3ecf9;
