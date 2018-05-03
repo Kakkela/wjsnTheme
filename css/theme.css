@@ -4462,6 +4462,9 @@ div.now-playing-add span.link:hover {
 .private-channels .channel a:hover {
     background: var(--accentcolor1)
 }
+[class*="modal-"] [class*="autocomplete-"] [class*="content-"] {
+    color: white;
+}
 /* SmartEmbeds by BeardDesign1 */
 .message-group .accessory{
 	display: flex;
