@@ -1510,8 +1510,10 @@ div.guild.active {
     border-left: 4px solid var(--accentcolor1);
     border-radius: 0
 }
+/*
 .chat>.title-wrap>.title.channel-group-dm .channel-name {
 }
+*/
 .chat>.title-wrap>.title.channel-group-dm .channel-name:hover {
     background: #191919!important
 }
@@ -4286,7 +4288,7 @@ div.now-playing-add span.link:hover {
     border-bottom: 1px solid #dcddde;
 }
 
-[class*="userPopout-"] [class*="bodyNormal-"] {
+[class*="userPopout-"] [class*="bodyNormal-"], [class*="activityUserPopout-"] [class*="body-"]{
     background: transparent!important;
     border-bottom: none;
 }
