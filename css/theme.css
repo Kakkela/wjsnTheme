@@ -4467,6 +4467,13 @@ div.now-playing-add span.link:hover {
 [class*="modal-"] [class*="autocomplete-"] [class*="content-"] {
     color: white;
 }
+[class*="iconSizeLarge-"] {
+    width: 38px;
+    height: 38px;
+}
+[class*="iconSizeMedium-"] {
+    border-radius: 10%;
+}
 /* SmartEmbeds by BeardDesign1 */
 .message-group .accessory{
 	display: flex;
