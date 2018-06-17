@@ -4461,10 +4461,10 @@ div.now-playing-add span.link:hover {
     box-shadow: 0 0 0 1px rgba(32,34,37,.6), 0 2px 10px 0 rgba(0,0,0,.2)
 }
 .private-channels .channel.selected a {
-    background: var(--accentcolor2)
+    background: var(--accentcolor3)
 }
 .private-channels .channel a:hover {
-    background: var(--accentcolor1)
+    background: var(--accentcolor4)
 }
 [class*="modal-"] [class*="autocomplete-"] [class*="content-"] {
     color: white;
