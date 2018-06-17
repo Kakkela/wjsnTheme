@@ -1,5 +1,5 @@
 /*****************************************************************************
-WJSN Square - WJSN Theme by Kakkela v0.6
+WJSN Square - WJSN Theme by Kakkela v0.7
 Edited ver. of WitcherCord by Jadeonking (https://github.com/jadeonking/WitcherCord)
 Uses SmartEmbeds from BeardDesign1
 *****************************************************************************/
@@ -13,7 +13,9 @@ Uses SmartEmbeds from BeardDesign1
 */
 :root {
     --accentcolor1: #e25195;
+    --accentcolor4: rgba(226, 81, 149, .6);
     --accentcolor2: white;
+    --accentcolor3: rgba(255, 255, 255, .6);
 }
 [class*="appMount-"] {
     background: linear-gradient(90deg, rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5) 50%, rgba(0, 0, 0, 0.5) ), url('https://i.imgur.com/rDXG1fv.jpg');
@@ -4198,7 +4200,7 @@ div.now-playing-add span.link:hover {
 	background: none!important;
 }
 /* Channel list un-read-channel */
-.nameUnreadText-1pxldj, .nameUnreadVoice-QK4gxH {
+[class*="nameUnreadText-"], [class*="nameUnreadVoice-"] {
 	color: white
 }
 /* Channel list channel height (box surrounding element) 
@@ -4489,4 +4491,38 @@ div.now-playing-add span.link:hover {
 	width:100%;
 	flex:100%;
 	order:9999999999;
+}
+.message-group .comment .markup {
+    color: #e8e8e8!important;
+    text-shadow: 2px 2px 5px #000000;
+}
+[class*="channels-"], .private-channels, .chat {
+    text-shadow: 2px 2px 5px #000000;
+}
+.search  {
+    text-shadow:none;
+}
+.search-bar .search-bar-inner {
+    box-shadow:none!important;
+}
+.private-channels .channel.selected .channel-name, .private-channels .channel .channel-activity {
+    color:white!important;
+    text-shadow: 1px 1px 4px #000000;
+}
+.private-channels .channel .channel-activity strong {
+    color:white!important;
+    text-shadow: 1px 1px 4px #000000;
+}
+[class*="nameUnreadText-"], [class*="nameUnreadVoice-"] {
+	color: white;
+	text-shadow: 3px 5px 5px #000000;
+}
+[class*="contentHoveredText-"] {
+    background: var(--accentcolor4);
+}
+[class*="contentSelectedText-"] {
+    background: var(--accentcolor3);
+}
+[class*="contentHoveredText-"]::before, [class*="contentSelectedText-"]::before {
+    background:none;
 }

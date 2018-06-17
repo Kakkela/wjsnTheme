@@ -1,4 +1,4 @@
-//META{"name":"WJSN_Square_Theme","description":"WJSN Square Theme","author":"Kakkela","version":"0.6"}*//{}
+//META{"name":"WJSN_Square_Theme","description":"WJSN Square Theme","author":"Kakkela","version":"0.7"}*//{}
 /*****************************************************************************
 WJSN Square - WJSN Theme by Kakkela
 Edited ver. of WitcherCord by Jadeonking (https://github.com/jadeonking/WitcherCord)
@@ -24,12 +24,16 @@ To adjust background darkness adjust 0.5s below, 1 is full black and 0 is full b
 
 
 /* Accent colors 
-First is forchannel names and new message notifications on serverlist, muted channels use this color but darkened variant.
-Second is for category names.
+1 is for channel names and new message notifications on serverlist, muted channels use this color but darkened variant.
+2 is for category names.
+4 is for hovered channel background
+3 is for selected channel background
 */
 :root {
     --accentcolor1: #e25195;
+    --accentcolor4: rgba(226, 81, 149, .6);
     --accentcolor2: white;
+    --accentcolor3: rgba(255, 255, 255, .6);
 }
 /* Mention message background color */
 .theme-dark .message-group .mentioned .message-text, .message-group .mentioned .message-text:after {
