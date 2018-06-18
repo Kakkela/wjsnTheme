@@ -1,5 +1,6 @@
 # wjsnTheme
 [<img src="https://discordapp.com/api/guilds/246394994691145730/widget.png?style=shield">](https://discord.is/kakkcord)
+
 BetterDiscord theme based on WJSN
 
 Modified from themes designed by BeardDesign1 (old version of compact userlist) and Jadeonking (WitcherCord theme)
