@@ -15,7 +15,7 @@ To adjust background darkness adjust 0.5s below, 1 is full black and 0 is full b
     background-size: cover!important;
 }
 /* Friends icon, use https */
-.guilds-wrapper .guilds .friends-icon {
+.guilds-wrapper .scroller .guild:first-child .guild-inner {
     background-image: url(https://i.imgur.com/KwzaOdl.png)!important;
 }
 /* If you want embed video controls change display:none to display:inherit */
