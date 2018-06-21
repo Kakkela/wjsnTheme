@@ -4264,7 +4264,7 @@ div.now-playing-add span.link:hover {
     /*box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 4px 8px 0 rgba(0, 0, 0, 0.19)!important;*/
 	box-shadow: 0px 5px 10px 0px rgba(0,0,0,0.2)!important;
 }
-.container-iksrDt, .channel-members .avatar-small, .message-group .avatar-large, .guilds-wrapper .guilds .guild .avatar-small, .channels-wrap, .search-bar .search-bar-inner, .header-toolbar .search, .private-channels .channel .avatar-small, .avatarDefault-3jtQoc, #friends .friends-table .friends-row .friends-column-name .avatar-small, #friends .friends-table .friends-row .friends-column-guilds .avatar-small {
+.container-iksrDt, .channel-members .avatar-small, .message-group > .avatar-large > .avatar-large, .guilds-wrapper .guilds .guild .avatar-small, .channels-wrap, .search-bar .search-bar-inner, .header-toolbar .search, .private-channels .channel .avatar-small, .avatarDefault-3jtQoc, #friends .friends-table .friends-row .friends-column-name .avatar-small, #friends .friends-table .friends-row .friends-column-guilds .avatar-small {
     /*box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 4px 8px 0 rgba(0, 0, 0, 0.19)!important;*/
 	box-shadow: 0px 5px 10px 0px rgba(0,0,0,0.2)!important;
 }
