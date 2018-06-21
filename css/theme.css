@@ -4527,3 +4527,23 @@ div.now-playing-add span.link:hover {
 [class*="contentHoveredText-"]::before, [class*="contentSelectedText-"]::before {
     background:none;
 }
+[class*="activityFeed-"] {
+    background:none!important;
+}
+[class*="feed-"] [class*="body-"] [class*="emptyState-"], [class*="feed-"] [class*="body-"] [class*="playTime-"], [class*="feed-"] [class*="body-"] {
+    color:white!important;
+    text-shadow: 1px 1px 4px #000000;
+}
+[class*="feed-"] [class*="body-"] [class*="card-"] {
+    background: none;
+}
+[class*="feed-"] [class*="body-"] [class*="card-"] [class*="cardHeader-"] {
+    background: rgba(89, 91, 96,.4);
+}
+[class*="feed-"] [class*="body-"] [class*="card-"] [class*="cardBody-"] {
+    background: rgba(89, 91, 96,.3);
+}
+[class*="appMount-"] {
+    background: linear-gradient(90deg, rgba(0, 0, 0, 0.2),rgba(0, 0, 0, 0.2) 60%, rgba(0, 0, 0, 0.2) ), url('https://i.imgur.com/0vHjpep.png');
+    background-size: cover!important;
+}
