@@ -1768,6 +1768,10 @@ div.guild.active {
     height:40px;
     width:40px;
 }
+.members-1998pB:hover .avatarWrapper-3B0ndJ .small-5Os1Bb {
+    height:30px;
+    width:30px;
+}
 [class*="members-"] [class*="avatarWrapper-"] [class*="status-"] {
     height:10px!important;
     width:10px!important;
