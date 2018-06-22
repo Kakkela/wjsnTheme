@@ -4477,6 +4477,7 @@ div.now-playing-add span.link:hover {
 [class*="iconSizeLarge-"], [class*="noIcon-"] {
     width: 38px;
     height: 38px;
+    line-height: 38px!important;
 }
 [class*="iconSizeMedium-"] {
     border-radius: 10%;
