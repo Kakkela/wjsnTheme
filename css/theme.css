@@ -4483,15 +4483,15 @@ form > [class*="typing-"] {
 [class*="iconSizeMedium-"] {
     border-radius: 10%;
 }
-/* SmartEmbeds by BeardDesign1 */
-.message-group .accessory{
+/* SmartEmbeds originally by BeardDesign1 */
+.messages > .containerCozy-jafyvG > .messageCozy-2JPAPA  .containerCozy-B4noqO{
 	display: flex;
 	flex-flow: row wrap;
 }
-.message-group .accessory>*:not(:last-of-type){
+.messages > .containerCozy-jafyvG > .messageCozy-2JPAPA  .containerCozy-B4noqO>*:not(:last-of-type){
 	margin-right:10px;
 }
-.message-group .accessory>*{
+.messages > .containerCozy-jafyvG > .messageCozy-2JPAPA .containerCozy-B4noqO>*{
 	margin-top:5px;
 }
 .reactions{
