@@ -1773,8 +1773,8 @@ div.guild.active {
     width:30px;
 }
 [class*="members-"] [class*="avatarWrapper-"] [class*="status-"] {
-    height:10px!important;
-    width:10px!important;
+    height:10px;
+    width:10px;
 }
 .image-33JSyf, .avatar-16XVId {
     border-radius: 15%;
@@ -4422,7 +4422,8 @@ div.now-playing-add span.link:hover {
 }
 .citar-btn {
 	display: inline-block!important;
-	height: 6px!important;
+    height: 6px!important;
+    margin: 0px 5px!important;
 }
 .avatar-large, .avatar-profile, .avatar-small, .avatar-xlarge, .avatar-xsmall, .avatar-xxlarge {
 	border-radius: 10%;
@@ -4438,7 +4439,7 @@ div.now-playing-add span.link:hover {
 .accessory [class*="h5-"] {
     display:none;
 }
-[class*="typing-"] {
+form > [class*="typing-"] {
     background:none!important;
 }
 [class*="embedInner-"] {
@@ -4569,4 +4570,16 @@ div.now-playing-add span.link:hover {
 }
 .guilds-wrapper .guilds .guild-icon {
     border-radius: 5%;
+}
+[class*="containerCozy-"] [class*="divider-"] {
+    display:none;
+}
+.messages > [class*="containerCozy-"] {
+    padding: 5px 0;
+}
+.citar-btn {
+    margin: 0px 5px!important;
+}
+[class*="popoutBottom-"] [class*="container-"] {
+    background: #18191c!important;
 }
