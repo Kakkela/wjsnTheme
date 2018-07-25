@@ -4252,10 +4252,6 @@ div.now-playing-add span.link:hover {
 .guild-channels .channel.selected, .private-channels .channel.selected, .private-channels .search-result.selected, .private-channels .search-result:hover {
 	background: none!important;
 }
-
-.emoji {
-	margin:0px!important;
-}
 .chat>.title-wrap, [class*="channelTextArea-"] [class*="inner-"] {
 	background-color: rgba(0,0,0,.5);
 	/*border-style: solid;
