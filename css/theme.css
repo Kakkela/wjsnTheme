@@ -1764,11 +1764,11 @@ div.guild.active {
 .members-1998pB:hover .avatarWrapper-3B0ndJ {
     padding: 1px!important
 }
-.members-1998pB .avatarWrapper-3B0ndJ .small-5Os1Bb {
+.members-1998pB .avatarWrapper-3B0ndJ > .small-5Os1Bb > .image-33JSyf , .members-1998pB .avatarWrapper-3B0ndJ > .small-5Os1Bb {
     height:40px;
     width:40px;
 }
-.members-1998pB:hover .avatarWrapper-3B0ndJ .small-5Os1Bb {
+.members-1998pB:hover .avatarWrapper-3B0ndJ > .small-5Os1Bb, .members-1998pB:hover .avatarWrapper-3B0ndJ > .small-5Os1Bb > .image-33JSyf {
     height:30px;
     width:30px;
 }
