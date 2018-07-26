@@ -4572,6 +4572,7 @@ form > [class*="typing-"] {
 }
 .messages > [class*="containerCozy-"] {
     padding: 5px 0;
+    margin-bottom: 0px;
 }
 .citar-btn {
     margin: 0px 5px!important;
