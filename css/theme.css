@@ -4580,3 +4580,9 @@ form > [class*="typing-"] {
 [class*="popoutBottom-"] [class*="container-"] {
     background: #18191c!important;
 }
+.emoji.jumboable {
+    margin-top: 0px;
+}
+.emoji.jumboable {
+    margin: 0px;
+}
