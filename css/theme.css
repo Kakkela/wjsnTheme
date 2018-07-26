@@ -4334,11 +4334,11 @@ div.now-playing-add span.link:hover {
 /* Background shittery */
 
 
-[class*="layer-"], [class*="layers-"], [class*="container-"], .theme-dark .chat, .theme-dark .chat>.content, .theme-dark .messages-wrapper, .theme-dark .chat form, [class*="noChannel-"] {
+[class*="layer-"], [class*="layers-"], [class*="layer-"] > [class*="container-"], [class*="channels-"] [class*="container-"], .theme-dark .chat, .theme-dark .chat>.content, .theme-dark .messages-wrapper, .theme-dark .chat form, [class*="noChannel-"] {
 	background: none!important;
 }
 
-.guilds-wrapper, .unread-mentions-bar, [class*="channels-"], [class*="container-"], [class*="title-"], .chat form, .friends-table, [class*="headerBar-"], [class*="headerBar-"] .header-2o-2hj {
+.guilds-wrapper, .unread-mentions-bar, [class*="channels-"], [class*="layer-"] > [class*="container-"], [class*="title-"], .chat form, .friends-table, [class*="headerBar-"], [class*="headerBar-"] .header-2o-2hj {
 	box-shadow: none!important;
 }
 
