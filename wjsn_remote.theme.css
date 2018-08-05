@@ -1,4 +1,4 @@
-//META{"name":"WJSN_Square_Theme","description":"WJSN Square Theme","author":"Kakkela","version":"0.7.3"}*//{}
+//META{"name":"WJSN_Square_Theme","description":"WJSN Square Theme","author":"Kakkela","version":"0.8.0"}*//{}
 /*****************************************************************************
 WJSN Square - WJSN Theme by Kakkela
 Edited ver. of WitcherCord by Jadeonking (https://github.com/jadeonking/WitcherCord)
@@ -52,8 +52,8 @@ To adjust background darkness adjust 0.5s below, 1 is full black and 0 is full b
 }
 [class*="guildsWrapper-"] [class*="guilds-"] [class*="guild-"] {
 	float:left;
-    margin-right: 10px;
-    margin-top: 8px;
+    margin-right: 9px;
+    margin-top: 4px;
 }
 [class*="guildsWrapper-"] [class*="guildSeparator-"] {
 	width: 180px;
