@@ -127,13 +127,17 @@ div.scroller.settings-wrapper.settings-panel {
 .guild-header header,
 .divider-red span,
 .messages-wrapper,
-#voice-connection {
+#voice-connection,
+.theme-dark [class*="chat-"], 
+.theme-dark [class*="messagesWrapper-"], 
+.theme-dark [class*="chat-"] form,
+[class*="guildsWrapper-"],
+.theme-dark [class*="chat-"] > [class*="content-"] {
     background: transparent!important
 }
 /* Server list area */
 
-.guilds-wrapper {
-    background: rgba(0, 0, 0, 0.55)!important;
+[class*="guildsWrapper-"] {
     width: 2.75%;
     min-width: 50px!important;
 }
@@ -183,9 +187,6 @@ div.scroller.settings-wrapper.settings-panel {
 }
 .create-guild-container .action.create:hover .btn-primary {
     background-color: cyan!important
-}
-.guilds-wrapper {
-    box-shadow: inset -7px 0 5px -6px rgba(0, 0, 0, .2)
 }
 .guilds-wrapper .guilds-error {
     border-radius: 0;
@@ -306,10 +307,16 @@ div.guild.active {
     bottom: 32px!important;
     right: 8px
 }
-.guilds-wrapper .guilds .guild:not(.selected) {
+[class*="guilds-"] {
+    padding: 18px 20px 85px
+}
+div[class*="guild-"][class*="selected-"] {
+    opacity: 1!important
+}
+[class*="guildsWrapper-"] [class*="guilds-"] [class*="guild-"]:not([class*="selected-"]) {
     opacity: .5
 }
-.guilds-wrapper .guilds .guild:not(.selected):hover {
+[class*="guildsWrapper-"] [class*="guilds-"] [class*="guild-"]:not([class*="selected-"]):hover {
     opacity: .75
 }
 .guilds-wrapper .guilds .guild.audio .guild-inner:after {
@@ -345,12 +352,12 @@ div.guild.active {
 .guilds li.active .guild-inner:before {
     background: #e5e5e5!important
 }
-.guilds-wrapper .guilds .friends-online {
+[class*="guildsWrapper-"] [class*="guilds-"] [class*="friendsOnline-"] {
     color: #e5e5e5;
     font-size: 7.5px;
     margin-left: 0px;
-    margin-bottom: 30px;
-    margin-top:0px;
+    margin-bottom: 15px;
+    margin-top:15px;
     line-height: 20px;
     width: 40px;
     height: 15px;
@@ -1783,15 +1790,11 @@ div.guild.active {
     mask:none;
     -webkit-mask:none;
 }
-.chat.flex-vertical.flex-spacer>.content.flex-spacer.flex-horizontal>.flex-spacer.flex-vertical {
+.chat-3bRxxu .content-yTz4x3 f.lex-spacer.flex-vertical {
     margin-right: -150px!important;
     z-index: 1!important
 }
-.chat.flex-vertical.flex-spacer.private>.content.flex-spacer.flex-horizontal>.flex-spacer.flex-vertical {
-    margin-right: 0px!important;
-    z-index: 1!important;
-}
-.chat.flex-vertical.flex-spacer.private .membersWrap-2h-GB4 {
+.chat-3bRxxu .membersWrap-2h-GB4 {
     margin-left: -150px
 }
 /*-------------------------------------------------------------------*/
@@ -4252,13 +4255,12 @@ div.now-playing-add span.link:hover {
 .guild-channels .channel.selected, .private-channels .channel.selected, .private-channels .search-result.selected, .private-channels .search-result:hover {
 	background: none!important;
 }
-.chat>.title-wrap, [class*="channelTextArea-"] [class*="inner-"] {
+[class*="channelTextArea-"] [class*="inner-"] {
 	background-color: rgba(0,0,0,.5);
-	/*border-style: solid;
-	border-color: black;
-	border-width: 1px;*/
-    /*box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 4px 8px 0 rgba(0, 0, 0, 0.19)!important;*/
 	box-shadow: 0px 5px 10px 0px rgba(0,0,0,0.2)!important;
+}
+[class*="channelTextArea-"]{
+    border-top:none!important;
 }
 .container-iksrDt, .channel-members .avatar-small, .message-group > .avatar-large > .avatar-large, .guilds-wrapper .guilds .guild .avatar-small, .channels-wrap, .search-bar .search-bar-inner, .header-toolbar .search, .private-channels .channel .avatar-small, .avatarDefault-3jtQoc, #friends .friends-table .friends-row .friends-column-name .avatar-small, #friends .friends-table .friends-row .friends-column-guilds .avatar-small {
     /*box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 4px 8px 0 rgba(0, 0, 0, 0.19)!important;*/
@@ -4549,10 +4551,11 @@ form > [class*="typing-"] {
     background: linear-gradient(90deg, rgba(0, 0, 0, 0.2),rgba(0, 0, 0, 0.2) 60%, rgba(0, 0, 0, 0.2) ), url('https://i.imgur.com/0vHjpep.png');
     background-size: cover!important;
 }
-.guilds-wrapper .scroller > .guild:first-child .guild-inner {
+[class*="guildsWrapper-"] .scroller > [class*="guild-"]:first-child [class*="guildInner-"] {
     background-image: url(https://i.imgur.com/KwzaOdl.png)!important;
+    background-color: transparent!important;
 }
-.guilds-wrapper .scroller > .guild:first-child .guild-inner {
+[class*="guildsWrapper-"] .scroller > [class*="guild-"]:first-child [class*="guildInner-"] {
     width: 30px!important;
     height: 30px!important;
     background-size: 30px 30px!important;
@@ -4561,16 +4564,16 @@ form > [class*="typing-"] {
     margin-top: 5px;
     padding-left:0px;
 }
-.home-icon {
+[class*="homeIcon-"] {
     display:none;
 }
-.guilds-wrapper .guilds .guild-icon {
+[class*="guildsWrapper-"] [class*="guild-"] [class*="guildIcon-"] {
     border-radius: 5%;
 }
 [class*="containerCozy-"] [class*="divider-"] {
     display:none;
 }
-.messages > [class*="containerCozy-"] {
+[class*="messages-"] > [class*="containerCozy-"] {
     padding: 5px 0;
     margin-bottom: 0px;
 }
@@ -4586,3 +4589,105 @@ form > [class*="typing-"] {
 .emoji.jumboable {
     margin: 0px;
 }
+[class*="guild-"] > div {
+    height:38px;
+}
+[class*="guildInner-"] {
+    border-radius: 0px!important;
+    line-height:38px;
+    height:38px;
+}
+[class*="guildInner-"] > a {
+    height:38px!important;
+    width:38px!important;
+}
+[class*="guildsWrapper-"] {
+    width: 150px;
+    background:none!important;
+}
+[class*="guildsWrapper-"] .scroller-wrap {
+    width: 170px;
+}
+[class*="guildsWrapper-"] [class*="guilds-"] [class*="guild-"] {
+    float:left;
+    margin-right: 10px;
+    margin-top: 6px;
+    height:38px;
+    width:38px;
+}
+.guild-1EfMGQ .avatar-small {
+    background-size:38px 38px;
+    width:38px;
+    height:38px;
+}
+[class*="guildsWrapper-"] [class*="guildSeparator-"] {
+    width: 180px;
+    height: 35px;
+}
+[class*="guildsWrapper-"] [class*="guildSeparator-"]:after {
+    display:none;
+}
+[class*="guildsWrapper-"] [class*="guilds-"] [class*="guild-"][class*="unread-"]:before {
+    height:38px;
+    width:5px;
+    margin-top:-19px;
+    border-radius:2px;
+    left:40px;
+    background: var(--accentcolor1);
+}
+[class*="guildsWrapper-"] [class*="guilds-"] [class*="guild-"][class*="selected-"]:not([class*="unread-"]):before {
+    display:none;
+}
+[class*="guildsWrapper-"] [class*="guilds-"] {
+    padding: 8px 0 0 0;
+}
+[class*="guild-"] [class*="guildInner-"] a {
+    height:38px;
+    width:38px;
+}
+.wrapper-232cHJ {
+    height:12px!important;
+}
+.dms-rcsEnV {
+    margin-bottom:20px;
+    margin-top:25px;
+}
+
+[class*="chat-"] [class*="divider-"]:not([class*="dividerRed-"])>div {
+    background: rgba(255, 255, 255, 0.4)!important
+}
+[class*="chat-"] [class*="divider-"]:not([class*="dividerRed-"]) {
+    margin-top:20px;
+}
+[class*="chat-"] [class*="divider-"]>span {
+    background: rgba(35, 35, 35, .4)!important;
+    font-size: 12px;
+    text-transform: uppercase;
+    margin: 10px 0;
+    border-radius: 5px!important;
+    opacity: 1;
+    width: 100%;
+    text-align: center
+}
+[class*="chat-"] [class*="divider-"][class*="dividerRed-"]>span {
+    background: rgba(35, 35, 35, .4)!important;
+    line-height: 19px;
+    opacity: 1!important;
+    color:rgba(240,71,71,1)!important
+}
+[class*="chat-"] [class*="divider-"]:not([class*="dividerRed-"])>span {
+    color: #e5e5e5!important;
+    opacity: 1!important
+}
+[class*="chat-"] [class*="divider-"]>div {
+    display: none
+}
+[class*="chat-"] [class*="divider-"] {
+    margin-left: 40%;
+    width: 20%
+}
+[class*="chat-"] [class*="divider-"]:before {
+    display: none
+}
+
+

@@ -15,7 +15,7 @@ To adjust background darkness adjust 0.5s below, 1 is full black and 0 is full b
     background-size: cover!important;
 }
 /* Friends icon, use https */
-.guilds-wrapper .scroller > .guild:first-child .guild-inner {
+[class*="guildsWrapper-"] .scroller > [class*="guild-"]:first-child [class*="guildInner-"] {
     background-image: url(https://i.imgur.com/KwzaOdl.png)!important;
 }
 /* If you want embed video controls change display:none to display:inherit */
@@ -38,24 +38,24 @@ To adjust background darkness adjust 0.5s below, 1 is full black and 0 is full b
     --accentcolor3: rgba(255, 255, 255, .6);
 }
 /* Mention message background color */
-.theme-dark .isMentioned-N-h9aa, .isMentionedCozy-3isp7y:after {
+.theme-dark [class*="isMentioned-"], [class*="isMentionedCozy-"]:after {
     background: rgba(226, 81, 149,.2)!important;
 }
 
 /* SERVER LIST EDITS, DELETE THIS WHOLE LINE FOR THREE SERVER COLUMNS 
 
-.guilds-wrapper{
+[class*="guildsWrapper-"]{
 	width: 150px;
 }
-.guilds-wrapper .scroller-wrap {
+[class*="guildsWrapper-"] .scroller-wrap {
 	width: 170px;
 }
-.guilds-wrapper .guilds .guild {
+[class*="guildsWrapper-"] [class*="guilds-"] [class*="guild-"] {
 	float:left;
     margin-right: 10px;
     margin-top: 8px;
 }
-.guilds-wrapper .guild-separator {
+[class*="guildsWrapper-"] [class*="guildSeparator-"] {
 	width: 180px;
     height: 35px;
 }
