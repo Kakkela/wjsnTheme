@@ -4482,14 +4482,14 @@ form > [class*="typing-"] {
     border-radius: 10%;
 }
 /* SmartEmbeds originally by BeardDesign1 */
-.messages > .containerCozy-jafyvG > .messageCozy-2JPAPA  .containerCozy-B4noqO{
+[class*="messages-"] > [class*="containerCozy-"] > [class*="messageCozy-"]  .containerCozy-B4noqO{
 	display: flex;
 	flex-flow: row wrap;
 }
-.messages > .containerCozy-jafyvG > .messageCozy-2JPAPA  .containerCozy-B4noqO>*:not(:last-of-type){
+[class*="messages-"] > [class*="containerCozy-"] > [class*="messageCozy-"]  .containerCozy-B4noqO>*:not(:last-of-type){
 	margin-right:10px;
 }
-.messages > .containerCozy-jafyvG > .messageCozy-2JPAPA .containerCozy-B4noqO>*{
+[class*="messages-"] > [class*="containerCozy-"] > [class*="messageCozy-"] .containerCozy-B4noqO>*{
 	margin-top:5px;
 }
 .reactions{
@@ -4497,7 +4497,7 @@ form > [class*="typing-"] {
 	flex:100%;
 	order:9999999999;
 }
-.message-group .comment .markup {
+[class*="messageCozy-"] [class*="markup-"] {
     color: #e8e8e8!important;
     text-shadow: 2px 2px 5px #000000;
 }
