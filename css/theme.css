@@ -4340,7 +4340,7 @@ div.now-playing-add span.link:hover {
 	background: none!important;
 }
 
-.guilds-wrapper, .unread-mentions-bar, [class*="channels-"], [class*="layer-"] > [class*="container-"], [class*="title-"], .chat form, .friends-table, [class*="headerBar-"], [class*="headerBar-"] .header-2o-2hj {
+.guilds-wrapper, .unread-mentions-bar, [class*="channels-"], [class*="layer-"] > [class*="container-"], [class*="title-"], .chat form, .friends-table, [class*="headerBar-"], .header-2o-2hj, .unreadMentionsBar-1VrBNe {
 	box-shadow: none!important;
 }
 
