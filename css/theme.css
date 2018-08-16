@@ -4492,7 +4492,7 @@ form > [class*="typing-"] {
 [class*="messages-"] > [class*="containerCozy-"] > [class*="messageCozy-"] .containerCozy-B4noqO>*{
 	margin-top:5px;
 }
-.reactions{
+[class*="reactions-"]{
 	width:100%;
 	flex:100%;
 	order:9999999999;
