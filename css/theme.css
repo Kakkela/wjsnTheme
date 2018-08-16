@@ -4589,7 +4589,7 @@ form > [class*="typing-"] {
 .emoji.jumboable {
     margin: 0px;
 }
-[class*="guild-"] > div {
+.da-guild > div {
     height:38px;
 }
 [class*="guildInner-"] {
