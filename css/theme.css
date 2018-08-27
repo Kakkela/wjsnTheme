@@ -4450,14 +4450,15 @@ form > [class*="typing-"] {
 	padding: 5px
 }
 
-.theme-dark .friends-table .messages .message-group-blocked.revealed, .theme-dark .messages-wrapper .messages .message-group-blocked.revealed, .theme-dark .friends-table .messages .message-group-blocked, .theme-dark .messages-wrapper .messages .message-group-blocked, .theme-dark .friends-table .messages .message-group-blocked .message-group-blocked-btn, .theme-dark .messages-wrapper .messages .message-group-blocked .message-group-blocked-btn {
+.theme-dark [class*="messageGroupBlocked-"][class*="revealed-"], .theme-dark [class*="messageGroupBlocked-"] {
     background: rgba(35, 35, 35,.2);
     border: none;
     border-radius: 6px;
 }
-.theme-dark .friends-table .messages .message-group-blocked .message-group-blocked-btn:hover, .theme-dark .messages-wrapper .messages .message-group-blocked .message-group-blocked-btn:hover {
+.theme-dark [class*="messageGroupBlocked-"] [class*="messageGroupBlockedBtn-"], .theme-dark [class*="messageGroupBlocked-"]:hover {
     background: rgba(35, 35, 35,.4);
     border: none;
+    border-radius: 6px;
 }
 [class*="modal-"] > [class*="inner-"] > [class*="container-"] {
     -webkit-box-shadow: 0 0 0 1px rgba(32,34,37,.6), 0 2px 10px 0 rgba(0,0,0,.2)!important;
