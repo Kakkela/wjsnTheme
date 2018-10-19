@@ -4504,7 +4504,7 @@ form > [class*="typing-"] {
     color: #e8e8e8!important;
     text-shadow: 2px 2px 5px #000000;
 }
-[class*="channels-"], .private-channels, .chat {
+[class*="channels-"], [class*="privateChannels-"], [class*="chat-"] {
     text-shadow: 2px 2px 5px #000000;
 }
 .search  {
@@ -4715,3 +4715,5 @@ form > [class*="typing-"] {
 [class*="chat-"] form [class*="typing-"] {
     top: -4px;
 }
+[class*="timestampCozy-"] {
+    color: hsla(0,0%,100%,.4)!important
