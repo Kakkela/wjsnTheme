@@ -4709,3 +4709,9 @@ form > [class*="typing-"] {
 .more-mutual-guilds-btn {
     padding: 1px;
 }
+[class*="chat-"] form [class*="channelTextArea-"] {
+    margin-bottom: 5px;
+}
+[class*="chat-"] form [class*="typing-"] {
+    top: -4px;
+}
