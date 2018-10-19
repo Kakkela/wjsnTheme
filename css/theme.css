@@ -4664,7 +4664,7 @@ form > [class*="typing-"] {
     background: rgba(35, 35, 35, .4)!important;
     font-size: 12px;
     text-transform: uppercase;
-    margin: 10px 0;
+    margin:-9.5px;
     border-radius: 5px!important;
     opacity: 1;
     width: 100%;
@@ -4687,8 +4687,10 @@ form > [class*="typing-"] {
     margin-left: 40%;
     width: 20%
 }
-[class*="chat-"] [class*="content-"] [class*="divider-"]:before {
-    display: none
+[class*="chat-"] [class*="content-"] [class*="divider-"] [class*="dividerContent-"]:before {
+    border-color:transparent;
 }
-
+[class*="chat-"] [class*="content-"] [class*="divider-"] [class*="dividerContent-"]:after {
+    border-color:transparent;
+}
 
