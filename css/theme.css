@@ -132,7 +132,9 @@ div.scroller.settings-wrapper.settings-panel {
 .theme-dark [class*="messagesWrapper-"], 
 .theme-dark [class*="chat-"] form,
 [class*="guildsWrapper-"],
-.theme-dark [class*="chat-"] > [class*="content-"] {
+.theme-dark [class*="chat-"] > [class*="content-"],
+.theme-dark [class*="applicationStore-"],
+.theme-dark [class*="gameLibrary-"]{
     background: transparent!important
 }
 /* Server list area */
@@ -4465,10 +4467,10 @@ form > [class*="typing-"] {
     background-color: #36393f!important;
     box-shadow: 0 0 0 1px rgba(32,34,37,.6), 0 2px 10px 0 rgba(0,0,0,.2)
 }
-.private-channels .channel.selected a {
+[class*="privateChannels-"] [class*="channel-"][class*="selected-"] a {
     background: var(--accentcolor3)
 }
-.private-channels .channel a:hover {
+[class*="privateChannels-"] [class*="channel-"] a:hover {
     background: var(--accentcolor4)
 }
 [class*="modal-"] [class*="autocomplete-"] [class*="content-"] {
@@ -4693,4 +4695,17 @@ form > [class*="typing-"] {
 [class*="chat-"] [class*="content-"] [class*="divider-"] [class*="dividerContent-"]:after {
     border-color:transparent;
 }
-
+[class*="colorPrimary-"] {
+    background-color:var(--accentcolor1)!important;
+}
+[class*="gameLibrary-"] [class*="stickyHeader-"] {
+    background-color: rgba(0, 0, 0, 0.5);
+    border-radius: 4px;
+    color:white;
+}
+[class*="privateChannels-"] [class*="searchBar-"] {
+    box-shadow:none;
+}
+.more-mutual-guilds-btn {
+    padding: 1px;
+}
