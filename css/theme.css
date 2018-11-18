@@ -4186,7 +4186,7 @@ div.now-playing-add span.link:hover {
 }
 
 [class*="standardSidebarView-"]{
-    background: rgba(0,0,0,.3);
+    background: rgba(0,0,0,.3)!important;
 }
 [class*="standardSidebarView-"] [class*="sidebarRegion-"], [class*="standardSidebarView-"] [class*="contentRegion-"]{
     background: none!important;
