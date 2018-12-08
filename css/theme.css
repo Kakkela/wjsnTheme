@@ -464,6 +464,13 @@ div[class*="guild-"][class*="selected-"] {
 .theme-dark #friends .friends-table .friends-row+.friends-row {
     border-top: none
 }
+#friends .friends-table .friends-row:hover {
+    background: var(--accentcolor4)!important;
+    border-radius:6px;
+}
+#friends .friends-table .friends-row .icon-3o6xvg, #friends .friends-table .friends-row .more-mutual-guilds-btn {
+    border-radius:15%!important;
+}
 .private-channels .channel.selected .channel-name {
     color: #e5e5e5;
     opacity: 1
@@ -1342,7 +1349,7 @@ div[class*="guild-"][class*="selected-"] {
 }
 #friends .friends-table .friends-row .friends-column-name .avatar-small {
     border-radius: 3px;
-    margin-left: 6px
+    margin-left: 0px
 }
 #friends .friends-table .friends-row .friends-column-guilds .avatar-small {
     border-radius: 3px;
@@ -1432,7 +1439,6 @@ div[class*="guild-"][class*="selected-"] {
 }
 #friends .friends-table .friends-row .friends-suggestion-inner .avatar-large {
     border-radius: 0;
-    box-shadow: -1px 1px 8px #000, inset -1px 1px 8px #000, inset 1px -1px 8px #000, 1px -1px 8px #000;
     margin-left: 10px
 }
 /* GROUP CALLS */
@@ -1468,7 +1474,6 @@ div[class*="guild-"][class*="selected-"] {
 }
 .incoming-call .callers .avatar-popout {
     border-radius: 0!important;
-    box-shadow: -1px 1px 8px #000, inset -1px 1px 8px #000, inset 1px -1px 8px #000, 1px -1px 8px #000;
 }
 .incoming-call .callers .avatar-pulse {
     border-radius: 0
@@ -1690,7 +1695,6 @@ div[class*="guild-"][class*="selected-"] {
 }
 .avatar-xxlarge {
     border-radius: 0;
-    box-shadow: -1px 1px 8px #000, inset -1px 1px 8px #000, inset 1px -1px 8px #000, 1px -1px 8px #000
 }
 /*CANNOT REMEMBER WHAT AVATARS THESE CHANGE PROBABLY NONE?*/
 
@@ -1785,9 +1789,6 @@ div[class*="guild-"][class*="selected-"] {
     height:10px;
     width:10px;
 }
-.image-33JSyf, .avatar-16XVId {
-    border-radius: 15%;
-}
 .mask-3OgeRz {
     mask:none;
     -webkit-mask:none;
@@ -1824,7 +1825,6 @@ div[class*="guild-"][class*="selected-"] {
 }
 .user-popout .avatar-wrapper .avatar-popout {
     border: none;
-    box-shadow: -1px 1px 8px #000, inset -1px 1px 8px #000, inset 1px -1px 8px #000, 1px -1px 8px #000;
     border-radius: 0;
     background-color: #232323
 }
@@ -2012,7 +2012,6 @@ div[class*="guild-"][class*="selected-"] {
 }
 #autocomplete-popout .row .avatar-small {
     border-radius: 0;
-    box-shadow: -1px 1px 8px #000, inset -1px 1px 8px #000, inset 1px -1px 8px #000, 1px -1px 8px #000
 }
 #autocomplete-popout .row a {
     color: #ccc
@@ -2284,7 +2283,6 @@ div[class*="guild-"][class*="selected-"] {
 .avatar-uploader .avatar-uploader-inner {
     color: #b2b2b2;
     border-radius: 0px!important;
-    box-shadow: -1px 1px 8px #000, inset -1px 1px 8px #000, inset 1px -1px 8px #000, 1px -1px 8px #000;
     border: none!important;
     background: #232323;
     top: 8px;
@@ -2299,7 +2297,6 @@ div[class*="guild-"][class*="selected-"] {
 .avatar-uploader .avatar-uploader-inner:hover {
     color: #b2b2b2;
     border-radius: 0px!important;
-    box-shadow: -1px 1px 8px #000, inset -1px 1px 8px #000, inset 1px -1px 8px #000, 1px -1px 8px #000;
     border: none!important;
     opacity: .85
 }
@@ -4250,7 +4247,7 @@ div.now-playing-add span.link:hover {
 /* Voice channel active speaker avatar */
 [class*="avatarSpeaking-"] {
     border-radius: 2px;
-	box-shadow:0px 0px 0px 2px white inset;
+	box-shadow:0px 0px 0px 2px black inset;
 }
 /* Voice channel userlimit number */
 .wrapper-2NJDcI {
@@ -4305,8 +4302,8 @@ div.now-playing-add span.link:hover {
 .theme-dark .activityProfile-2pymp0 .content-P9ThHS, .theme-dark .activityProfile-2pymp0 .headerText-2CVBxK, .theme-dark .activityUserPopout-1nmgaw .content-P9ThHS, .theme-dark .activityUserPopout-1nmgaw .headerText-2CVBxK, .theme-light .activityProfile-2pymp0 .content-P9ThHS, .theme-light .activityProfile-2pymp0 .headerText-2CVBxK, .theme-light .activityUserPopout-1nmgaw .content-P9ThHS, .theme-light .activityUserPopout-1nmgaw .headerText-2CVBxK {
 	color: white!important;
 }
-.avatarWrapper-2Gfmp1, .avatar-1BXaQj, [class*="avatarHint-"], .image-EVRGPw {
-	border-radius: 5px!important;
+[class*="avatarWrapper-"], [class*="avatar-"], [class*="avatarHint-"], [class*="image-"] {
+	border-radius: 15%!important;
 }
 .avatarNormal-3luwna {
 	border:none;
@@ -4714,4 +4711,5 @@ form > [class*="typing-"] {
     top: -4px;
 }
 [class*="timestampCozy-"] {
-    color: hsla(0,0%,100%,.4)!important
+    color: hsla(0,0%,100%,.4)!important;
+}
