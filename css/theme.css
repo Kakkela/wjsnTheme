@@ -46,7 +46,7 @@ textarea {
     border-radius: 0px;
     background-clip: content-box!important
 }
-[class*="scrollerWrap-"] [class*="scroller-"]::-webkit-scrollbar-track-piece {
+[class*="scrollerWrap-"] [class*="scroller-"]::-webkit-scrollbar-track {
     border: none!important;
     background: none!important;
 }
@@ -4712,4 +4712,7 @@ form > [class*="typing-"] {
 }
 [class*="timestampCozy-"] {
     color: hsla(0,0%,100%,.4)!important;
+}
+[class*="container-"] {
+    background-color:transparent!important;
 }
