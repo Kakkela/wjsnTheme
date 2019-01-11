@@ -5,7 +5,8 @@ Edited ver. of WitcherCord by Jadeonking (https://github.com/jadeonking/WitcherC
 Uses SmartEmbeds from BeardDesign1
 Support: https://discord.is/kakkcord
 *****************************************************************************/
-@import url(https://gitcdn.xyz/repo/Kakkela/wjsnTheme/master/css/theme.css);
+@import url(https://cdn.jsdelivr.net/gh/Kakkela/wjsnTheme@master/css/theme.css);
+
 
 /* Background image, use https. 
 To adjust background darkness adjust 0.5s below, 1 is full black and 0 is full bright. You can also create gradient with them, first is left end of the window, second is middle part of the window (can be adjusted by editing the percentage, its portion of the window from left end) and third right end of the window 
