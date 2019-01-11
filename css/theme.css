@@ -40,13 +40,13 @@ textarea {
     border: 2px solid transparent;
     background-clip: content-box
 }
-.scroller-wrap .scroller::-webkit-scrollbar-thumb {
+[class*="scrollerWrap-"] [class*="scroller-"]::-webkit-scrollbar-thumb {
     border: 1px solid transparent!important;
     background-color: rgba(35, 35, 35, .75)!important;
     border-radius: 0px;
     background-clip: content-box!important
 }
-.scroller-wrap .scroller::-webkit-scrollbar-track-piece {
+[class*="scrollerWrap-"] [class*="scroller-"]::-webkit-scrollbar-track-piece {
     border: none!important;
     background: none!important;
 }
@@ -4603,7 +4603,7 @@ form > [class*="typing-"] {
     width: 50px;
     background:none!important;
 }
-[class*="guildsWrapper-"] .scroller-wrap {
+[class*="guildsWrapper-"] [class*="scrollerWrap-"] {
     width: 70px;
 }
 [class*="guildsWrapper-"] [class*="guilds-"] [class*="guild-"] {
