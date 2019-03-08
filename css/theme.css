@@ -1,5 +1,5 @@
 /*****************************************************************************
-WJSN Square - WJSN Theme by Kakkela v0.8.0
+WJSN Square - WJSN Theme by Kakkela v0.9.0
 Edited ver. of WitcherCord by Jadeonking (https://github.com/jadeonking/WitcherCord)
 Uses SmartEmbeds from BeardDesign1
 Support: https://discord.is/kakkcord
@@ -4545,10 +4545,6 @@ form > [class*="typing-"] {
 [class*="feed-"] [class*="body-"] [class*="card-"] [class*="cardBody-"] {
     background: rgba(89, 91, 96,.3);
 }
-[class*="appMount-"] {
-    background: linear-gradient(90deg, rgba(0, 0, 0, 0.2),rgba(0, 0, 0, 0.2) 60%, rgba(0, 0, 0, 0.2) ), url('https://i.imgur.com/0vHjpep.png');
-    background-size: cover!important;
-}
 [class*="guildsWrapper-"] [class*="scroller-"] > [class*="guild-"]:first-child [class*="guildInner-"] {
     background-image: url(https://i.imgur.com/KwzaOdl.png)!important;
     background-color: transparent!important;
@@ -4715,4 +4711,70 @@ form > [class*="typing-"] {
 }
 [class*="container-"] {
     background-color:transparent!important;
+}
+[class*="flex-"]>[class*="wrapper-"] {
+    background-color:transparent;
+}
+
+[class*="flex-"]>[class*="wrapper-"] [class*="container-"] {
+    height: 38px!important;
+    width: 38px;
+    margin-top: 4px;
+    margin-bottom:0px;
+    margin-right:0px;
+    margin-left: -5px;
+}
+[class*="flex-"]>[class*="wrapper-"] [class*="container-"] [class*="badge-"] {
+    top: 21px;
+    right: 10px;
+}
+
+[class*="flex-"]>[class*="wrapper-"] [class*="container-"] [class*="wrapper-"] {
+    border-radius: 5%!important;
+}
+[class*="flex-"]>[class*="wrapper-"] [class*="container-"] [class*="wrapper-"] [class*="iconSizeLarge-"], [class*="flex-"]>[class*="wrapper-"] [class*="container-"] [class*="wrapper-"] [class*="avatar-"] {
+    height: 38px;
+    width: 38px;
+}
+[class*="flex-"]>[class*="wrapper-"] [class*="container-"][class*="unread-"]:before {
+    height:38px;
+    width:5px;
+    margin-top:-19px;
+    border-radius:2px;
+    left:40px;
+    background: var(--accentcolor1);
+}
+[class*="flex-"]>[class*="wrapper-"]{
+	width: 55px;
+}
+[class*="flex-"]>[class*="wrapper-"] [class*="scrollerWrap-"] {
+	width: 70px;
+}
+[class*="flex-"]>[class*="wrapper-"] [class*="guildSeparator-"] {
+	width: 50px;
+    margin-left: -10px;
+    height: 10px;
+}
+[class*="flex-"]>[class*="wrapper-"] [class*="guildSeparator-"]:after {
+    display:none;
+}
+[class*="flex-"]>[class*="wrapper-"] [class*="container-"] [class*="homeButton-"] {
+    height: 38px;
+    width: 38px;
+    margin-top: 4px;
+    margin-bottom:0px;
+    margin-left:5px;
+    background-color:transparent!important;
+}
+[class*="flex-"]>[class*="wrapper-"] [class*="container-"] [class*="homeButton-"] svg {
+    display:none;
+}
+
+[class*="flex-"]>[class*="wrapper-"] [class*="container-"] [class*="homeButton-"] [class*="homeLink-"] {
+    background-image: url(https://i.imgur.com/KwzaOdl.png)!important;
+    background-size: contain;
+}
+[class*="flex-"]>[class*="wrapper-"] [class*="friendsOnline-"] {
+    width: 55px;
+    font-size: 8px;
 }
