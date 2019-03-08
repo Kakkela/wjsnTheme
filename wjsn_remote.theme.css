@@ -1,4 +1,4 @@
-//META{"name":"WJSN_Square_Theme","description":"WJSN Square Theme","author":"Kakkela","version":"0.8.0"}*//{}
+//META{"name":"WJSN_Square_Theme","description":"WJSN Square Theme","author":"Kakkela","version":"0.9.0"}*//{}
 /*****************************************************************************
 WJSN Square - WJSN Theme by Kakkela
 Edited ver. of WitcherCord by Jadeonking (https://github.com/jadeonking/WitcherCord)
@@ -43,21 +43,30 @@ To adjust background darkness adjust 0.5s below, 1 is full black and 0 is full b
     background: rgba(226, 81, 149,.2)!important;
 }
 
+
 /* SERVER LIST EDITS, DELETE THIS WHOLE LINE FOR THREE SERVER COLUMNS 
 
-[class*="guildsWrapper-"]{
+[class*="flex-"]>[class*="wrapper-"]{
 	width: 150px;
 }
-[class*="guildsWrapper-"] [class*="scrollerWrap-"] {
+[class*="flex-"]>[class*="wrapper-"] [class*="scrollerWrap-"] {
 	width: 170px;
 }
-[class*="guildsWrapper-"] [class*="guilds-"] [class*="guild-"] {
+[class*="flex-"]>[class*="wrapper-"] [class*="container-"] {
 	float:left;
-    margin-right: 9px;
+    margin-right: 14px;
     margin-top: 4px;
 }
-[class*="guildsWrapper-"] [class*="guildSeparator-"] {
+[class*="flex-"]>[class*="wrapper-"] [class*="guildSeparator-"] {
 	width: 180px;
     height: 35px;
 }
-*/
+[class*="flex-"]>[class*="wrapper-"] [class*="friendsOnline-"] {
+    width: 55px;
+    font-size: 8px;
+    margin-top: 50px;
+    padding-left: 44px;
+}
+[class*="flex-"]>[class*="wrapper-"] [class*="container-"] [class*="homeButton-"] {
+    margin-left: 47px;
+}*/
