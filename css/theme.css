@@ -4736,13 +4736,16 @@ form > [class*="typing-"] {
     height: 38px;
     width: 38px;
 }
-[class*="flex-"]>[class*="wrapper-"] [class*="container-"][class*="unread-"]:before {
+[class*="flex-"]>[class*="wrapper-"] [class*="container-"][class*="unread-"]:before, [class*="flex-"]>[class*="wrapper-"] [class*="container-"][class*="selected-"][class*="unread-"]:before {
     height:38px;
     width:5px;
     margin-top:-19px;
     border-radius:2px;
     left:40px;
     background: var(--accentcolor1);
+}
+[class*="flex-"]>[class*="wrapper-"] [class*="container-"][class*="selected-"]:before {
+    display:none
 }
 [class*="flex-"]>[class*="wrapper-"]{
 	width: 55px;
