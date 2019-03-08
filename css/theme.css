@@ -312,13 +312,13 @@ div.guild.active {
 [class*="guilds-"] {
     padding: 18px 20px 85px
 }
-div[class*="guild-"][class*="selected-"] {
+div[class*="flex-"]>[class*="wrapper-"] [class*="container-"][class*="selected-"] {
     opacity: 1!important
 }
-[class*="guildsWrapper-"] [class*="guilds-"] [class*="guild-"]:not([class*="selected-"]) {
+[class*="flex-"]>[class*="wrapper-"] [class*="container-"]:not([class*="selected-"]) {
     opacity: .5
 }
-[class*="guildsWrapper-"] [class*="guilds-"] [class*="guild-"]:not([class*="selected-"]):hover {
+[class*="flex-"]>[class*="wrapper-"] [class*="container-"]:not([class*="selected-"]):hover {
     opacity: .75
 }
 .guilds-wrapper .guilds .guild.audio .guild-inner:after {
