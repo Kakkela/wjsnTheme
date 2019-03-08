@@ -4744,8 +4744,8 @@ form > [class*="typing-"] {
     left:40px;
     background: var(--accentcolor1);
 }
-[class*="flex-"]>[class*="wrapper-"] [class*="container-"][class*="selected-"]:before {
-    display:none
+[class*="flex-"]>[class*="wrapper-"] [class*="container-"][class*="selected-"]:not([class*="unread-"]):before {
+    display: none;
 }
 [class*="flex-"]>[class*="wrapper-"]{
 	width: 55px;
@@ -4791,4 +4791,7 @@ form > [class*="typing-"] {
     width: 38px;
     height: 38px;
     margin-left: -2px;
+}
+[class*="dragfix-"]:active {
+    border-radius: 5%;
 }
