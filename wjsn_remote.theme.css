@@ -1,11 +1,11 @@
-//META{"name":"WJSN_Square_Theme","description":"WJSN Square Theme","author":"Kakkela","version":"0.9.0"}*//{}
+//META{"name":"WJSN_Square_Theme","description":"WJSN Square Theme","author":"Kakkela","version":"0.9.3"}*//{}
 /*****************************************************************************
 WJSN Square - WJSN Theme by Kakkela
 Edited ver. of WitcherCord by Jadeonking (https://github.com/jadeonking/WitcherCord)
 Uses SmartEmbeds from BeardDesign1
 Support: https://discord.is/kakkcord
 *****************************************************************************/
-@import url(http://cdn.jsdelivr.net/gh/Kakkela/wjsnTheme@latest/css/theme.css);
+@import url(http://cdn.jsdelivr.net/gh/Kakkela/wjsnTheme/css/theme.css);
 
 
 /* Background image, use https. 
@@ -46,27 +46,27 @@ To adjust background darkness adjust 0.5s below, 1 is full black and 0 is full b
 
 /* SERVER LIST EDITS, DELETE THIS WHOLE LINE FOR THREE SERVER COLUMNS 
 
-[class*="flex-"]>[class*="wrapper-"]{
+[class*="layer-"]>[class*="flex-"]>[class*="wrapper-"]{
 	width: 150px;
 }
-[class*="flex-"]>[class*="wrapper-"] [class*="scrollerWrap-"] {
+[class*="layer-"]>[class*="flex-"]>[class*="wrapper-"] [class*="scrollerWrap-"] {
 	width: 170px;
 }
-[class*="flex-"]>[class*="wrapper-"] [class*="container-"], [class*="flex-"]>[class*="wrapper-"] [class*="scroller-"]>div:last-child {
+[class*="layer-"]>[class*="flex-"]>[class*="wrapper-"] [class*="container-"], [class*="layer-"]>[class*="flex-"]>[class*="wrapper-"] [class*="scroller-"]>div:nth-last-child(-n+2):not([class*="container-"]) {
 	float:left;
     margin-right: 14px;
     margin-top: 4px;
 }
-[class*="flex-"]>[class*="wrapper-"] [class*="guildSeparator-"] {
+[class*="layer-"]>[class*="flex-"]>[class*="wrapper-"] [class*="guildSeparator-"] {
 	width: 180px;
     height: 35px;
 }
-[class*="flex-"]>[class*="wrapper-"] [class*="friendsOnline-"] {
+[class*="layer-"]>[class*="flex-"]>[class*="wrapper-"] [class*="friendsOnline-"] {
     width: 55px;
     font-size: 8px;
     margin-top: 50px;
     padding-left: 44px;
 }
-[class*="flex-"]>[class*="wrapper-"] [class*="container-"] [class*="homeButton-"] {
+[class*="layer-"]>[class*="flex-"]>[class*="wrapper-"] [class*="container-"] [class*="homeButton-"] {
     margin-left: 47px;
 }*/
