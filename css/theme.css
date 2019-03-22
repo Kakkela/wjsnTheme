@@ -4786,11 +4786,17 @@ form > [class*="typing-"] {
     top:0px;
     height:38px;
 }
-[class*="layer-"]>[class*="flex-"]>[class*="wrapper-"] [class*="scroller-"]>div:nth-last-child(-n+2):not([class*="container-"])>div, [class*="layer-"]>[class*="flex-"]>[class*="wrapper-"] [class*="scroller-"]>div:nth-last-child(-n+2):not([class*="container-"]) {
+[class*="layer-"]>[class*="flex-"]>[class*="wrapper-"] [class*="scroller-"]>div:nth-last-child(-n+3):not(.container-2td-dC) {
     border-radius: 5%;
     width: 38px;
     height: 38px;
-    margin-left: -2px;
+    margin-left: -5px;
+}
+[class*="layer-"]>[class*="flex-"]>[class*="wrapper-"] [class*="scroller-"]>div:nth-last-child(-n+3):not(.container-2td-dC)>div {
+    border-radius: 5%;
+    width: 38px;
+    height: 38px;
+    margin-left: 0px;
 }
 [class*="dragfix-"]:active {
     border-radius: 5%;
