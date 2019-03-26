@@ -1,5 +1,5 @@
 /*****************************************************************************
-WJSN Square - WJSN Theme by Kakkela v0.9.4
+WJSN Square - WJSN Theme by Kakkela v0.9.5
 Edited ver. of WitcherCord by Jadeonking (https://github.com/jadeonking/WitcherCord)
 Uses SmartEmbeds from BeardDesign1
 Support: https://discord.is/kakkcord
@@ -312,13 +312,13 @@ div.guild.active {
 [class*="guilds-"] {
     padding: 18px 20px 85px
 }
-div[class*="layer-"]>[class*="flex-"]>[class*="wrapper-"] [class*="container-"][class*="selected-"] {
+div[class^="layer-"]>[class*="flex-"]>[class*="wrapper-"] [class*="container-"][class*="selected-"] {
     opacity: 1!important
 }
-[class*="layer-"]>[class*="flex-"]>[class*="wrapper-"] [class*="container-"]:not([class*="selected-"]) {
+[class^="layer-"]>[class*="flex-"]>[class*="wrapper-"] [class*="container-"]:not([class*="selected-"]) {
     opacity: .5
 }
-[class*="layer-"]>[class*="flex-"]>[class*="wrapper-"] [class*="container-"]:not([class*="selected-"]):hover {
+[class^="layer-"]>[class*="flex-"]>[class*="wrapper-"] [class*="container-"]:not([class*="selected-"]):hover {
     opacity: .75
 }
 .guilds-wrapper .guilds .guild.audio .guild-inner:after {
@@ -4333,11 +4333,11 @@ div.now-playing-add span.link:hover {
 /* Background shittery */
 
 
-[class*="layer-"], [class*="layers-"], [class*="layer-"] > [class*="container-"], [class*="channels-"] [class*="container-"], .theme-dark .chat, .theme-dark .chat>.content, .theme-dark .messages-wrapper, .theme-dark .chat form, [class*="noChannel-"] {
+[class^="layer-"], [class*="layers-"], [class^="layer-"] > [class*="container-"], [class*="channels-"] [class*="container-"], .theme-dark .chat, .theme-dark .chat>.content, .theme-dark .messages-wrapper, .theme-dark .chat form, [class*="noChannel-"] {
 	background: none!important;
 }
 
-.guilds-wrapper, .unread-mentions-bar, [class*="channels-"], [class*="layer-"] > [class*="container-"], [class*="title-"], .chat form, .friends-table, [class*="headerBar-"], .header-2o-2hj, .unreadMentionsBar-1VrBNe {
+.guilds-wrapper, .unread-mentions-bar, [class*="channels-"], [class^="layer-"] > [class*="container-"], [class*="title-"], .chat form, .friends-table, [class*="headerBar-"], .header-2o-2hj, .unreadMentionsBar-1VrBNe {
 	box-shadow: none!important;
 }
 
@@ -4712,11 +4712,11 @@ form > [class*="typing-"] {
 [class*="container-"] {
     background-color:transparent!important;
 }
-[class*="layer-"]>[class*="flex-"]>[class*="wrapper-"] {
+[class^="layer-"]>[class*="flex-"]>[class*="wrapper-"] {
     background-color:transparent;
 }
 
-[class*="layer-"]>[class*="flex-"]>[class*="wrapper-"] [class*="container-"] {
+[class^="layer-"]>[class*="flex-"]>[class*="wrapper-"] [class*="container-"] {
     height: 38px!important;
     width: 38px;
     margin-top: 4px;
@@ -4724,19 +4724,19 @@ form > [class*="typing-"] {
     margin-right:0px;
     margin-left: -5px;
 }
-[class*="layer-"]>[class*="flex-"]>[class*="wrapper-"] [class*="container-"] [class*="badge-"] {
+[class^="layer-"]>[class*="flex-"]>[class*="wrapper-"] [class*="container-"] [class*="badge-"] {
     top: 21px;
     right: 10px;
 }
 
-[class*="layer-"]>[class*="flex-"]>[class*="wrapper-"] [class*="container-"] [class*="wrapper-"] {
+[class^="layer-"]>[class*="flex-"]>[class*="wrapper-"] [class*="container-"] [class*="wrapper-"] {
     border-radius: 5%!important;
 }
-[class*="layer-"]>[class*="flex-"]>[class*="wrapper-"] [class*="container-"] [class*="wrapper-"] [class*="iconSizeLarge-"], [class*="layer-"]>[class*="flex-"]>[class*="wrapper-"] [class*="container-"] [class*="wrapper-"] [class*="avatar-"] {
+[class^="layer-"]>[class*="flex-"]>[class*="wrapper-"] [class*="container-"] [class*="wrapper-"] [class*="iconSizeLarge-"], [class^="layer-"]>[class*="flex-"]>[class*="wrapper-"] [class*="container-"] [class*="wrapper-"] [class*="avatar-"] {
     height: 38px;
     width: 38px;
 }
-[class*="layer-"]>[class*="flex-"]>[class*="wrapper-"] [class*="container-"][class*="unread-"]:before, [class*="layer-"]>[class*="flex-"]>[class*="wrapper-"] [class*="container-"][class*="selected-"][class*="unread-"]:before {
+[class^="layer-"]>[class*="flex-"]>[class*="wrapper-"] [class*="container-"][class*="unread-"]:before, [class^="layer-"]>[class*="flex-"]>[class*="wrapper-"] [class*="container-"][class*="selected-"][class*="unread-"]:before {
     height:38px;
     width:5px;
     margin-top:-19px;
@@ -4744,24 +4744,24 @@ form > [class*="typing-"] {
     left:40px;
     background: var(--accentcolor1);
 }
-[class*="layer-"]>[class*="flex-"]>[class*="wrapper-"] [class*="container-"][class*="selected-"]:not([class*="unread-"]):before {
+[class^="layer-"]>[class*="flex-"]>[class*="wrapper-"] [class*="container-"][class*="selected-"]:not([class*="unread-"]):before {
     display: none;
 }
-[class*="layer-"]>[class*="flex-"]>[class*="wrapper-"]{
+[class^="layer-"]>[class*="flex-"]>[class*="wrapper-"]{
 	width: 55px;
 }
-[class*="layer-"]>[class*="flex-"]>[class*="wrapper-"] [class*="scrollerWrap-"] {
+[class^="layer-"]>[class*="flex-"]>[class*="wrapper-"] [class*="scrollerWrap-"] {
 	width: 70px;
 }
-[class*="layer-"]>[class*="flex-"]>[class*="wrapper-"] [class*="guildSeparator-"] {
+[class^="layer-"]>[class*="flex-"]>[class*="wrapper-"] [class*="guildSeparator-"] {
 	width: 50px;
     margin-left: -10px;
     height: 10px;
 }
-[class*="layer-"]>[class*="flex-"]>[class*="wrapper-"] [class*="guildSeparator-"]:after {
+[class^="layer-"]>[class*="flex-"]>[class*="wrapper-"] [class*="guildSeparator-"]:after {
     display:none;
 }
-[class*="layer-"]>[class*="flex-"]>[class*="wrapper-"] [class*="container-"] [class*="homeButton-"] {
+[class^="layer-"]>[class*="flex-"]>[class*="wrapper-"] [class*="container-"] [class*="homeButton-"] {
     height: 38px;
     width: 38px;
     margin-top: 4px;
@@ -4769,30 +4769,30 @@ form > [class*="typing-"] {
     margin-left:5px;
     background-color:transparent!important;
 }
-[class*="layer-"]>[class*="flex-"]>[class*="wrapper-"] [class*="container-"] [class*="homeButton-"] svg {
+[class^="layer-"]>[class*="flex-"]>[class*="wrapper-"] [class*="container-"] [class*="homeButton-"] svg {
     display:none;
 }
 
-[class*="layer-"]>[class*="flex-"]>[class*="wrapper-"] [class*="container-"] [class*="homeButton-"] [class*="homeLink-"] {
+[class^="layer-"]>[class*="flex-"]>[class*="wrapper-"] [class*="container-"] [class*="homeButton-"] [class*="homeLink-"] {
     background-image: url(https://i.imgur.com/KwzaOdl.png)!important;
     background-size: contain;
 }
-[class*="layer-"]>[class*="flex-"]>[class*="wrapper-"] [class*="friendsOnline-"] {
+[class^="layer-"]>[class*="flex-"]>[class*="wrapper-"] [class*="friendsOnline-"] {
     width: 55px;
     font-size: 8px;
 }
-[class*="layer-"]>[class*="flex-"]>[class*="wrapper-"] [class*="scroller-"] [class*="plus-"] {
-    line-height: 38px;
-    top:0px;
-    height:38px;
+[class^="layer-"]>[class*="flex-"]>[class*="wrapper-"] [class*="scroller-"] [class*="plus-"] {
+    height:24px;
+    width:24px;
+    line-height:22px;
 }
-[class*="layer-"]>[class*="flex-"]>[class*="wrapper-"] [class*="scroller-"]>div:nth-last-child(-n+3):not(.container-2td-dC) {
+[class^="layer-"]>[class*="flex-"]>[class*="wrapper-"] [class*="scroller-"]>div:nth-last-child(-n+3):not(.container-2td-dC) {
     border-radius: 5%;
     width: 38px;
     height: 38px;
     margin-left: -5px;
 }
-[class*="layer-"]>[class*="flex-"]>[class*="wrapper-"] [class*="scroller-"]>div:nth-last-child(-n+3):not(.container-2td-dC)>div {
+[class^="layer-"]>[class*="flex-"]>[class*="wrapper-"] [class*="scroller-"]>div:nth-last-child(-n+3):not(.container-2td-dC)>div {
     border-radius: 5%;
     width: 38px;
     height: 38px;
