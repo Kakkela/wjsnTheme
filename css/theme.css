@@ -4801,3 +4801,6 @@ form > [class*="typing-"] {
 [class*="dragfix-"]:active {
     border-radius: 5%;
 }
+[class^="pageWrapper-"] {
+    background-color: transparent!important;
+}
