@@ -1,5 +1,5 @@
 /*****************************************************************************
-WJSN Square - WJSN Theme by Kakkela v0.10.1
+WJSN Square - WJSN Theme by Kakkela v0.10.2
 Edited ver. of WitcherCord by Jadeonking (https://github.com/jadeonking/WitcherCord)
 Uses SmartEmbeds from BeardDesign1
 Support: https://discord.is/kakkcord
@@ -4744,7 +4744,7 @@ form > [class*="typing-"] {
 }
 [class^="layer-"]>[class*="flex-"]>[class*="wrapper-"] [class*="listItem-"]>[class^="pill-"] {
     height:38px;
-    left:39px;
+    left:40px;
     width: 5px;
     border-radius: 2px;
 }
@@ -4752,6 +4752,18 @@ form > [class*="typing-"] {
     border-radius: 2px;
     margin-left: 0px;
     width: 5px;
+    height: 38px!important;
+    background-color: var(--accentcolor1)!important;
+}
+[class^="layer-"]>[class*="flex-"]>[class*="wrapper-"] [class*="listItem-"]>[class^="pill-"]>span[style*="opacity: 1;"] {
+    background-color:white!important;
+}
+[class^="layer-"]>[class*="flex-"]>[class*="wrapper-"] [class*="listItem-"]:hover>[class^="pill-"]>span {
+    opacity: 1!important;
+    background-color: white!important;
+}
+[class^="layer-"]>[class*="flex-"]>[class*="wrapper-"] [class*="listItem-"]:not(:hover)>[class^="pill-"]>span[style*="opacity: 0.7;"] {
+    opacity: 0.5!important;
 }
 
 [class^="layer-"]>[class*="flex-"]>[class*="wrapper-"] [class*="listItem-"] img, [class^="layer-"]>[class*="flex-"]>[class*="wrapper-"] [class*="listItem-"] foreignObject, [class^="layer-"]>[class*="flex-"]>[class*="wrapper-"] [class*="listItem-"] div {
