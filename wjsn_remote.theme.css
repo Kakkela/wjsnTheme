@@ -1,4 +1,4 @@
-//META{"name":"WJSN_Square_Theme","description":"WJSN Square Theme","author":"Kakkela","version":"0.9.5"}*//{}
+//META{"name":"WJSN_Square_Theme","description":"WJSN Square Theme","author":"Kakkela","version":"0.10.1"}*//{}
 /*****************************************************************************
 WJSN Square - WJSN Theme by Kakkela
 Edited ver. of WitcherCord by Jadeonking (https://github.com/jadeonking/WitcherCord)
@@ -16,7 +16,7 @@ To adjust background darkness adjust 0.5s below, 1 is full black and 0 is full b
     background-size: cover!important;
 }
 /* Friends icon, use https */
-[class^="layer-"]>[class*="flex-"]>[class*="wrapper-"] [class*="container-"] [class*="homeButton-"] [class*="homeLink-"] {
+[class^="layer-"]>[class*="flex-"]>[class*="wrapper-"] [class*="scroller-"]>div:nth-child(1) [class*="blob-"]  {
     background-image: url(https://i.imgur.com/KwzaOdl.png)!important;
 }
 /* If you want embed video controls change display:none to display:inherit */
@@ -47,19 +47,24 @@ To adjust background darkness adjust 0.5s below, 1 is full black and 0 is full b
 /* SERVER LIST EDITS, DELETE THIS WHOLE LINE FOR THREE SERVER COLUMNS 
 
 [class^="layer-"]>[class*="flex-"]>[class*="wrapper-"]{
-	width: 150px;
+	width: 155px;
 }
 [class^="layer-"]>[class*="flex-"]>[class*="wrapper-"] [class*="scrollerWrap-"] {
 	width: 170px;
 }
-[class^="layer-"]>[class*="flex-"]>[class*="wrapper-"] [class*="container-"], [class^="layer-"]>[class*="flex-"]>[class*="wrapper-"] [class*="scroller-"]>div:nth-last-child(-n+3):not(.container-2td-dC) {
+[class^="layer-"]>[class*="flex-"]>[class*="wrapper-"] [class*="scroller-"]>[class*="listItem-"]:nth-child(2) {
+    width: 180px!important;
+    height: 5px!important;
+}
+[class^="layer-"]>[class*="flex-"]>[class*="wrapper-"] [class*="listItem-"], [class^="layer-"]>[class*="flex-"]>[class*="wrapper-"] [class*="scroller-"]>div {
 	float:left;
-    margin-right: 14px;
-    margin-top: 4px;
+    margin: 4px 10px 0 0;
+    border-radius: 0px;
 }
 [class^="layer-"]>[class*="flex-"]>[class*="wrapper-"] [class*="guildSeparator-"] {
 	width: 180px;
     height: 35px;
+    background:none;
 }
 [class^="layer-"]>[class*="flex-"]>[class*="wrapper-"] [class*="friendsOnline-"] {
     width: 55px;
@@ -67,6 +72,10 @@ To adjust background darkness adjust 0.5s below, 1 is full black and 0 is full b
     margin-top: 50px;
     padding-left: 44px;
 }
-[class^="layer-"]>[class*="flex-"]>[class*="wrapper-"] [class*="container-"] [class*="homeButton-"] {
+[class^="layer-"]>[class*="flex-"]>[class*="wrapper-"] [class*="scroller-"]>div:nth-child(1) {
     margin-left: 47px;
-}*/
+    width: 48px;
+    margin-right:50px;
+}
+
+*/
