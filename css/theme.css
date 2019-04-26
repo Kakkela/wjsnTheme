@@ -4801,6 +4801,10 @@ form > [class*="typing-"] {
     filter:brightness(0.3); 
     opacity: 0.6;
 }
+[class*="modeUnread-"] [class^="name-"], [class*="modeUnread-"] [class^="icon-"], [class*="modeUnread-"] [class^="unread-"] {
+    color: var(--accentcolor1)!important;
+    filter:brightness(1.4); 
+}
 [class*="container-"] [class*="containerDefault-"] [class*="modeSelected-"]>[class^="content-"] {
     background-color: var(--accentcolor3)!important;
 }
