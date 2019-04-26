@@ -1,5 +1,5 @@
 /*****************************************************************************
-WJSN Square - WJSN Theme by Kakkela v0.10.2
+WJSN Square - WJSN Theme by Kakkela v0.10.3
 Edited ver. of WitcherCord by Jadeonking (https://github.com/jadeonking/WitcherCord)
 Uses SmartEmbeds from BeardDesign1
 Support: https://discord.is/kakkcord
@@ -4325,7 +4325,7 @@ div.now-playing-add span.link:hover {
 /* Background shittery */
 
 
-[class^="layer-"], [class*="layers-"], [class^="layer-"] > [class*="container-"], [class*="channels-"] [class*="container-"], .theme-dark .chat, .theme-dark .chat>.content, .theme-dark .messages-wrapper, .theme-dark .chat form, [class*="noChannel-"] {
+[class^="layer-"], [class*="layers-"], [class^="layer-"] > [class*="container-"], .theme-dark .chat, .theme-dark .chat>.content, .theme-dark .messages-wrapper, .theme-dark .chat form, [class*="noChannel-"] {
 	background: none!important;
 }
 
@@ -4489,11 +4489,8 @@ form > [class*="typing-"] {
 }
 [class*="messageCozy-"] [class*="markup-"] {
     color: #e8e8e8!important;
-    text-shadow: 2px 2px 5px #000000;
 }
-[class*="channels-"], [class*="privateChannels-"], [class*="chat-"] {
-    text-shadow: 2px 2px 5px #000000;
-}
+
 .search  {
     text-shadow:none;
 }
@@ -4502,15 +4499,12 @@ form > [class*="typing-"] {
 }
 .private-channels .channel.selected .channel-name, .private-channels .channel .channel-activity {
     color:white!important;
-    text-shadow: 1px 1px 4px #000000;
 }
 .private-channels .channel .channel-activity strong {
     color:white!important;
-    text-shadow: 1px 1px 4px #000000;
 }
 [class*="nameUnreadText-"], [class*="nameUnreadVoice-"] {
 	color: white;
-	text-shadow: 3px 5px 5px #000000;
 }
 [class*="contentHoveredText-"] {
     background: var(--accentcolor4);
@@ -4526,7 +4520,6 @@ form > [class*="typing-"] {
 }
 [class*="feed-"] [class*="body-"] [class*="emptyState-"], [class*="feed-"] [class*="body-"] [class*="playTime-"], [class*="feed-"] [class*="body-"] {
     color:white!important;
-    text-shadow: 1px 1px 4px #000000;
 }
 [class*="feed-"] [class*="body-"] [class*="card-"] {
     background: none;
@@ -4796,4 +4789,47 @@ form > [class*="typing-"] {
 [class^="layer-"]>[class*="flex-"]>[class*="wrapper-"] [class*="listItem-"], [class^="layer-"]>[class*="flex-"]>[class*="wrapper-"] [class*="scroller-"]>div {
     margin: 4px 10px 0 0;
     border-radius: 0px;
+}
+[class^="searchBarComponent-"] {
+    background-color: #202225!important;
+}
+[class*="container-"] [class*="containerDefault-"] [class^="name-"], [class*="container-"] [class*="containerDefault-"] [class^="icon-"], [class*="privateChannels-"] [class*="name-"], [class*="privateChannels-"] [class*="linkButtonIcon-"] {
+    color: var(--accentcolor1)!important;
+}
+[class*="modeMuted-"] [class^="name-"], [class*="modeMuted-"] [class^="icon-"] {
+    color: var(--accentcolor1)!important;
+    filter:brightness(0.3); 
+    opacity: 0.6;
+}
+[class*="container-"] [class*="containerDefault-"] [class*="modeSelected-"]>[class^="content-"] {
+    background-color: var(--accentcolor3)!important;
+}
+[class*="container-"] [class*="containerDefault-"] [class^="content-"]:hover {
+    background-color: var(--accentcolor4)!important;
+}
+[class*="container-"] [class*="containerDefault-"]:first-child [class^="name-"], [class*="container-"] [class*="containerDefault-"]:first-child [class^="icon-"] {
+    color: var(--accentcolor2)!important;
+}
+[class*="container-"] [class*="containerDefault-"]:first-child [class*="muted-"] [class^="name-"], [class*="container-"] [class*="containerDefault-"]:first-child [class*="muted-"] [class^="icon-"] {
+    color: var(--accentcolor2)!important;
+    filter:brightness(0.3);
+    opacity: 0.6;
+}
+[class*="clickable-"] [class*="icon-"] {
+    color: var(--accentcolor1)!important;
+    filter:brightness(1.1); 
+}
+[class*="clickable-"][class*="selected-"] [class*="icon-"] {
+    color: var(--accentcolor1)!important;
+    filter:brightness(1.3); 
+}
+
+[class*="feed-"] [class*="body-"] [class*="emptyState-"], [class*="feed-"] [class*="body-"] [class*="playTime-"], [class*="feed-"] [class*="body-"] {
+    text-shadow: 1px 1px 4px #000000;
+}
+[class*="nameUnreadText-"], [class*="nameUnreadVoice-"] {
+	text-shadow: 3px 5px 5px #000000;
+}
+[class*="messageCozy-"] [class*="markup-"], [class*="channels-"], [class*="privateChannels-"], [class*="chat-"] {
+    text-shadow: 2px 2px 5px #000000;
 }
