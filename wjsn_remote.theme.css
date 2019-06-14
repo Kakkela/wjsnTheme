@@ -52,7 +52,7 @@ To adjust background darkness adjust 0.5s below, 1 is full black and 0 is full b
 [class^="layer-"]>[class*="flex-"]>[class*="wrapper-"] [class*="scrollerWrap-"] {
 	width: 170px;
 }
-[class^="layer-"]>[class*="flex-"]>[class*="wrapper-"] [class*="scroller-"]>[class*="listItem-"]:nth-child(2) {
+[class^="layer-"]>[class*="flex-"]>[class*="wrapper-"] [class*="scroller-"]>[class*="listItem-"]:nth-child(3) {
     width: 180px!important;
     height: 5px!important;
 }
@@ -61,7 +61,7 @@ To adjust background darkness adjust 0.5s below, 1 is full black and 0 is full b
     margin: 4px 10px 0 0;
     border-radius: 0px;
 }
-[class^="layer-"]>[class*="flex-"]>[class*="wrapper-"] [class*="guildSeparator-"] {
+[class^="layer-"]>[class*="flex-"]>[class*="wrapper-"] [class*="listItem-"] , [class^="layer-"]>[class*="flex-"]>[class*="wrapper-"] [class*="guildSeparator-"] {
 	width: 180px;
     height: 35px;
     background:none;
@@ -74,7 +74,6 @@ To adjust background darkness adjust 0.5s below, 1 is full black and 0 is full b
 }
 [class^="layer-"]>[class*="flex-"]>[class*="wrapper-"] [class*="scroller-"]>div:nth-child(1) {
     margin-left: 47px;
-    width: 48px;
     margin-right:50px;
 }
 
