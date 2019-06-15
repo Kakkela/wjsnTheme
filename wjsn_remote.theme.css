@@ -1,4 +1,4 @@
-//META{"name":"WJSN_Square_Theme","description":"WJSN Square Theme","author":"Kakkela","version":"0.10.1"}*//{}
+//META{"name":"WJSN_Square_Theme","description":"WJSN Square Theme","author":"Kakkela","version":"0.10.2"}*//{}
 /*****************************************************************************
 WJSN Square - WJSN Theme by Kakkela
 Edited ver. of WitcherCord by Jadeonking (https://github.com/jadeonking/WitcherCord)
@@ -16,8 +16,10 @@ To adjust background darkness adjust 0.5s below, 1 is full black and 0 is full b
     background-size: cover!important;
 }
 /* Friends icon, use https */
-[class^="layer-"]>[class*="flex-"]>[class*="wrapper-"] [class*="scroller-"]>div:nth-child(1) [class*="blob-"]  {
+[class^="layer-"]>[class*="flex-"]>[class*="wrapper-"] [class*="scroller-"]>div:nth-child(1) [class*="badgeWrapper-"]   {
     background-image: url(https://i.imgur.com/KwzaOdl.png)!important;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 /* If you want embed video controls change display:none to display:inherit */
 .embed [class*="embedVideoActionsInner-"] {
