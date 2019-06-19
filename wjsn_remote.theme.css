@@ -1,4 +1,4 @@
-//META{"name":"WJSN_Square_Theme","description":"WJSN Square Theme","author":"Kakkela","version":"0.10.2"}*//{}
+//META{"name":"WJSN_Square_Theme","description":"WJSN Square Theme","author":"Kakkela","version":"0.10.3"}*//{}
 /*****************************************************************************
 WJSN Square - WJSN Theme by Kakkela
 Edited ver. of WitcherCord by Jadeonking (https://github.com/jadeonking/WitcherCord)
@@ -54,7 +54,7 @@ To adjust background darkness adjust 0.5s below, 1 is full black and 0 is full b
 [class^="layer-"]>[class*="flex-"]>[class*="wrapper-"] [class*="scrollerWrap-"] {
 	width: 170px;
 }
-[class^="layer-"]>[class*="flex-"]>[class*="wrapper-"] [class*="scroller-"]>[class*="listItem-"]:nth-child(3) {
+[class^="layer-"]>[class*="flex-"]>[class*="wrapper-"] [class*="scroller-"]>[class*="listItem-"]:nth-child(2) {
     width: 180px!important;
     height: 5px!important;
 }
