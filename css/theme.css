@@ -1,5 +1,5 @@
 /*****************************************************************************
-WJSN Square - WJSN Theme by Kakkela v0.10.4
+WJSN Square - WJSN Theme by Kakkela v0.10.6
 Edited ver. of WitcherCord by Jadeonking (https://github.com/jadeonking/WitcherCord)
 Uses SmartEmbeds from BeardDesign1
 Support: https://discord.is/kakkcord
@@ -4294,7 +4294,7 @@ div.now-playing-add span.link:hover {
 .theme-dark .activityProfile-2pymp0 .content-P9ThHS, .theme-dark .activityProfile-2pymp0 .headerText-2CVBxK, .theme-dark .activityUserPopout-1nmgaw .content-P9ThHS, .theme-dark .activityUserPopout-1nmgaw .headerText-2CVBxK, .theme-light .activityProfile-2pymp0 .content-P9ThHS, .theme-light .activityProfile-2pymp0 .headerText-2CVBxK, .theme-light .activityUserPopout-1nmgaw .content-P9ThHS, .theme-light .activityUserPopout-1nmgaw .headerText-2CVBxK {
 	color: white!important;
 }
-[class*="avatarWrapper-"], [class*="avatar-"], [class*="avatarHint-"], [class*="image-"], [class*="avatarSmall-"] [class*="inner-"] {
+[class*="avatarWrapper-"], [class*="avatar-"], [class*="avatarHint-"], [class*="image-"], [class*="avatarSmall-"] [class*="inner-"], [class*="avatar-"]>[class^="wrapper-"] {
 	border-radius: 15%!important;
 }
 .avatarNormal-3luwna {
@@ -4853,4 +4853,11 @@ form > [class*="typing-"] {
 [class^="layer-"]>[class*="flex-"]>[class*="wrapper-"] [class*="scroller-"]>div:nth-child(1) [class*="Wrapper-"]  {
     width:38px;
     height:38px;
+}
+[class*="avatarWrapper-"], [class*="avatar-"], [class*="headerAvatar-"], [class*="avatarHint-"], [class*="image-"], [class*="partyMember-"], [class*="avatarSmall-"], [class*="avatarSmall-"] [class*="inner-"], [class*="avatar-"]>[class^="wrapper-"], [class*="avatarWrapper-"]>[class^="wrapper-"]{
+    border-radius: 15%!important;
+}
+[class*="avatar-"]>[class^="wrapper-"] foreignObject, [class*="avatarWrapper-"] foreignObject, [class*="avatar-"] foreignObject, [class*="avatarSmall-"] foreignObject, [class*="headerAvatar-"] foreignObject, [class*="partyMember-"] foreignObject, [class*="partyMember-"]{
+    mask:none;
+    -webkit-mask: none;
 }
