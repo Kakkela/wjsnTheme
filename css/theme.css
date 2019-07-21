@@ -4854,10 +4854,10 @@ form > [class*="typing-"] {
     width:38px;
     height:38px;
 }
-[class*="avatarWrapper-"], [class*="avatar-"], [class*="headerAvatar-"], [class*="avatarHint-"], [class*="image-"], [class*="partyMember-"], [class*="avatarSmall-"], [class*="avatarSmall-"] [class*="inner-"], [class*="avatar-"]>[class^="wrapper-"], [class*="avatarWrapper-"]>[class^="wrapper-"]{
+[class*="avatarWrapper-"], [class*="avatar-"], [class*="headerAvatar-"], [class*="avatarHint-"], [class*="image-"], [class*="partyMember-"], [class*="avatarSmall-"], [class*="avatarSmall-"] [class*="inner-"], [class*="avatar-"]>[class^="wrapper-"], [class*="avatarWrapper-"]>[class^="wrapper-"], [class*="chat-"] [class*="autocompleteRowVertical-"] [class*="wrapper-"], [class*="chat-"] [class*="autocompleteRowVertical-"] [class*="wrapper-"] foreignObject img{
     border-radius: 15%!important;
 }
-[class*="avatar-"]>[class^="wrapper-"] foreignObject, [class*="avatarWrapper-"] foreignObject, [class*="avatar-"] foreignObject, [class*="avatarSmall-"] foreignObject, [class*="headerAvatar-"] foreignObject, [class*="partyMember-"] foreignObject, [class*="partyMember-"]{
+[class*="avatar-"]>[class^="wrapper-"] foreignObject, [class*="avatarWrapper-"] foreignObject, [class*="avatar-"] foreignObject, [class*="avatarSmall-"] foreignObject, [class*="headerAvatar-"] foreignObject, [class*="partyMember-"] foreignObject, [class*="partyMember-"], [class*="chat-"] [class*="autocompleteRowVertical-"] [class*="wrapper-"] foreignObject{
     mask:none;
     -webkit-mask: none;
 }
