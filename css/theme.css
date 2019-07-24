@@ -1,5 +1,5 @@
 /*****************************************************************************
-WJSN Square - WJSN Theme by Kakkela v0.11.0
+WJSN Square - WJSN Theme by Kakkela v0.11.1
 Edited ver. of WitcherCord by Jadeonking (https://github.com/jadeonking/WitcherCord)
 Uses SmartEmbeds from BeardDesign1
 Support: https://discord.is/kakkcord
@@ -4773,7 +4773,7 @@ form > [class*="typing-"] {
     height: 5px;
     background:none;
 }
-[class^="layer-"]>[class*="flex-"]>[class*="wrapper-"] [class*="scroller-"]>div:not(.bd-guild-separator), [class^="layer-"]>[class*="flex-"]>[class*="wrapper-"] [class*="scroller-"]>div [class*="blob-"], [class^="layer-"]>[class*="flex-"]>[class*="wrapper-"] [class*="scroller-"]>div [class*="blob-"]>svg {
+[class^="layer-"]>[class*="flex-"]>[class*="wrapper-"] [class*="scroller-"]>div:not(.bd-guild-separator):not([class*="wrapper-"]), [class^="layer-"]>[class*="flex-"]>[class*="wrapper-"] [class*="scroller-"]>div [class*="blob-"], [class^="layer-"]>[class*="flex-"]>[class*="wrapper-"] [class*="scroller-"]>div [class*="blob-"]>svg {
     width: 38px!important;
     height: 38px!important;
 }
@@ -4889,6 +4889,7 @@ form > [class*="typing-"] {
 [class*="expandedGuilds-"], [class*="expandedGuilds-"] [class*="listItem-"]{
     width: 38px;
     z-index: 9999;
+    margin-top: 3px;
 }
 [class^="layer-"]>[class*="flex-"]>[class*="wrapper-"] [class*="scroller-"]>div:nth-last-of-type(2), [class^="layer-"]>[class*="flex-"]>[class*="wrapper-"] [class*="scroller-"]>div:nth-last-of-type(2) [class*="circleButtonMask-"], [class^="layer-"]>[class*="flex-"]>[class*="wrapper-"] [class*="scroller-"]>div:nth-last-of-type(2) [class*="circleButtonMask-"] svg, [class^="layer-"]>[class*="flex-"]>[class*="wrapper-"] [class*="scroller-"]>div:nth-last-of-type(1), [class^="layer-"]>[class*="flex-"]>[class*="wrapper-"] [class*="scroller-"]>div:nth-last-of-type(1) [class*="circleButtonMask-"], [class^="layer-"]>[class*="flex-"]>[class*="wrapper-"] [class*="scroller-"]>div:nth-last-of-type(1) [class*="circleButtonMask-"] svg{
     width: 38px!important;
@@ -4897,4 +4898,26 @@ form > [class*="typing-"] {
 .bd-guild-separator{
     height: 5px!important;
     width: 180px!important;
+}
+
+[class*="expandedGuilds-"], [class*="expandedGuilds-"] [class*="listItem-"] foreignObject>a{
+    display: inherit;
+}
+[class*="expandedGuilds-"], [class*="expandedGuilds-"] [class*="listItem-"]{
+    width: 38px;
+    z-index: 9999;
+    margin-top: 3px!important;
+}
+[class*="expandedFolderBackground-"] {
+    position: absolute;
+    border-radius: 3px;
+    left: 0px;
+    width: 38px;
+    z-index: 99;
+}
+[class^="layer-"]>[class*="flex-"]>[class*="wrapper-"] [class*="scroller-"]>[class*="wrapper-"] {
+    width: 38px!important;
+}
+[class*="expandedGuilds-"] {
+    height: initial!important;
 }
