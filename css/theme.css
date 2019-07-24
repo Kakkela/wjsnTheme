@@ -1,5 +1,5 @@
 /*****************************************************************************
-WJSN Square - WJSN Theme by Kakkela v0.10.6
+WJSN Square - WJSN Theme by Kakkela v0.11.0
 Edited ver. of WitcherCord by Jadeonking (https://github.com/jadeonking/WitcherCord)
 Uses SmartEmbeds from BeardDesign1
 Support: https://discord.is/kakkcord
@@ -4773,14 +4773,14 @@ form > [class*="typing-"] {
     height: 5px;
     background:none;
 }
-[class^="layer-"]>[class*="flex-"]>[class*="wrapper-"] [class*="scroller-"]>div, [class^="layer-"]>[class*="flex-"]>[class*="wrapper-"] [class*="scroller-"]>div [class*="blob-"], [class^="layer-"]>[class*="flex-"]>[class*="wrapper-"] [class*="scroller-"]>div [class*="blob-"]>svg {
+[class^="layer-"]>[class*="flex-"]>[class*="wrapper-"] [class*="scroller-"]>div:not(.bd-guild-separator), [class^="layer-"]>[class*="flex-"]>[class*="wrapper-"] [class*="scroller-"]>div [class*="blob-"], [class^="layer-"]>[class*="flex-"]>[class*="wrapper-"] [class*="scroller-"]>div [class*="blob-"]>svg {
     width: 38px!important;
     height: 38px!important;
 }
 [class^="layer-"]>[class*="flex-"]>[class*="wrapper-"] [class*="scroller-"]>div:not([class*="listItem-"]) [class^="pill-"] {
     display:none
 }
-[class^="layer-"]>[class*="flex-"]>[class*="wrapper-"] [class*="scroller-"]>div:not([class*="listItem-"])+[class*="listItem-"] {
+.bd-guild-separator{
     height: 5px!important;
     width: 180px!important;
 }
@@ -4860,4 +4860,41 @@ form > [class*="typing-"] {
 [class*="avatar-"]>[class^="wrapper-"] foreignObject, [class*="avatarWrapper-"] foreignObject, [class*="avatar-"] foreignObject, [class*="avatarSmall-"] foreignObject, [class*="headerAvatar-"] foreignObject, [class*="partyMember-"] foreignObject, [class*="partyMember-"], [class*="chat-"] [class*="autocompleteRowVertical-"] [class*="wrapper-"] foreignObject{
     mask:none;
     -webkit-mask: none;
+}
+
+
+[class^="layer-"]>[class*="flex-"]>[class*="wrapper-"] [class*="scroller-"]>div:nth-child(1) [class*="Wrapper-"]  {
+    width:38px;
+    height:38px;
+}
+[class^="layer-"]>[class*="flex-"]>[class*="wrapper-"] [class*="scroller-"]>div:not([class*="listItem-"]) [class*="wrapper-"], [class^="layer-"]>[class*="flex-"]>[class*="wrapper-"] [class*="scroller-"]>div:not([class*="listItem-"]) svg {
+    width:38px;
+    height:38px;
+}
+[class^="layer-"]>[class*="flex-"]>[class*="wrapper-"] [class*="scroller-"]>[class*="wrapper-"], [class^="layer-"]>[class*="flex-"]>[class*="wrapper-"] [class*="scroller-"]>[class*="wrapper-"]>[class*="listItem-"] {
+    z-index: 100;
+}
+
+[class*="expandedFolderBackground-"] {
+    position: absolute;
+    border-radius: 3px;
+    left: 0px;
+    width: 38px;
+    z-index: 99;
+    bottom: 8px;
+}
+[class^="layer-"]>[class*="flex-"]>[class*="wrapper-"] [class*="scroller-"]>div [class*="listItem-"] {
+    margin: 0px;
+}
+[class*="expandedGuilds-"], [class*="expandedGuilds-"] [class*="listItem-"]{
+    width: 38px;
+    z-index: 9999;
+}
+[class^="layer-"]>[class*="flex-"]>[class*="wrapper-"] [class*="scroller-"]>div:nth-last-of-type(2), [class^="layer-"]>[class*="flex-"]>[class*="wrapper-"] [class*="scroller-"]>div:nth-last-of-type(2) [class*="circleButtonMask-"], [class^="layer-"]>[class*="flex-"]>[class*="wrapper-"] [class*="scroller-"]>div:nth-last-of-type(2) [class*="circleButtonMask-"] svg, [class^="layer-"]>[class*="flex-"]>[class*="wrapper-"] [class*="scroller-"]>div:nth-last-of-type(1), [class^="layer-"]>[class*="flex-"]>[class*="wrapper-"] [class*="scroller-"]>div:nth-last-of-type(1) [class*="circleButtonMask-"], [class^="layer-"]>[class*="flex-"]>[class*="wrapper-"] [class*="scroller-"]>div:nth-last-of-type(1) [class*="circleButtonMask-"] svg{
+    width: 38px!important;
+    height: 38px!important;
+}
+.bd-guild-separator{
+    height: 5px!important;
+    width: 180px!important;
 }
