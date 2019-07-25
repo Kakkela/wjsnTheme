@@ -1,5 +1,5 @@
 /*****************************************************************************
-WJSN Square - WJSN Theme by Kakkela v0.11.1
+WJSN Square - WJSN Theme by Kakkela v0.11.2
 Edited ver. of WitcherCord by Jadeonking (https://github.com/jadeonking/WitcherCord)
 Uses SmartEmbeds from BeardDesign1
 Support: https://discord.is/kakkcord
@@ -4777,7 +4777,7 @@ form > [class*="typing-"] {
     width: 38px!important;
     height: 38px!important;
 }
-[class^="layer-"]>[class*="flex-"]>[class*="wrapper-"] [class*="scroller-"]>div:not([class*="listItem-"]) [class^="pill-"] {
+[class^="layer-"]>[class*="flex-"]>[class*="wrapper-"] [class*="scroller-"]>div:not([class*="listItem-"]):not([class*="wrapper-"]) [class^="pill-"] {
     display:none
 }
 [class^="layer-"]>[class*="flex-"]>[class*="wrapper-"] [class*="scroller-"]>div:not([class*="listItem-"]):not([class*="wrapper-"])+[class*="listItem-"]{
@@ -4867,7 +4867,7 @@ form > [class*="typing-"] {
     width:38px;
     height:38px;
 }
-[class^="layer-"]>[class*="flex-"]>[class*="wrapper-"] [class*="scroller-"]>div:not([class*="listItem-"]) [class*="wrapper-"], [class^="layer-"]>[class*="flex-"]>[class*="wrapper-"] [class*="scroller-"]>div:not([class*="listItem-"]) svg {
+[class^="layer-"]>[class*="flex-"]>[class*="wrapper-"] [class*="scroller-"]>div:not([class*="listItem-"]) [class*="wrapper-"]:not([class*="pill-"]), [class^="layer-"]>[class*="flex-"]>[class*="wrapper-"] [class*="scroller-"]>div:not([class*="listItem-"]) svg {
     width:38px;
     height:38px;
 }
@@ -4904,7 +4904,7 @@ form > [class*="typing-"] {
     display: inherit;
 }
 [class*="expandedGuilds-"], [class*="expandedGuilds-"] [class*="listItem-"]{
-    width: 38px;
+    width: 48px;
     z-index: 9999;
     margin-top: 3px!important;
 }
