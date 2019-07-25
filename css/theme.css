@@ -4773,14 +4773,14 @@ form > [class*="typing-"] {
     height: 5px;
     background:none;
 }
-[class^="layer-"]>[class*="flex-"]>[class*="wrapper-"] [class*="scroller-"]>div:not(.bd-guild-separator):not([class*="wrapper-"]), [class^="layer-"]>[class*="flex-"]>[class*="wrapper-"] [class*="scroller-"]>div [class*="blob-"], [class^="layer-"]>[class*="flex-"]>[class*="wrapper-"] [class*="scroller-"]>div [class*="blob-"]>svg {
+[class^="layer-"]>[class*="flex-"]>[class*="wrapper-"] [class*="scroller-"]>div:not([class*="wrapper-"]), [class^="layer-"]>[class*="flex-"]>[class*="wrapper-"] [class*="scroller-"]>div [class*="blob-"], [class^="layer-"]>[class*="flex-"]>[class*="wrapper-"] [class*="scroller-"]>div [class*="blob-"]>svg {
     width: 38px!important;
     height: 38px!important;
 }
 [class^="layer-"]>[class*="flex-"]>[class*="wrapper-"] [class*="scroller-"]>div:not([class*="listItem-"]) [class^="pill-"] {
     display:none
 }
-.bd-guild-separator{
+[class^="layer-"]>[class*="flex-"]>[class*="wrapper-"] [class*="scroller-"]>div:not([class*="listItem-"]):not([class*="wrapper-"])+[class*="listItem-"]{
     height: 5px!important;
     width: 180px!important;
 }
