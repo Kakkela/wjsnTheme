@@ -4952,7 +4952,7 @@ form > [class*="typing-"] {
 [class^="modal-"]>[class^="inner-"]>[class^="flex-"] {
     background-color:rgba(50,50,50,.9)!important;
 }
-pre>code {
+code {
     background-color:rgba(50,50,50,.9)!important;
 }
 [class^="layer-"]>[class*="container-"]>[class*="wrapper-"] [class*="scroller-"]>div:nth-child(1) foreignObject [class^="childWrapper-"] {
