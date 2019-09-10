@@ -4746,9 +4746,14 @@ form > [class*="typing-"] {
     height: 38px;
     border-radius: 0px;
 }
-[class^="layer-"]>[class*="container-"]>[class*="wrapper-"] [class*="listItem-"]>[class^="pill-"], [class^="layer-"]>[class*="container-"]>[class*="wrapper-"] [class*="listItem-"]>[class^="pill-"]>span {
+[class^="layer-"]>[class*="container-"]>[class*="wrapper-"] [class*="listItem-"]>[class^="pill-"] {
     height:38px;
     left:40px;
+    width: 5px;
+    border-radius: 2px;
+}
+[class^="layer-"]>[class*="container-"]>[class*="wrapper-"] [class*="listItem-"]>[class^="pill-"]>span {
+    height:38px;
     width: 5px;
     border-radius: 2px;
 }
