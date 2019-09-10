@@ -1,5 +1,5 @@
 /*****************************************************************************
-WJSN Square - WJSN Theme by Kakkela v0.12.1
+WJSN Square - WJSN Theme by Kakkela v0.12.2
 Edited ver. of WitcherCord by Jadeonking (https://github.com/jadeonking/WitcherCord)
 Uses SmartEmbeds from BeardDesign1
 Support: https://discord.is/kakkcord
@@ -24,6 +24,8 @@ Support: https://discord.is/kakkcord
     --background-secondary: none!important;
     --background-tertiary: none!important;
     --deprecated-panel-background: none!important;
+    --background-modifier-selected: rgba(241, 71, 149, 0.6);
+    --background-modifier-hover: rgba(241, 71, 149, .6);
 }
 
 
@@ -4677,9 +4679,11 @@ form > [class*="typing-"] {
 }
 [class*="chat-"] [class*="content-"] [class*="divider-"] [class*="dividerContent-"]:before {
     border-color:transparent;
+    background-color: transparent;
 }
 [class*="chat-"] [class*="content-"] [class*="divider-"] [class*="dividerContent-"]:after {
     border-color:transparent;
+    background-color: transparent;
 }
 [class*="colorPrimary-"] {
     background-color:var(--accentcolor1)!important;
@@ -4752,6 +4756,13 @@ form > [class*="typing-"] {
     width: 5px;
     border-radius: 2px;
 }
+[class^="layer-"]>[class*="container-"]>[class*="wrapper-"] [class*="listItem-"].bd-selected>[class^="pill-"]>span {
+    opacity: 1!important;
+    background-color: white!important;
+    border-radius: 2px;
+    margin-left: 0px;
+    width: 5px;
+}
 [class^="layer-"]>[class*="container-"]>[class*="wrapper-"] [class*="listItem-"]>[class^="pill-"]>span {
     height:38px;
     width: 5px;
@@ -4807,7 +4818,10 @@ form > [class*="typing-"] {
 [class^="searchBarComponent-"] {
     background-color: #202225!important;
 }
-[class*="container-"] [class*="containerDefault-"] [class^="name-"], [class*="container-"] [class*="containerDefault-"] [class^="icon-"], [class*="privateChannels-"] [class*="name-"], [class*="privateChannels-"] [class*="linkButtonIcon-"] {
+[class*="container-"] [class*="containerDefault-"] [class^="name-"] {
+    color: var(--accentcolor2)!important;
+}
+[class*="container-"] [class*="containerDefault-"] [class^="content-"] [class^="name-"], [class*="container-"] [class*="containerDefault-"] [class^="icon-"], [class*="privateChannels-"] [class*="name-"], [class*="privateChannels-"] [class*="linkButtonIcon-"] {
     color: var(--accentcolor1)!important;
 }
 [class*="modeMuted-"] [class^="name-"], [class*="modeMuted-"] [class^="icon-"] {
@@ -4940,4 +4954,7 @@ form > [class*="typing-"] {
 }
 pre>code {
     background-color:rgba(50,50,50,.9)!important;
+}
+[class^="layer-"]>[class*="container-"]>[class*="wrapper-"] [class*="scroller-"]>div:nth-child(1) foreignObject [class^="childWrapper-"] {
+    background-color: transparent;
 }
