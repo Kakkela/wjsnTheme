@@ -1,5 +1,5 @@
 /*****************************************************************************
-WJSN Square - WJSN Theme by Kakkela v0.12
+WJSN Square - WJSN Theme by Kakkela v0.12.1
 Edited ver. of WitcherCord by Jadeonking (https://github.com/jadeonking/WitcherCord)
 Uses SmartEmbeds from BeardDesign1
 Support: https://discord.is/kakkcord
@@ -4482,14 +4482,14 @@ form > [class*="typing-"] {
     border-radius: 10%;
 }
 /* SmartEmbeds originally by BeardDesign1 */
-[class*="messages-"] > [class*="containerCozy-"] > [class*="messageCozy-"]  .containerCozy-B4noqO{
+[class*="messages-"] [class*="containerCozy-"] [class*="contentCozy-"]  .containerCozy-B4noqO{
 	display: flex;
 	flex-flow: row wrap;
 }
-[class*="messages-"] > [class*="containerCozy-"] > [class*="messageCozy-"]  .containerCozy-B4noqO>*:not(:last-of-type){
+[class*="messages-"] [class*="containerCozy-"] [class*="contentCozy-"]  .containerCozy-B4noqO>*:not(:last-of-type){
 	margin-right:10px;
 }
-[class*="messages-"] > [class*="containerCozy-"] > [class*="messageCozy-"] .containerCozy-B4noqO>*{
+[class*="messages-"] [class*="containerCozy-"] [class*="contentCozy-"] .containerCozy-B4noqO>*{
 	margin-top:5px;
 }
 [class*="reactions-"]{
@@ -4497,7 +4497,7 @@ form > [class*="typing-"] {
 	flex:100%;
 	order:9999999999;
 }
-[class*="messageCozy-"] [class*="markup-"] {
+[class*="contentCozy-"] [class*="markup-"] {
     color: #e8e8e8!important;
 }
 
@@ -4752,7 +4752,7 @@ form > [class*="typing-"] {
     width: 5px;
     border-radius: 2px;
 }
-[class^="layer-"]>[class*="container-"]>[class*="wrapper-"] [class*="listItem-"]>[class^="pill-"]>span {
+[class^="layer-"]>[class*="container-"]>[class*="wrapper-"] [class*="listItem-"]>[class^="pill-"]>span[style*="height: 8px;"] {
     border-radius: 2px;
     margin-left: 0px;
     width: 5px;
