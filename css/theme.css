@@ -4756,24 +4756,25 @@ form > [class*="typing-"] {
     width: 5px;
     border-radius: 2px;
 }
+
+[class^="layer-"]>[class*="container-"]>[class*="wrapper-"] [class*="listItem-"]>[class^="pill-"]>span {
+    height:38px;
+    width: 5px;
+    border-radius: 2px;
+}
+[class^="layer-"]>[class*="container-"]>[class*="wrapper-"] [class*="listItem-"].bd-unread>[class^="pill-"]>span {
+    border-radius: 2px;
+    margin-left: 0px;
+    width: 5px;
+    height: 38px!important;
+    background-color: var(--accentcolor1)!important;
+}
 [class^="layer-"]>[class*="container-"]>[class*="wrapper-"] [class*="listItem-"].bd-selected>[class^="pill-"]>span {
     opacity: 1!important;
     background-color: white!important;
     border-radius: 2px;
     margin-left: 0px;
     width: 5px;
-}
-[class^="layer-"]>[class*="container-"]>[class*="wrapper-"] [class*="listItem-"]>[class^="pill-"]>span {
-    height:38px;
-    width: 5px;
-    border-radius: 2px;
-}
-[class^="layer-"]>[class*="container-"]>[class*="wrapper-"] [class*="listItem-"]>[class^="pill-"]>span[style*="height: 8px;"] {
-    border-radius: 2px;
-    margin-left: 0px;
-    width: 5px;
-    height: 38px!important;
-    background-color: var(--accentcolor1)!important;
 }
 [class^="layer-"]>[class*="container-"]>[class*="wrapper-"] [class*="listItem-"]:hover>[class^="pill-"]>span {
     opacity: 1!important;
