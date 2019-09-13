@@ -24,8 +24,8 @@ Support: https://discord.is/kakkcord
     --background-secondary: none!important;
     --background-tertiary: none!important;
     --deprecated-panel-background: none!important;
-    --background-modifier-selected: rgba(241, 71, 149, 0.6);
-    --background-modifier-hover: rgba(241, 71, 149, .6);
+    --background-modifier-selected: rgba(255, 255, 255, .6);
+    --background-modifier-hover: rgba(226, 81, 149, .6);;
 }
 
 
