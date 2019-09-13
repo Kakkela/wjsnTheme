@@ -40,7 +40,7 @@ To adjust background darkness adjust 0.5s below, 1 is full black and 0 is full b
     --accentcolor2: white;
     --accentcolor3: rgba(255, 255, 255, .6);
 }
-/* These represent the 4 and 3 from above but in different locations above */
+/* These represent the 4 and 3 from above but in different locations inside the app */
 .theme-dark {
     --background-modifier-selected: rgba(255, 255, 255, .6);
     --background-modifier-hover: rgba(226, 81, 149, .6);;
