@@ -4825,9 +4825,9 @@ form > [class*="typing-"] {
 [class*="container-"] [class*="containerDefault-"] [class^="content-"] [class^="name-"], [class*="container-"] [class*="containerDefault-"] [class^="icon-"], [class*="privateChannels-"] [class*="name-"], [class*="privateChannels-"] [class*="linkButtonIcon-"] {
     color: var(--accentcolor1)!important;
 }
-[class*="modeMuted-"] [class^="name-"], [class*="modeMuted-"] [class^="icon-"] {
+[class*="container-"] [class*="containerDefault-"] [class*="modeMuted-"] [class^="name-"], [class*="container-"] [class*="containerDefault-"] [class*="modeMuted-"] [class^="icon-"], [class*="container-"] [class*="containerDefault-"] [class*="muted-"] [class^="name-"], [class*="container-"] [class*="containerDefault-"] [class*="muted-"] [class^="icon-"] {
     color: var(--accentcolor1)!important;
-    filter:brightness(0.3); 
+    filter:brightness(0.4); 
     opacity: 0.6;
 }
 [class*="modeUnread-"] [class^="name-"], [class*="modeUnread-"] [class^="icon-"], [class*="modeUnread-"] [class^="unread-"] {
