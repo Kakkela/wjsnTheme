@@ -4753,15 +4753,16 @@ form > [class*="typing-"] {
 }
 [class^="layer-"]>[class*="container-"]>[class*="wrapper-"] [class*="listItem-"]>[class^="pill-"] {
     height:38px;
-    left:40px;
+    left:40px!important;
     width: 5px;
     border-radius: 2px;
 }
 
 [class^="layer-"]>[class*="container-"]>[class*="wrapper-"] [class*="listItem-"]>[class^="pill-"]>span {
-    height:38px;
-    width: 5px;
-    border-radius: 2px;
+    height:38px!important;
+    width: 5px!important;
+    border-radius: 2px!important;
+    background-color: var(--accentcolor1)!important;
 }
 [class^="layer-"]>[class*="container-"]>[class*="wrapper-"] [class*="listItem-"].bd-unread>[class^="pill-"]>span {
     border-radius: 2px;
