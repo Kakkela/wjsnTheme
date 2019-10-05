@@ -1,5 +1,5 @@
 /*****************************************************************************
-WJSN Square - WJSN Theme by Kakkela v0.12.3
+WJSN Square - WJSN Theme by Kakkela v0.12.4
 Edited ver. of WitcherCord by Jadeonking (https://github.com/jadeonking/WitcherCord)
 Uses SmartEmbeds from BeardDesign1
 Support: https://discord.is/kakkcord
@@ -1746,22 +1746,22 @@ div.guild.active {
 .app {
     overflow-x: hidden!important
 }
-.membersWrap-2h-GB4 .member-3W1lQa .content-3QAtGj {
+.membersWrap-2h-GB4 [class*="member-"] .content-3QAtGj {
     opacity: 0!important;
     transition: opacity 300ms ease, margin 100ms ease!important;
     margin-bottom: 0px!important
 }
-.membersWrap-2h-GB4:hover .member-3W1lQa .content-3QAtGj {
+.membersWrap-2h-GB4:hover [class*="member-"] .content-3QAtGj {
     opacity: 1!important
 }
 .membersWrap-2h-GB4 .members-1998pB {
     background:none!important;   
 }
-.members-1998pB .member-3W1lQa {
-    height:55px!important;
+.members-1998pB [class*="member-"] {
+    height:50px!important;
 }
-.membersWrap-2h-GB4:hover .members-1998pB .member-3W1lQa {
-    height:40px!important;
+.membersWrap-2h-GB4:hover .members-1998pB [class*="member-"] {
+    height:45px!important;
 }
 .header-toolbar button.active {
     display: none!important
