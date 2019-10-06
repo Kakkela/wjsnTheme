@@ -1,5 +1,5 @@
 /*****************************************************************************
-WJSN Square - WJSN Theme by Kakkela v0.12.4
+WJSN Square - WJSN Theme by Kakkela v0.12.5
 Edited ver. of WitcherCord by Jadeonking (https://github.com/jadeonking/WitcherCord)
 Uses SmartEmbeds from BeardDesign1
 Support: https://discord.is/kakkcord
@@ -4905,21 +4905,8 @@ form > [class*="typing-"] {
     z-index: 100;
 }
 
-[class*="expandedFolderBackground-"] {
-    position: absolute;
-    border-radius: 3px;
-    left: 0px;
-    width: 38px;
-    z-index: 99;
-    bottom: 8px;
-}
 [class^="layer-"]>[class*="container-"]>[class*="wrapper-"] [class*="scroller-"]>div [class*="listItem-"] {
     margin: 0px;
-}
-[class*="expandedGuilds-"], [class*="expandedGuilds-"] [class*="listItem-"]{
-    width: 38px;
-    z-index: 9999;
-    margin-top: 3px;
 }
 [class^="layer-"]>[class*="container-"]>[class*="wrapper-"] [class*="scroller-"]>div:nth-last-of-type(2), [class^="layer-"]>[class*="container-"]>[class*="wrapper-"] [class*="scroller-"]>div:nth-last-of-type(2) [class*="circleButtonMask-"], [class^="layer-"]>[class*="container-"]>[class*="wrapper-"] [class*="scroller-"]>div:nth-last-of-type(2) [class*="circleButtonMask-"] svg, [class^="layer-"]>[class*="container-"]>[class*="wrapper-"] [class*="scroller-"]>div:nth-last-of-type(1), [class^="layer-"]>[class*="container-"]>[class*="wrapper-"] [class*="scroller-"]>div:nth-last-of-type(1) [class*="circleButtonMask-"], [class^="layer-"]>[class*="container-"]>[class*="wrapper-"] [class*="scroller-"]>div:nth-last-of-type(1) [class*="circleButtonMask-"] svg{
     width: 38px!important;
@@ -4934,6 +4921,7 @@ form > [class*="typing-"] {
     display: inherit;
 }
 [class*="expandedGuilds-"], [class*="expandedGuilds-"] [class*="listItem-"]{
+    margin-right: 10px!important;
     width: 48px;
     z-index: 9999;
     margin-top: 3px!important;
@@ -4946,10 +4934,12 @@ form > [class*="typing-"] {
     z-index: 99;
 }
 [class^="layer-"]>[class*="container-"]>[class*="wrapper-"] [class*="scroller-"]>[class*="wrapper-"] {
-    width: 38px!important;
+    width: 155px!important;
 }
 [class*="expandedGuilds-"] {
     height: initial!important;
+    width: 155px;
+    position: relative;
 }
 
 [class^="modal-"]>[class^="inner-"]>[class^="flex-"] {
