@@ -4763,6 +4763,7 @@ form > [class*="typing-"] {
     width: 5px!important;
     border-radius: 2px!important;
     background-color: var(--accentcolor1)!important;
+    margin-left: 0px;
 }
 [class^="layer-"]>[class*="container-"]>[class*="wrapper-"] [class*="listItem-"].bd-unread>[class^="pill-"]>span {
     border-radius: 2px;
