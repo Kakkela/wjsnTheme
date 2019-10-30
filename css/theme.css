@@ -1,5 +1,5 @@
 /*****************************************************************************
-WJSN Square - WJSN Theme by Kakkela v0.12.5
+WJSN Square - WJSN Theme by Kakkela v0.12.6
 Edited ver. of WitcherCord by Jadeonking (https://github.com/jadeonking/WitcherCord)
 Uses SmartEmbeds from BeardDesign1
 Support: https://discord.is/kakkcord
@@ -4581,9 +4581,7 @@ form > [class*="typing-"] {
 .emoji.jumboable {
     margin: 0px;
 }
-.da-guild > div {
-    height:38px;
-}
+
 [class*="guildInner-"] {
     border-radius: 0px!important;
     line-height:38px;
