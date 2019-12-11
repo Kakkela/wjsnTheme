@@ -1,5 +1,5 @@
 /*****************************************************************************
-WJSN Square - WJSN Theme by Kakkela v0.12.8
+WJSN Square - WJSN Theme by Kakkela v0.12.9
 Edited ver. of WitcherCord by Jadeonking (https://github.com/jadeonking/WitcherCord)
 Uses SmartEmbeds from BeardDesign1
 Support: https://discord.is/kakkcord
@@ -26,7 +26,8 @@ Support: https://discord.is/kakkcord
     --background-tertiary: none!important;
     --deprecated-panel-background: none!important;
     --background-modifier-selected: rgba(255, 255, 255, .6);
-    --background-modifier-hover: rgba(226, 81, 149, .6);;
+    --background-modifier-hover: rgba(226, 81, 149, .6);
+    --channeltextarea-background: rgba(0,0,0,.5);
 }
 [class*="embedWrapper-"] {
     --background-secondary: rgba(47, 49, 54, .5)!important;
@@ -4269,12 +4270,11 @@ div.now-playing-add span.link:hover {
 .guild-channels .channel.selected, .private-channels .channel.selected, .private-channels .search-result.selected, .private-channels .search-result:hover {
 	background: none!important;
 }
-[class*="channelTextArea-"] [class*="inner-"] {
-	background-color: rgba(0,0,0,.5);
-	box-shadow: 0px 5px 10px 0px rgba(0,0,0,0.2)!important;
-}
 [class*="channelTextArea-"]{
     border-top:none!important;
+}
+[class*="chatContent-"] [class*="form-"] {
+    border-top: none;
 }
 .container-iksrDt, .channel-members .avatar-small, .message-group > .avatar-large > .avatar-large, .guilds-wrapper .guilds .guild .avatar-small, .channels-wrap, .search-bar .search-bar-inner, .header-toolbar .search, .private-channels .channel .avatar-small, .avatarDefault-3jtQoc, #friends .friends-table .friends-row .friends-column-name .avatar-small, #friends .friends-table .friends-row .friends-column-guilds .avatar-small {
     /*box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 4px 8px 0 rgba(0, 0, 0, 0.19)!important;*/
