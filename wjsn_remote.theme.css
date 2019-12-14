@@ -1,11 +1,11 @@
-//META{"name":"WJSN_Square_Theme","description":"WJSN Square Theme","author":"Kakkela","version":"0.12.3"}*//{}
+//META{"name":"WJSN_Square_Theme","description":"WJSN Square Theme","author":"Kakkela","version":"0.12.4"}*//{}
 /*****************************************************************************
 WJSN Square - WJSN Theme by Kakkela
 Edited ver. of WitcherCord by Jadeonking (https://github.com/jadeonking/WitcherCord)
 Uses SmartEmbeds from BeardDesign1
 Support: https://discord.is/kakkcord
 *****************************************************************************/
-@import url(https://cdn.jsdelivr.net/gh/Kakkela/wjsnTheme@latest/css/theme.css);
+@import url(https://merikalla.fi/wjsnTheme/theme.css);
 
 
 /* Background image, use https. 
@@ -21,13 +21,14 @@ To adjust background darkness adjust 0.5s below, 1 is full black and 0 is full b
     background-repeat: no-repeat;
     background-size: cover;
 }
-/* If you want embed video controls change display:none to display:inherit */
-.embed [class*="embedVideoActionsInner-"] {
+/* If you want to hide the GoLive icon from serverlist change display:inherit to display:none */
+[class*="upperBadge-"] > [class*="iconBadge-"]:not([class*="participating-"]) {
+    display:inherit;
+}
+/* If you want to hide the embed video controls change display:inherit to display:none */
+[class*="embedVideo-"] [class*="embedVideoActions-"] > [class*="centerContent-"] {
 	display: inherit;
 }
-
-
-
 /* Accent colors 
 1 is for channel names and new message notifications on serverlist, muted channels use this color but darkened variant.
 2 is for category names.
