@@ -1,5 +1,5 @@
 /*****************************************************************************
-WJSN Square - WJSN Theme by Kakkela v0.13
+WJSN Square - WJSN Theme by Kakkela v0.14
 Edited ver. of WitcherCord by Jadeonking (https://github.com/jadeonking/WitcherCord)
 Uses SmartEmbeds from BeardDesign1
 Support: https://discord.is/kakkcord
@@ -28,6 +28,7 @@ Support: https://discord.is/kakkcord
     --background-modifier-selected: rgba(255, 255, 255, .6);
     --background-modifier-hover: rgba(226, 81, 149, .6);
     --channeltextarea-background: rgba(0,0,0,.5);
+    --background-secondary-alt: transparent;
 }
 [class*="embedWrapper-"] {
     --background-secondary: rgba(47, 49, 54, .5)!important;
@@ -4569,9 +4570,10 @@ form > [class*="typing-"] {
 [class*="guildsWrapper-"] [class*="guild-"] [class*="guildIcon-"] {
     border-radius: 5%;
 }
+/*
 [class*="containerCozy-"] [class*="divider-"] {
     display:none;
-}
+}*/
 [class*="messages-"] > [class*="containerCozy-"] {
     padding: 5px 0;
     margin-bottom: 0px;
@@ -4649,7 +4651,7 @@ form > [class*="typing-"] {
     margin-bottom:20px;
     margin-top:25px;
 }
-
+/*
 [class*="chat-"] [class*="content-"] [class*="divider-"]:not([class*="dividerRed-"])>div {
     background: rgba(255, 255, 255, 0.4)!important
 }
@@ -4690,7 +4692,7 @@ form > [class*="typing-"] {
 [class*="chat-"] [class*="content-"] [class*="divider-"] [class*="dividerContent-"]:after {
     border-color:transparent;
     background-color: transparent;
-}
+}*/
 [class*="colorPrimary-"] {
     background-color:var(--accentcolor1)!important;
 }
@@ -4960,7 +4962,7 @@ code {
 [class*="activityPanel-"] {
     border-bottom: none;
 }
-[class*="divider-"] [class*="unreadPillCap-"] {
+/*[class*="divider-"] [class*="unreadPillCap-"] {
     display: none;
 }
 [class*="divider-"], [class*="divider-"] [class*="unreadPill-"] {
@@ -4969,7 +4971,7 @@ code {
 [class*="chat-"] [class*="content-"] [class*="divider-"] span:not([class*="unreadPill-"]) {
     color: #e5e5e5!important;
     opacity: 1!important;
-}
+}*/
 [class*="channelTextArea-"] {
     border-top: none;
     margin-bottom: 2px;
@@ -4980,4 +4982,10 @@ code {
 }
 [class*="chat-"] form {
     margin-top: 6px;
+}
+[class*="chat-"] [class*="scroller-"]::after {
+    display:none;
+}
+[class*="chat-"] [class*="form-"]::before {
+    display:none;
 }
