@@ -4493,23 +4493,21 @@ form > [class*="typing-"] {
     border-radius: 10%;
 }
 /* SmartEmbeds originally by BeardDesign1 */
-[class*="messages-"] [class*="containerCozy-"] [class*="contentCozy-"]  .containerCozy-B4noqO{
+[class*="messages-"]>[class*="message-"][class*="groupStart-"]>[class*="container-"]:not(:empty){
 	display: flex;
 	flex-flow: row wrap;
 }
-[class*="messages-"] [class*="containerCozy-"] [class*="contentCozy-"]  .containerCozy-B4noqO>*:not(:last-of-type){
+[class*="messages-"]>[class*="message-"][class*="groupStart-"]>[class*="container-"]>[class*="embed-"]:not(:last-of-type){
 	margin-right:10px;
 }
-[class*="messages-"] [class*="containerCozy-"] [class*="contentCozy-"] .containerCozy-B4noqO>*{
+[class*="messages-"]>[class*="message-"][class*="groupStart-"]>[class*="container-"]>[class*="embed-"]{
 	margin-top:5px;
 }
 [class*="reactions-"]{
+    margin-top: 4px;
 	width:100%;
 	flex:100%;
 	order:9999999999;
-}
-[class*="contentCozy-"] [class*="markup-"] {
-    color: #e8e8e8!important;
 }
 
 .search  {
