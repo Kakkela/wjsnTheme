@@ -1,4 +1,4 @@
-//META{"name":"WJSN_Square_Theme","description":"WJSN Square Theme","author":"Kakkela","version":"0.12.4"}*//{}
+//META{"name":"WJSN_Square_Theme","description":"WJSN Square Theme","author":"Kakkela","version":"0.14.1"}*//{}
 /*****************************************************************************
 WJSN Square - WJSN Theme by Kakkela
 Edited ver. of WitcherCord by Jadeonking (https://github.com/jadeonking/WitcherCord)
@@ -54,33 +54,33 @@ To adjust background darkness adjust 0.5s below, 1 is full black and 0 is full b
 
 /* SERVER LIST EDITS, DELETE THIS WHOLE LINE FOR THREE SERVER COLUMNS 
 
-[class^="layer-"]>[class*="container-"]>[class*="wrapper-"]{
+[class^="layer-"]>[class*="container-"]>[class*="wrapper-"]:not(.foldercontent){
 	width: 155px;
 }
-[class^="layer-"]>[class*="container-"]>[class*="wrapper-"] [class*="scrollerWrap-"] {
+[class^="layer-"]>[class*="container-"]>[class*="wrapper-"]:not(.foldercontent) [class*="scrollerWrap-"] {
 	width: 170px;
 }
-[class^="layer-"]>[class*="container-"]>[class*="wrapper-"] [class*="scroller-"]>[class*="listItem-"]:nth-child(2) {
+[class^="layer-"]>[class*="container-"]>[class*="wrapper-"]:not(.foldercontent) [class*="scroller-"]>[class*="listItem-"]:nth-child(2) {
     width: 180px!important;
     height: 5px!important;
 }
-[class^="layer-"]>[class*="container-"]>[class*="wrapper-"] [class*="listItem-"], [class^="layer-"]>[class*="container-"]>[class*="wrapper-"] [class*="scroller-"]>div {
+[class^="layer-"]>[class*="container-"]>[class*="wrapper-"]:not(.foldercontent) [class*="listItem-"], [class^="layer-"]>[class*="container-"]>[class*="wrapper-"]:not(.foldercontent) [class*="scroller-"]>div {
 	float:left;
     margin: 4px 10px 0 0;
     border-radius: 0px;
 }
-[class^="layer-"]>[class*="container-"]>[class*="wrapper-"] [class*="guildSeparator-"] {
+[class^="layer-"]>[class*="container-"]>[class*="wrapper-"]:not(.foldercontent) [class*="guildSeparator-"] {
 	width: 180px;
     height: 35px;
     background:none;
 }
-[class^="layer-"]>[class*="container-"]>[class*="wrapper-"] [class*="friendsOnline-"] {
+[class^="layer-"]>[class*="container-"]>[class*="wrapper-"]:not(.foldercontent) [class*="friendsOnline-"] {
     width: 55px;
     font-size: 8px;
     margin-top: 50px;
     padding-left: 44px;
 }
-[class^="layer-"]>[class*="container-"]>[class*="wrapper-"] [class*="scroller-"]>div:nth-child(1) {
+[class^="layer-"]>[class*="container-"]>[class*="wrapper-"]:not(.foldercontent) [class*="scroller-"]>div:nth-child(1) {
     margin-left: 47px;
     margin-right:50px;
 }
