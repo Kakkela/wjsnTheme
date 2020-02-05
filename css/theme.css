@@ -4346,7 +4346,7 @@ div.now-playing-add span.link:hover {
 /* Background shittery */
 
 
-[class^="layer-"], [class*="layers-"], [class^="layer-"] > [class*="container-"], .theme-dark .chat, .theme-dark .chat>.content, .theme-dark .messages-wrapper, .theme-dark .chat form, [class*="noChannel-"] {
+[class*="layers-"]>[class^="layer-"], [class*="layers-"], [class^="layer-"] > [class*="container-"], .theme-dark .chat, .theme-dark .chat>.content, .theme-dark .messages-wrapper, .theme-dark .chat form, [class*="noChannel-"] {
 	background: none!important;
 }
 
@@ -4492,15 +4492,15 @@ form > [class*="typing-"] {
 [class*="iconSizeMedium-"] {
     border-radius: 10%;
 }
-/* SmartEmbeds originally by BeardDesign1 */
-[class*="messages-"]>[class*="message-"][class*="groupStart-"]>[class*="container-"]:not(:empty){
+
+[class*="messages-"]>[class*="message-"]>[class*="container-"]:not(:empty){
 	display: flex;
 	flex-flow: row wrap;
 }
-[class*="messages-"]>[class*="message-"][class*="groupStart-"]>[class*="container-"]>[class*="embed-"]:not(:last-of-type){
+[class*="messages-"]>[class*="message-"]>[class*="container-"]>[class*="embed-"]:not(:last-of-type){
 	margin-right:10px;
 }
-[class*="messages-"]>[class*="message-"][class*="groupStart-"]>[class*="container-"]>[class*="embed-"]{
+[class*="messages-"]>[class*="message-"]>[class*="container-"]>[class*="embed-"]{
 	margin-top:5px;
 }
 [class*="reactions-"]{
@@ -4985,5 +4985,26 @@ code {
     display:none;
 }
 [class*="chat-"] [class*="form-"]::before {
+    display:none;
+}
+[class*="messagesPopoutWrap-"], [class*="searchResultsWrap-"] {
+    --background-secondary: rgba(47, 49, 54, .7)!important;
+    --background-tertiary: rgba(32, 34, 37, .7)!important;
+    --background-primary: rgba(47, 49, 54, .7)!important;
+}
+[class*="searchResultMessage-"] {
+    --background-primary: rgba(47, 49, 54, 1)!important;
+}
+[class*="searchResult-"]::before, [class*="searchResult-"]::after {
+    background-image: none;
+}
+[class*="searchResult-"] {
+    border: 1px solid var(--background-tertiary);
+    border-radius: 4px;
+}
+
+
+
+[class*="option-"]::after {
     display:none;
 }
