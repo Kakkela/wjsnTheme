@@ -1,5 +1,5 @@
 /*****************************************************************************
-WJSN Square - WJSN Theme by Kakkela v0.14.1
+WJSN Square - WJSN Theme by Kakkela v0.14.2
 Edited ver. of WitcherCord by Jadeonking (https://github.com/jadeonking/WitcherCord)
 Uses SmartEmbeds from BeardDesign1
 Support: https://discord.is/kakkcord
@@ -4714,9 +4714,7 @@ form > [class*="typing-"] {
 [class*="timestampCozy-"] {
     color: hsla(0,0%,100%,.4)!important;
 }
-[class*="container-"] {
-    background-color:transparent!important;
-}
+
 
 
 [class^="chat-"] [class^="title-"] [class^="children-"]::after {
@@ -5009,4 +5007,24 @@ code {
 
 [class^="layer-"]>[class*="container-"]>[class*="wrapper-"].foldercontent [class*="scroller-"] {
     padding-top: 56px;
+}
+[class*="message-"]>[class*="container-"]>[class*="wrapper-"] {
+    background-color: rgba(0,0,0,.2);
+    margin: 4px;
+    padding: 12px;
+}
+[class*="container-"]>[class*="wrapper-"]>h5 {
+    display:none;
+}
+[class*="layerContainer-"]>[class*="layer-"]>[class*="container-"] {
+    background: rgba(35, 35, 44, 0.8)!important;
+    box-shadow: 0 0 0 1px rgba(32,34,37,.6), 0 2px 10px 0 rgba(0,0,0,.2);
+}
+[class*="content-"]>[class*="container-"] {
+    background: transparent;
+}
+
+[class*="iconBadge-"] [class*="icon"] {
+    width: 12px!important;
+    height: 12px!important;
 }
