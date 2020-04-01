@@ -1,5 +1,5 @@
 /*****************************************************************************
-WJSN Square - WJSN Theme by Kakkela v0.14.2
+WJSN Square - WJSN Theme by Kakkela v0.15
 Edited ver. of WitcherCord by Jadeonking (https://github.com/jadeonking/WitcherCord)
 Uses SmartEmbeds from BeardDesign1
 Support: https://discord.is/kakkcord
@@ -4649,48 +4649,7 @@ form > [class*="typing-"] {
     margin-bottom:20px;
     margin-top:25px;
 }
-/*
-[class*="chat-"] [class*="content-"] [class*="divider-"]:not([class*="dividerRed-"])>div {
-    background: rgba(255, 255, 255, 0.4)!important
-}
-[class*="chat-"] [class*="content-"] [class*="divider-"]:not([class*="dividerRed-"]) {
-    margin-top:20px;
-}
-[class*="chat-"] [class*="content-"] [class*="divider-"]>span {
-    background: rgba(35, 35, 35, .4)!important;
-    font-size: 12px;
-    text-transform: uppercase;
-    margin:-9.5px;
-    border-radius: 5px!important;
-    opacity: 1;
-    width: 100%;
-    text-align: center
-}
-[class*="chat-"] [class*="content-"] [class*="divider-"][class*="dividerRed-"]>span {
-    background: rgba(35, 35, 35, .4)!important;
-    line-height: 19px;
-    opacity: 1!important;
-    color:rgba(240,71,71,1)!important
-}
-[class*="chat-"] [class*="content-"] [class*="divider-"]:not([class*="dividerRed-"])>span {
-    color: #e5e5e5!important;
-    opacity: 1!important
-}
-[class*="chat-"] [class*="content-"] [class*="divider-"]>div {
-    display: none
-}
-[class*="chat-"] [class*="content-"] [class*="divider-"] {
-    margin-left: 40%;
-    width: 20%
-}
-[class*="chat-"] [class*="content-"] [class*="divider-"] [class*="dividerContent-"]:before {
-    border-color:transparent;
-    background-color: transparent;
-}
-[class*="chat-"] [class*="content-"] [class*="divider-"] [class*="dividerContent-"]:after {
-    border-color:transparent;
-    background-color: transparent;
-}*/
+
 [class*="colorPrimary-"] {
     background-color:var(--accentcolor1)!important;
 }
@@ -4804,17 +4763,6 @@ form > [class*="typing-"] {
     height: 5px;
     background:none;
 }
-[class^="layer-"]>[class*="container-"]>[class*="wrapper-"] [class*="scroller-"]>div:not([class*="wrapper-"]), [class^="layer-"]>[class*="container-"]>[class*="wrapper-"] [class*="scroller-"]>div [class*="blob-"], [class^="layer-"]>[class*="container-"]>[class*="wrapper-"] [class*="scroller-"]>div [class*="blob-"]>svg {
-    width: 38px!important;
-    height: 38px!important;
-}
-[class^="layer-"]>[class*="container-"]>[class*="wrapper-"] [class*="scroller-"]>div:not([class*="listItem-"]):not([class*="wrapper-"]) [class^="pill-"] {
-    display:none
-}
-[class^="layer-"]>[class*="container-"]>[class*="wrapper-"] [class*="scroller-"]>div:not([class*="listItem-"]):not([class*="wrapper-"])+[class*="listItem-"]{
-    height: 5px!important;
-    width: 180px!important;
-}
 [class^="layer-"]>[class*="container-"]>[class*="wrapper-"]:not(.foldercontent) [class*="scroller-"]>[class*="listItem-"]:nth-child(2) {
     height: 5px!important;
 }
@@ -4909,13 +4857,6 @@ form > [class*="typing-"] {
     z-index: 100;
 }
 
-[class^="layer-"]>[class*="container-"]>[class*="wrapper-"] [class*="scroller-"]>div [class*="listItem-"] {
-    margin: 0px;
-}
-[class^="layer-"]>[class*="container-"]>[class*="wrapper-"] [class*="scroller-"]>div:nth-last-of-type(2), [class^="layer-"]>[class*="container-"]>[class*="wrapper-"] [class*="scroller-"]>div:nth-last-of-type(2) [class*="circleButtonMask-"], [class^="layer-"]>[class*="container-"]>[class*="wrapper-"] [class*="scroller-"]>div:nth-last-of-type(2) [class*="circleButtonMask-"] svg, [class^="layer-"]>[class*="container-"]>[class*="wrapper-"] [class*="scroller-"]>div:nth-last-of-type(1), [class^="layer-"]>[class*="container-"]>[class*="wrapper-"] [class*="scroller-"]>div:nth-last-of-type(1) [class*="circleButtonMask-"], [class^="layer-"]>[class*="container-"]>[class*="wrapper-"] [class*="scroller-"]>div:nth-last-of-type(1) [class*="circleButtonMask-"] svg{
-    width: 38px!important;
-    height: 38px!important;
-}
 .bd-guild-separator{
     height: 5px!important;
     width: 180px!important;
@@ -4958,16 +4899,6 @@ code {
 [class*="activityPanel-"] {
     border-bottom: none;
 }
-/*[class*="divider-"] [class*="unreadPillCap-"] {
-    display: none;
-}
-[class*="divider-"], [class*="divider-"] [class*="unreadPill-"] {
-    border: none;
-}
-[class*="chat-"] [class*="content-"] [class*="divider-"] span:not([class*="unreadPill-"]) {
-    color: #e5e5e5!important;
-    opacity: 1!important;
-}*/
 [class*="channelTextArea-"] {
     border-top: none;
     margin-bottom: 2px;
@@ -5027,4 +4958,35 @@ code {
 [class*="iconBadge-"] [class*="icon"] {
     width: 12px!important;
     height: 12px!important;
+}
+
+[aria-label="Servers"] [class*="listItem-"] foreignObject img {
+    width: 48px!important;
+    height: 48px!important;
+}
+[aria-label="Servers"] [class*="listItem-"] foreignObject a {
+    width: 48px!important;
+    height: 48px!important;
+}
+[aria-label="Servers sidebar"] [class*="scroller-"]>[style*="opacity: "] [class*="pill-"] {
+    display: none;
+}
+[aria-label="Servers sidebar"] [class*="scroller-"]>[style*="opacity: "] {
+    height:38px!important;
+    width:38px!important;
+}
+[aria-label="Servers sidebar"] [class*="scroller-"]>[class*="listItem-"]:not(:last-of-type) {
+    height: 5px!important;
+}
+[aria-label="Servers"]>div:not([class*="listItem"])>[class*="listItem-"] {
+    z-index: 999;
+}
+[aria-label="Servers"]>div:not([class*="listItem"])[aria-expanded="true"] {
+    height: auto!important;
+}
+[class*="tutorialContainer-"] [class*="pill-"] {
+    display:none;
+}
+[aria-label="Servers"]>div:not([class*="listItem"])>[role="group"] {
+    height: auto!important;
 }
