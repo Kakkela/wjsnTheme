@@ -1,5 +1,5 @@
 /*****************************************************************************
-WJSN Square - WJSN Theme by Kakkela v0.15
+WJSN Square - WJSN Theme by Kakkela v0.15.1
 Edited ver. of WitcherCord by Jadeonking (https://github.com/jadeonking/WitcherCord)
 Uses SmartEmbeds from BeardDesign1
 Support: https://discord.is/kakkcord
@@ -4492,7 +4492,22 @@ form > [class*="typing-"] {
 [class*="iconSizeMedium-"] {
     border-radius: 10%;
 }
-
+[class*="messages-"]>div>[class*="message-"]>[class*="container-"]:not(:empty){
+	display: flex;
+	flex-flow: row wrap;
+}
+[class*="messages-"]>div>[class*="message-"]>[class*="container-"]>[class*="embedWrapper-"]:not(:last-of-type){
+	margin-right:10px;
+}
+[class*="messages-"]>div>[class*="message-"]>[class*="container-"]>[class*="embedWrapper-"]{
+	margin-top:5px;
+}
+[class*="reactions-"]{
+    margin-top: 4px;
+	width:100%;
+	flex:100%;
+	order:9999999999;
+}
 [class*="messages-"]>[class*="message-"]>[class*="container-"]:not(:empty){
 	display: flex;
 	flex-flow: row wrap;
@@ -4849,9 +4864,20 @@ form > [class*="typing-"] {
     width:38px;
     height:38px;
 }
-[class^="layer-"]>[class*="container-"]>[class*="wrapper-"] [class*="scroller-"]>div:not([class*="listItem-"]) [class*="wrapper-"]:not([class*="pill-"]), [class^="layer-"]>[class*="container-"]>[class*="wrapper-"] [class*="scroller-"]>div:not([class*="listItem-"]) svg {
+[class^="layer-"]>[class*="container-"]>[class*="wrapper-"] [class*="scroller-"]>div:not([class*="listItem-"]) svg {
     width:38px;
     height:38px;
+}
+[aria-label="Servers"]>[class*="wrapper-"] {
+    width:38px;
+}
+[aria-label="Servers"]>[class*="wrapper-"]>[class*="listItem-"] [class*="wrapper-"] {
+    width: 38px;
+    height: 38px;
+
+}
+[aria-label="Servers"]>[class*="wrapper-"]>[class*="expandedFolderBackground-"] {
+    height:38px
 }
 [class^="layer-"]>[class*="container-"]>[class*="wrapper-"] [class*="scroller-"]>[class*="wrapper-"], [class^="layer-"]>[class*="container-"]>[class*="wrapper-"] [class*="scroller-"]>[class*="wrapper-"]>[class*="listItem-"] {
     z-index: 100;
@@ -4876,7 +4902,7 @@ form > [class*="typing-"] {
     border-radius: 3px;
     left: 0px;
     width: 38px;
-    z-index: 99;
+    z-index: -99;
 }
 [class^="layer-"]>[class*="container-"]>[class*="wrapper-"] [class*="scroller-"]>[class*="wrapper-"] {
     width: 155px!important;
