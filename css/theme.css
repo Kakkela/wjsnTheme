@@ -1,5 +1,5 @@
 /*****************************************************************************
-WJSN Square - WJSN Theme by Kakkela v0.15.1
+WJSN Square - WJSN Theme by Kakkela v0.15.2
 Edited ver. of WitcherCord by Jadeonking (https://github.com/jadeonking/WitcherCord)
 Uses SmartEmbeds from BeardDesign1
 Support: https://discord.is/kakkcord
@@ -5018,4 +5018,7 @@ code {
 }
 [class*="chat-"] [class*="scroller-"] [class*="scrollerSpacer-"] {
     display:none;
+}
+[id*="popout_"] [class*="container-"] {
+    --background-tertiary: rgba(32, 34, 37, .9);
 }
