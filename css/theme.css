@@ -1,5 +1,5 @@
 /*****************************************************************************
-WJSN Square - WJSN Theme by Kakkela v0.15.2
+WJSN Square - WJSN Theme by Kakkela v0.15.3
 Edited ver. of WitcherCord by Jadeonking (https://github.com/jadeonking/WitcherCord)
 Uses SmartEmbeds from BeardDesign1
 Support: https://discord.is/kakkcord
@@ -4524,6 +4524,22 @@ form > [class*="typing-"] {
 	flex:100%;
 	order:9999999999;
 }
+[class*="messagesWrapper-"] [class*="message-"]>[class*="container-"]:not(:empty){
+	display: flex;
+	flex-flow: row wrap;
+}
+[class*="messagesWrapper-"] [class*="message-"]>[class*="container-"]>[class*="embedWrapper-"]:not(:last-of-type){
+	margin-right:10px;
+}
+[class*="messagesWrapper-"] [class*="message-"]>[class*="container-"]>[class*="embedWrapper-"]{
+	margin-top:5px;
+}
+[class*="reactions-"]{
+    margin-top: 4px;
+	width:100%;
+	flex:100%;
+	order:9999999999;
+}
 
 .search  {
     text-shadow:none;
@@ -5021,4 +5037,11 @@ code {
 }
 [id*="popout_"] [class*="container-"] {
     --background-tertiary: rgba(32, 34, 37, .9);
+}
+[class*="messagesWrapper-"]>[class*="scroller-"]::-webkit-scrollbar-track {
+    background:transparent;
+}
+
+[class*="sidebar-"]>[class*="container-"]>[class*="scroller-"]::-webkit-scrollbar-thumb {
+    background-color:transparent;
 }
