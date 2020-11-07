@@ -4364,7 +4364,8 @@ div.now-playing-add span.link:hover {
 	background: none!important;
 }
 [class*="base-"] {
-	border-radius: 0px;
+    border-radius: 0px;
+    left: 55px;
 }
 
 .comment .markup pre code {
