@@ -81,9 +81,6 @@ To adjust background darkness adjust 0.5s below, 1 is full black and 0 is full b
     margin-left: 47px;
     margin-right:50px;
 }
-[class^="base-"], [aria-label="Servers"] {
-    left: 155px!important;
-}
 
 [aria-label="Servers sidebar"] [class*="scroller-"]>[class*="listItem-"]:not(:last-of-type) {
     height: 5px!important;
