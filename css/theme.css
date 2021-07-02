@@ -4298,14 +4298,8 @@ div.now-playing-add span.link:hover {
 .private-channels .channel.selected .status {
 	border-color: #191919;
 }
-[class*="userPopout-"] [class*="headerNormal-"], [class*="userPopout-"] [class*="headerPlaying-"], [class*="userPopout-"] [class*="body-"], [class*="userPopout-"] [class*="footer-"]{
-	background:rgba(50,50,50,.9)!important;
-}
 [class*="topSectionPlaying-"] {
     background: #2f3136;
-}
-[class*="userPopout-"] [class*="headerNormal-"], [class*="userPopout-"] [class*="body-"], [class*="userPopout-"] [class*="headerPlaying-"] {
-    border-bottom: 1px solid #dcddde;
 }
 
 [class*="userPopout-"] [class*="bodyNormal-"], [class*="activityUserPopout-"] [class*="body-"]{
