@@ -5047,3 +5047,11 @@ code {
 [class*="pill-"] span[style*="height: 40px"] {
     background-color: white!important;
 }
+[class*="layerContainer-"] [class*="popout-"], [class*="layerContainer-"] [class*="container-"] {
+    background-color: rgba(32, 34, 37, .9);
+}
+@media only screen and (max-width: 1151px) {
+    [class*="threadSidebar-"] {
+        background-color: rgba(32, 34, 37, .9);
+    }
+}
