@@ -20,7 +20,7 @@ Support: https://discord.is/kakkcord
 }
 
 
-.theme-dark {
+:root {
     --background-primary: transparent;
     --background-secondary: none!important;
     --background-tertiary: none!important;
