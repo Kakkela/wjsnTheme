@@ -5055,3 +5055,6 @@ code {
         background-color: rgba(32, 34, 37, .9);
     }
 }
+[class^="layer-"]>[class*="container-"]>[class*="wrapper-"] [class*="scroller-"]>div:nth-child(1) [class*="listItemWrapper-"] foreignObject svg {
+    display: none!important;
+}
