@@ -5017,10 +5017,8 @@ code {
 [class*="layerContainer-"] [class*="popout-"], [class*="layerContainer-"] [class*="container-"] {
     background-color: rgba(32, 34, 37, .9);
 }
-@media only screen and (max-width: 1151px) {
-    [class*="threadSidebar-"] {
-        background-color: rgba(32, 34, 37, .9);
-    }
+[class*="content-"]>[class*="threadSidebarFloating-"] ~ [class*="floating-"] {
+    background-color: rgba(32, 34, 37, .9);
 }
 [class^="layer-"]>[class*="container-"]>[class*="wrapper-"] [class*="scroller-"]>div:nth-child(1) [class*="listItemWrapper-"] foreignObject svg {
     display: none!important;
