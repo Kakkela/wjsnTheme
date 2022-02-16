@@ -4489,11 +4489,12 @@ form > [class*="typing-"] {
 	display: flex;
 	flex-flow: row wrap;
 }
-[class*="messagesWrapper-"] [class*="message-"]>[class*="container-"]>[class*="embedWrapper-"]:not(:last-of-type){
+[class*="messagesWrapper-"] [class*="message-"]>[class*="container-"]>[class*="messageAttachment-"]:not(:last-of-type){
 	margin-right:10px;
 }
-[class*="messagesWrapper-"] [class*="message-"]>[class*="container-"]>[class*="embedWrapper-"]{
+[class*="messagesWrapper-"] [class*="message-"]>[class*="container-"]>[class*="messageAttachment-"]{
 	margin-top:5px;
+    width: auto;
 }
 [class*="reactions-"]{
     margin-top: 4px;
@@ -4983,6 +4984,11 @@ code {
     height:38px!important;
     width:38px!important;
 }
+[aria-label="Servers sidebar"] [class*="scroller-"]>[style*="opacity: "] [class*="listItemWrapper-"]>[class*="wrapper-"] {
+    height:38px;
+    width:38px;
+}
+
 [aria-label="Servers sidebar"] [class*="scroller-"]>[class*="listItem-"]:not(:last-of-type) {
     height: 5px!important;
 }
