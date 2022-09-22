@@ -4375,7 +4375,6 @@ div.now-playing-add span.link:hover {
 }
 [class*="userPopout-"] {
 	border-radius: 5px;
-	width:300px;
 }
 .theme-dark .content-249Pr9 {
 	color: #f6f6f7;
@@ -5028,4 +5027,7 @@ code {
 }
 [class^="layer-"]>[class*="container-"]>[class*="wrapper-"] [class*="scroller-"]>div:nth-child(1) [class*="listItemWrapper-"] foreignObject svg {
     display: none!important;
+}
+[class*="bannerSVGWrapper-"] circle{
+    display:none;
 }
