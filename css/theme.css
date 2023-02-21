@@ -5019,9 +5019,6 @@ code {
 [class*="pill-"] span[style*="height: 40px"] {
     background-color: white!important;
 }
-[class*="layerContainer-"] [class*="popout-"], [class*="layerContainer-"] [class*="container-"] {
-    background-color: rgba(32, 34, 37, .9);
-}
 [class*="content-"]>[class*="threadSidebarFloating-"] ~ [class*="floating-"] {
     background-color: rgba(32, 34, 37, .9);
 }
