@@ -5030,25 +5030,33 @@ code {
     color: var(--accentcolor2)!important;
 }
 [aria-label*="text channel"] [class^="name-"],
-[aria-label*="thread"] [class^="name-"],
-[aria-label*="voice"] [class^="name-"],
-[aria-label*="direct message"] [class^="name-"],
 [aria-label*="text channel"] [class^="icon-"],
+[aria-label*="thread"] [class^="name-"],
 [aria-label*="thread"] [class^="icon-"],
+[aria-label*="voice"] [class^="name-"],
 [aria-label*="voice"] [class^="icon-"],
-[aria-label*="direct message"] [class^="icon-"]{
+[aria-label*="direct message"] [class^="name-"],
+[aria-label*="direct message"] [class^="icon-"],
+[aria-label*="announcement channel"] [class^="name-"],
+[aria-label*="announcement channel"] [class^="icon-"]{
     color: var(--accentcolor1)!important;
 }
 [class*="modeMuted-"] [aria-label*="text channel"] [class^="name-"],
-[class*="modeMuted-"] [aria-label*="thread"] [class^="name-"],
 [class*="modeMuted-"] [aria-label*="text channel"] [class^="icon-"],
+[class*="modeMuted-"] [aria-label*="announcement channel"] [class^="name-"],
+[class*="modeMuted-"] [aria-label*="announcement channel"] [class^="icon-"],
+[class*="modeMuted-"] [aria-label*="thread"] [class^="name-"],
 [class*="modeMuted-"] [aria-label*="thread"] [class^="icon-"]{
     color: var(--accentcolor1)!important;
     filter:brightness(0.4); 
     opacity: 0.6;
 }
 [class*="modeUnread-"] [aria-label*="text channel"] [class^="name-"],
-[class*="modeUnread-"] [aria-label*="text channel"] [class^="icon-"]{
+[class*="modeUnread-"] [aria-label*="text channel"] [class^="icon-"],
+[class*="modeUnread-"] [aria-label*="announcement channel"] [class^="name-"],
+[class*="modeUnread-"] [aria-label*="announcement channel"] [class^="icon-"],
+[class*="modeUnread-"] [aria-label*="direct message"] [class^="name-"],
+[class*="modeUnread-"] [aria-label*="direct message"] [class^="icon-"]{
     color: var(--accentcolor1)!important;
     filter:brightness(1.4); 
 }
