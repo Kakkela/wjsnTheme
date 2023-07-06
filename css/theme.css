@@ -4765,9 +4765,6 @@ form > [class*="typing-"] {
 [class^="searchBarComponent-"] {
     background-color: #202225!important;
 }
-[class*="container-"] [class*="containerDefault-"] [class^="name-"] {
-    color: var(--accentcolor2)!important;
-}
 [class*="container-"] [class*="containerDefault-"] [class^="content-"] [class^="name-"], [class*="container-"] [class*="containerDefault-"] [class^="icon-"], [class*="privateChannels-"] [class*="name-"], [class*="privateChannels-"] [class*="linkButtonIcon-"] {
     color: var(--accentcolor1)!important;
 }
@@ -5027,4 +5024,31 @@ code {
 }
 [class*="bannerSVGWrapper-"] circle{
     display:none;
+}
+
+[aria-label*="category"] [class^="name-"]{
+    color: var(--accentcolor2)!important;
+}
+[aria-label*="text channel"] [class^="name-"],
+[aria-label*="thread"] [class^="name-"],
+[aria-label*="voice"] [class^="name-"],
+[aria-label*="direct message"] [class^="name-"],
+[aria-label*="text channel"] [class^="icon-"],
+[aria-label*="thread"] [class^="icon-"],
+[aria-label*="voice"] [class^="icon-"],
+[aria-label*="direct message"] [class^="icon-"]{
+    color: var(--accentcolor1)!important;
+}
+[class*="modeMuted-"] [aria-label*="text channel"] [class^="name-"],
+[class*="modeMuted-"] [aria-label*="thread"] [class^="name-"],
+[class*="modeMuted-"] [aria-label*="text channel"] [class^="icon-"],
+[class*="modeMuted-"] [aria-label*="thread"] [class^="icon-"]{
+    color: var(--accentcolor1)!important;
+    filter:brightness(0.4); 
+    opacity: 0.6;
+}
+[class*="modeUnread-"] [aria-label*="text channel"] [class^="name-"],
+[class*="modeUnread-"] [aria-label*="text channel"] [class^="icon-"]{
+    color: var(--accentcolor1)!important;
+    filter:brightness(1.4); 
 }
