@@ -11,22 +11,22 @@ Support: https://discord.is/kakkcord
 /* Background image, use https. 
 To adjust background darkness adjust 0.5s below, 1 is full black and 0 is full bright. You can also create gradient with them, first is left end of the window, second is middle part of the window (can be adjusted by editing the percentage, its portion of the window from left end) and third right end of the window 
 */
-[class*="appMount-"] {
+[class*="appMount_"] {
     background: linear-gradient(90deg, rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5) 50%, rgba(0, 0, 0, 0.5) ), url('https://i.imgur.com/rDXG1fv.jpg')!important;
     background-size: cover!important;
 }
 /* Friends icon, use https */
-[class^="layer-"]>[class*="container-"]>[class*="wrapper-"] [class*="scroller-"]>div:nth-child(1) [class*="listItemWrapper-"]  {
+[class^="layer_"]>[class*="container_"]>[class*="wrapper_"] [class*="scroller_"]>div:nth-child(1) [class*="listItemWrapper_"]  {
     background-image: url(https://i.imgur.com/KwzaOdl.png)!important;
     background-repeat: no-repeat;
     background-size: cover;
 }
 /* If you want to hide the GoLive icon from serverlist change display:inherit to display:none */
-[class*="upperBadge-"] > [class*="iconBadge-"]:not([class*="participating-"]) {
+[class*="upperBadge_"] > [class*="iconBadge_"]:not([class*="participating_"]) {
     display:inherit;
 }
 /* If you want to hide the embed video controls change display:inherit to display:none */
-[class*="embedVideo-"] [class*="embedVideoActions-"] > [class*="centerContent-"] {
+[class*="embedVideo_"] [class*="embedVideoActions_"] > [class*="centerContent_"] {
 	display: inherit;
 }
 /* Accent colors 
@@ -47,42 +47,42 @@ To adjust background darkness adjust 0.5s below, 1 is full black and 0 is full b
     --background-modifier-hover: rgba(226, 81, 149, .6);;
 }
 /* Mention message background color */
-.theme-dark [class*="isMentioned-"], [class*="isMentionedCozy-"]:after {
+.theme-dark [class*="isMentioned_"], [class*="isMentionedCozy_"]:after {
     background: rgba(226, 81, 149,.2)!important;
 }
 
 
 /* SERVER LIST EDITS, DELETE THIS WHOLE LINE FOR THREE SERVER COLUMNS 
 
-[class^="layer-"]>[class*="container-"]>[class*="wrapper-"]:not(.foldercontent){
+[class^="layer_"]>[class*="container_"]>[class*="wrapper_"]:not(.foldercontent){
 	width: 155px;
     overflow:hidden;
 }
-[class^="layer-"]>[class*="container-"]>[class*="wrapper-"]:not(.foldercontent) [class*="scrollerWrap-"] {
+[class^="layer_"]>[class*="container_"]>[class*="wrapper_"]:not(.foldercontent) [class*="scrollerWrap_"] {
     width: 170px;
 }
-[class^="layer-"]>[class*="container-"]>[class*="wrapper-"]:not(.foldercontent) [class*="listItem-"], [class^="layer-"]>[class*="container-"]>[class*="wrapper-"]:not(.foldercontent) [class*="scroller-"]>div {
+[class^="layer_"]>[class*="container_"]>[class*="wrapper_"]:not(.foldercontent) [class*="listItem_"], [class^="layer_"]>[class*="container_"]>[class*="wrapper_"]:not(.foldercontent) [class*="scroller_"]>div {
 	float:left;
     margin: 4px 10px 0 0;
     border-radius: 0px;
 }
-[class^="layer-"]>[class*="container-"]>[class*="wrapper-"]:not(.foldercontent) [class*="guildSeparator-"] {
+[class^="layer_"]>[class*="container_"]>[class*="wrapper_"]:not(.foldercontent) [class*="guildSeparator_"] {
 	width: 180px;
     height: 35px;
     background:none;
 }
-[class^="layer-"]>[class*="container-"]>[class*="wrapper-"]:not(.foldercontent) [class*="friendsOnline-"] {
+[class^="layer_"]>[class*="container_"]>[class*="wrapper_"]:not(.foldercontent) [class*="friendsOnline_"] {
     width: 55px;
     font-size: 8px;
     margin-top: 50px;
     padding-left: 44px;
 }
-[class^="layer-"]>[class*="container-"]>[class*="wrapper-"]:not(.foldercontent) [class*="scroller-"]>div:nth-child(1) {
+[class^="layer_"]>[class*="container_"]>[class*="wrapper_"]:not(.foldercontent) [class*="scroller_"]>div:nth-child(1) {
     margin-left: 47px;
     margin-right:50px;
 }
 
-[aria-label="Servers sidebar"] [class*="scroller-"]>[class*="listItem-"]:not(:last-of-type) {
+[aria-label="Servers sidebar"] [class*="scroller_"]>[class*="listItem_"]:not(:last-of-type) {
     height: 5px!important;
     width: 155px!important;
 }
