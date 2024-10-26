@@ -4556,20 +4556,11 @@ form > [class*="typing_"] {
 [class*="contentHoveredText_"]::before, [class*="contentSelectedText_"]::before {
     background:none;
 }
-[class*="activityFeed_"] {
-    background:none!important;
+[class*="itemCard_"] {
+    background-color: transparent;
 }
-[class*="feed_"] [class*="body_"] [class*="emptyState_"], [class*="feed_"] [class*="body_"] [class*="playTime_"], [class*="feed_"] [class*="body_"] {
-    color:white!important;
-}
-[class*="feed_"] [class*="body_"] [class*="card_"] {
-    background: none;
-}
-[class*="feed_"] [class*="body_"] [class*="card_"] [class*="cardHeader_"] {
-    background: rgba(89, 91, 96,.4);
-}
-[class*="feed_"] [class*="body_"] [class*="card_"] [class*="cardBody_"] {
-    background: rgba(89, 91, 96,.3);
+[class*="itemCard_"]:hover, [aria-expanded="true"] {
+    background-color: var(--accentcolor4)!important;
 }
 [class*="guildsWrapper_"] [class*="scroller_"] > [class*="guild_"]:first-child [class*="guildInner_"] {
     background-image: url(https://i.imgur.com/KwzaOdl.png)!important;
