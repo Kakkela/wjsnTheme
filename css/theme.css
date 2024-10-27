@@ -1762,6 +1762,9 @@ div.guild.active {
     transform: translate(0px)!important;
     background: #191919!important
 }
+[class*="messagesWrapper_"] {
+    z-index: 1!important;
+}
 .app {
     overflow-x: hidden!important
 }
