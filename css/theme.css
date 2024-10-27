@@ -4562,7 +4562,7 @@ form > [class*="typing_"] {
 [class*="itemCard_"] {
     background-color: transparent;
 }
-[class*="itemCard_"]:hover, [aria-expanded="true"] {
+[class*="itemCard_"]:hover {
     background-color: var(--accentcolor4)!important;
 }
 [class*="guildsWrapper_"] [class*="scroller_"] > [class*="guild_"]:first-child [class*="guildInner_"] {
