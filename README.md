@@ -1,5 +1,5 @@
 # wjsnTheme
-[<img src="https://discordapp.com/api/guilds/246394994691145730/widget.png?style=shield">](https://discord.is/kakkcord)
+[<img src="https://discordapp.com/api/guilds/246394994691145730/widget.png?style=shield">](https://discord.gg/KbK5ZeS)
 
 BetterDiscord theme based on WJSN
 

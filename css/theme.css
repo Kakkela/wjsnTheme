@@ -5088,3 +5088,11 @@ code {
     color: var(--accentcolor1)!important;
     filter:brightness(1.4); 
 }
+
+/* Profile popout's avatar fixes */
+[id*="popout_"] [id*="uid_"] > circle {
+    visibility: hidden;
+}
+[class*="avatarStack_"]::after {
+    border-radius: 15%;
+}
