@@ -5090,7 +5090,8 @@ code {
 }
 
 /* Profile popout's avatar fixes */
-[id*="popout_"] [id*="uid_"] > circle {
+[id*="popout_"] [id*="uid_"] > circle,
+[class*="focusLock_"] [id*="uid_"] > circle {
     visibility: hidden;
 }
 [class*="avatarStack_"]::after {
