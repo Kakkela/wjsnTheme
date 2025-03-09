@@ -91,11 +91,14 @@ To adjust background darkness adjust 0.5s below, 1 is full black and 0 is full b
     margin: 4px 10px 0 0;
     border-radius: 0px;
 }
-[aria-label="Servers"]>div:not([class*="listItem"]) {
+[aria-label="Servers"]>[class*="wrapper_"]:not([class*="isExpanded_"]) {
     margin-right: 100px;
 }
-[aria-label="Servers"]>div:not([class*="listItem"])>[role="group"] {
+[aria-label="Servers"]>[class*="isExpanded_"][class*="isExpanded_"] {
     width: 155px;
     height: auto!important;
+}
+[aria-label="Servers"]>[class*="isExpanded_"][class*="isExpanded_"] [class*="stack_"] {
+    display: inline-block;
 }
 */
